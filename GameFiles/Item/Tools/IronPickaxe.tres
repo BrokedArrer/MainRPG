@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemDataTool" load_steps=5 format=3 uid="uid://clq0vumye6wye"]
+
+[ext_resource type="Script" path="res://GameFiles/Item/item_data_tools.gd" id="1_jsvux"]
+[ext_resource type="Resource" uid="uid://c7ehgs4kytx6x" path="res://GameFiles/ResourceNodes/mineable_node.tres" id="1_tk524"]
+[ext_resource type="Texture2D" uid="uid://cw4sbfqq2gd2u" path="res://Art/ItemSprites/all the icons (gardens).png" id="2_vwyc2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o43ol"]
+atlas = ExtResource("2_vwyc2")
+region = Rect2(96, 16, 16, 16)
+
+[resource]
+script = ExtResource("1_jsvux")
+effected_types = Array[Resource("res://GameFiles/ResourceNodes/resource_node_type.gd")]([ExtResource("1_tk524")])
+min_HarvestAmount = 1
+max_HarvestAmount = 1
+name = "Iron Pickaxe"
+description = "A pickaxe made of Iron."
+stackable = false
+texture = SubResource("AtlasTexture_o43ol")

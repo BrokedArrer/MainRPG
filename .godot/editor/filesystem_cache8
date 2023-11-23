@@ -1,0 +1,1726 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1700705046
+icon.svg::CompressedTexture2D::1795332940821286944::1700277978::1700277984::1::::<><>::
+README.md::TextFile::-1::1700349472::0::1::::<><>::
+Testing.gd::GDScript::-1::1700618899::0::1::::HealthComponent<>Node<>::
+::res://addons/::1700648811
+::res://addons/achievements/::1700618057
+achievements.gd::GDScript::-1::1700618055::0::1::::<>Node<>::
+achievements.tscn::PackedScene::8306191449810877335::1700618055::0::1::::<><>::res://addons/achievements/achievements.gd
+plugin.cfg::TextFile::-1::1700618055::0::1::::<><>::
+plugin.gd::GDScript::-1::1700618055::0::1::::<>EditorPlugin<>::
+trophy.png::CompressedTexture2D::274581860664867935::1700618055::1700618057::1::::<><>::
+::res://addons/godot_gameplay_systems/::1700648815
+plugin.cfg::TextFile::-1::1700648815::0::1::::<><>::
+plugin.gd::GDScript::-1::1700648815::0::1::::<>EditorPlugin<>::
+::res://addons/godot_gameplay_systems/attributes_and_abilities/::1700648813
+plugin.gd::GDScript::-1::1700648813::0::1::::<>EditorPlugin<>::
+::res://addons/godot_gameplay_systems/attributes_and_abilities/assets/::1700648812
+Ability.svg::CompressedTexture2D::6676137873671525844::1700648811::1700648811::1::::<><>::
+Ability@0.15x.png::CompressedTexture2D::1291288918532747350::1700648811::1700648811::1::::<><>::
+AbilityContainer.svg::CompressedTexture2D::8135418726952250270::1700648811::1700648811::1::::<><>::
+AbilityContainer@0.15x.png::CompressedTexture2D::5669723024640245897::1700648811::1700648811::1::::<><>::
+Attribute.svg::CompressedTexture2D::5892106818344744250::1700648811::1700648811::1::::<><>::
+Attribute@0.15x.png::CompressedTexture2D::849002915416629237::1700648811::1700648811::1::::<><>::
+AttributeEffect.svg::CompressedTexture2D::5647809143414043287::1700648811::1700648811::1::::<><>::
+AttributeEffect@0.15x.png::CompressedTexture2D::7725797197440087562::1700648812::1700648812::1::::<><>::
+AttributeTable.svg::CompressedTexture2D::4858271389833748673::1700648812::1700648812::1::::<><>::
+AttributeTable@0.15x.png::CompressedTexture2D::7825069073159677664::1700648812::1700648812::1::::<><>::
+GameplayAttributeMap.svg::CompressedTexture2D::8114696080255539689::1700648812::1700648812::1::::<><>::
+GameplayAttributeMap@0.15x.png::CompressedTexture2D::1940724907509475191::1700648812::1700648812::1::::<><>::
+GameplayEffect.svg::CompressedTexture2D::2818721888010043756::1700648812::1700648812::1::::<><>::
+GameplayEffect@0.15x.png::CompressedTexture2D::6171126585310288814::1700648812::1700648812::1::::<><>::
+TimedEffect.svg::CompressedTexture2D::4732649543438575333::1700648812::1700648812::1::::<><>::
+TimedEffect@0.15x.png::CompressedTexture2D::2464556838402091211::1700648812::1700648812::1::::<><>::
+TimedEffectOneShot.svg::CompressedTexture2D::3443656214595900586::1700648812::1700648812::1::::<><>::
+TimedEffectOneShot@0.15x.png::CompressedTexture2D::1130268081061641098::1700648812::1700648812::1::::<><>::
+::res://addons/godot_gameplay_systems/attributes_and_abilities/debug/::1700648812
+abilities_debugger.gd::GDScript::-1::1700648812::0::1::::<>Control<>::
+abilities_debugger.tscn::PackedScene::6403463573279591946::1700648812::0::1::::<><>::res://addons/godot_gameplay_systems/attributes_and_abilities/debug/abilities_debugger.gd
+::res://addons/godot_gameplay_systems/attributes_and_abilities/inspector/::1700648813
+attribute_editor.gd::GDScript::-1::1700648812::0::1::::<>EditorProperty<>::
+attribute_effect_editor.gd::GDScript::-1::1700648812::0::1::::<>EditorProperty<>::
+gameplay_attribute_map_inspector_plugin.gd::GDScript::-1::1700648813::0::1::::<>EditorInspectorPlugin<>::
+gameplay_effect_inspector_plugin.gd::GDScript::-1::1700648813::0::1::::<>EditorInspectorPlugin<>::
+::res://addons/godot_gameplay_systems/attributes_and_abilities/inspector/components/::1700648813
+attribute_editor_row.gd::GDScript::-1::1700648812::0::1::::<>VBoxContainer<>::
+attribute_editor_row.tscn::PackedScene::-1::1700648812::0::1::::<><>::res://addons/godot_gameplay_systems/attributes_and_abilities/inspector/components/attribute_editor_row.gd
+attribute_effect_editor_row.gd::GDScript::-1::1700648812::0::1::::<>GridContainer<>::
+attribute_effect_editor_row.tscn::PackedScene::4807174404309270047::1700648813::0::1::::<><>::res://addons/godot_gameplay_systems/attributes_and_abilities/inspector/components/attribute_effect_editor_row.gd<>uid://qdrl51ys1mv7
+::res://addons/godot_gameplay_systems/attributes_and_abilities/nodes/::1700648813
+ability_container.gd::GDScript::-1::1700648813::0::1::::AbilityContainer<>Node<>res://addons/godot_gameplay_systems/attributes_and_abilities/assets/AbilityContainer.svg::
+effected_area2d.gd::GDScript::-1::1700648813::0::1::::EffectedArea2D<>Area2D<>::
+effected_area3d.gd::GDScript::-1::1700648813::0::1::::EffectedArea3D<>Area3D<>::
+gameplay_attribute_map.gd::GDScript::-1::1700648813::0::1::::GameplayAttributeMap<>Node<>res://addons/godot_gameplay_systems/attributes_and_abilities/assets/GameplayAttributeMap.svg::
+gameplay_effect.gd::GDScript::-1::1700648813::0::1::::GameplayEffect<>Node<>res://addons/godot_gameplay_systems/attributes_and_abilities/assets/GameplayEffect.svg::
+::res://addons/godot_gameplay_systems/attributes_and_abilities/objects/::1700648813
+activation_event.gd::GDScript::-1::1700648813::0::1::::ActivationEvent<>RefCounted<>::
+attribute_spec.gd::GDScript::-1::1700648813::0::1::::AttributeSpec<>RefCounted<>::
+::res://addons/godot_gameplay_systems/attributes_and_abilities/resources/::1700648813
+ability.gd::GDScript::-1::1700648813::0::1::::Ability<>Resource<>res://addons/godot_gameplay_systems/attributes_and_abilities/assets/Ability.svg::
+attribute.gd::GDScript::-1::1700648813::0::1::::AttributeResource<>Resource<>::
+attribute_effect.gd::GDScript::-1::1700648813::0::1::::AttributeEffect<>Resource<>res://addons/godot_gameplay_systems/attributes_and_abilities/assets/AttributeEffect.svg::
+attribute_effect_condition.gd::GDScript::-1::1700648813::0::1::::AttributeEffectCondition<>Resource<>::
+attribute_table.gd::GDScript::-1::1700648813::0::1::::AttributeTable<>Resource<>res://addons/godot_gameplay_systems/attributes_and_abilities/assets/AttributeTable.svg::
+stop_effect_at_value.gd::GDScript::-1::1700648813::0::1::::StopEffectAtValue<>AttributeEffectCondition<>::
+stop_effect_if_0.gd::GDScript::-1::1700648813::0::1::::StopEffectIf0<>AttributeEffectCondition<>::
+::res://addons/godot_gameplay_systems/camera_shake/::1700648813
+plugin.gd::GDScript::-1::1700648813::0::1::::<>EditorPlugin<>::
+::res://addons/godot_gameplay_systems/camera_shake/nodes/::1700648813
+camera_shake.gd::GDScript::-1::1700648813::0::1::::CameraShake<>Node<>::
+::res://addons/godot_gameplay_systems/extended_character_nodes/::1700648813
+plugin.gd::GDScript::-1::1700648813::0::1::::<>EditorPlugin<>::
+::res://addons/godot_gameplay_systems/extended_character_nodes/nodes/::1700648813
+::res://addons/godot_gameplay_systems/extended_character_nodes/nodes/2d/::1700648813
+point_and_click_2d.gd::GDScript::-1::1700648813::0::1::::PointAndClick2D<>Node2D<>::
+::res://addons/godot_gameplay_systems/extended_character_nodes/nodes/3d/::1700648813
+point_and_click_3d.gd::GDScript::-1::1700648813::0::1::::PointAndClick3D<>Node3D<>::
+::res://addons/godot_gameplay_systems/interactables/::1700648814
+plugin.gd::GDScript::-1::1700648814::0::1::::<>EditorPlugin<>::
+::res://addons/godot_gameplay_systems/interactables/assets/::1700648814
+InteractableArea2D.png::CompressedTexture2D::6206680423867905274::1700648813::1700648813::1::::<><>::
+InteractableArea3D.png::CompressedTexture2D::7083499696942644643::1700648813::1700648813::1::::<><>::
+Interaction2DIcon.png::CompressedTexture2D::706643617556793880::1700648813::1700648813::1::::<><>::
+Interaction3DIcon.png::CompressedTexture2D::1796848014946627932::1700648813::1700648814::1::::<><>::
+InteractionIcon.png::CompressedTexture2D::4294760239448510020::1700648814::1700648814::1::::<><>::
+InteractionRayCast2DIcon.png::CompressedTexture2D::6314353912700561466::1700648814::1700648814::1::::<><>::
+InteractionRayCast3DIcon.png::CompressedTexture2D::4738568989001256036::1700648814::1700648814::1::::<><>::
+::res://addons/godot_gameplay_systems/interactables/nodes/::1700648814
+interaction_manager.gd::GDScript::-1::1700648814::0::1::::InteractionManager<>Node<>res://addons/godot_gameplay_systems/interactables/assets/InteractionIcon.png::
+::res://addons/godot_gameplay_systems/interactables/nodes/2d/::1700648814
+interactable_area_2d.gd::GDScript::-1::1700648814::0::1::::InteractableArea2D<>Area2D<>res://addons/godot_gameplay_systems/interactables/assets/InteractableArea2D.png::
+interaction_raycast_2d.gd::GDScript::-1::1700648814::0::1::::InteractionRayCast2D<>RayCast2D<>res://addons/godot_gameplay_systems/interactables/assets/InteractionRayCast2DIcon.png::
+::res://addons/godot_gameplay_systems/interactables/nodes/3d/::1700648814
+interactable_area_3d.gd::GDScript::-1::1700648814::0::1::::InteractableArea3D<>Area3D<>res://addons/godot_gameplay_systems/interactables/assets/InteractableArea3D.png::
+interaction_raycast_3d.gd::GDScript::-1::1700648814::0::1::::InteractionRayCast3D<>RayCast3D<>res://addons/godot_gameplay_systems/interactables/assets/InteractionRayCast3DIcon.png::
+::res://addons/godot_gameplay_systems/interactables/resources/::1700648814
+interaction.gd::GDScript::-1::1700648814::0::1::::Interaction<>Resource<>res://addons/godot_gameplay_systems/interactables/assets/InteractionIcon.png::
+::res://addons/godot_gameplay_systems/inventory_system/::1700648815
+plugin.gd::GDScript::-1::1700648815::0::1::::<>EditorPlugin<>::
+::res://addons/godot_gameplay_systems/inventory_system/assets/::1700648815
+DropGroupIcon.png::CompressedTexture2D::1457054898985473717::1700648814::1700648814::1::::<><>::
+DropIcon.png::CompressedTexture2D::3912246663628737653::1700648814::1700648814::1::::<><>::
+DropNode2D.png::CompressedTexture2D::4741969653575642972::1700648814::1700648814::1::::<><>::
+DropNode3D.png::CompressedTexture2D::7092721274121506174::1700648814::1700648814::1::::<><>::
+DropTableIcon.png::CompressedTexture2D::3321899113989481546::1700648814::1700648814::1::::<><>::
+EquipmentIcon.png::CompressedTexture2D::8423437521474184849::1700648814::1700648814::1::::<><>::
+Equipped3DIcon.png::CompressedTexture2D::3264902584713546220::1700648814::1700648814::1::::<><>::
+InventoryIcon.png::CompressedTexture2D::6568509649441870044::1700648814::1700648814::1::::<><>::
+ItemIcon.png::CompressedTexture2D::8627648445623908343::1700648815::1700648815::1::::<><>::
+RadialMenuIcon.png::CompressedTexture2D::6399015025151959342::1700648815::1700648815::1::::<><>::
+::res://addons/godot_gameplay_systems/inventory_system/nodes/::1700648815
+drop.gd::GDScript::-1::1700648815::0::1::::Drop<>Node<>::
+drop_2d.gd::GDScript::-1::1700648815::0::1::::Drop2D<>Node2D<>::
+drop_3d.gd::GDScript::-1::1700648815::0::1::::Drop3D<>Node3D<>::
+equipment.gd::GDScript::-1::1700648815::0::1::::Equipment<>Node<>res://addons/godot_gameplay_systems/inventory_system/assets/EquipmentIcon.png::
+equipped_item_3d.gd::GDScript::-1::1700648815::0::1::::EquippedItem3D<>Node3D<>::
+inventory.gd::GDScript::-1::1700648815::0::1::::Inventory<>Node<>res://addons/godot_gameplay_systems/inventory_system/assets/InventoryIcon.png::
+pickable_item_2d.gd::GDScript::-1::1700648815::0::1::::<>Area2D<>::
+pickable_item_3d.gd::GDScript::-1::1700648815::0::1::::<>Area3D<>::
+radial_menu_container.gd::GDScript::-1::1700648815::0::1::::<>Container<>::
+::res://addons/godot_gameplay_systems/inventory_system/objects/::1700648815
+item_activation_event.gd::GDScript::-1::1700648815::0::1::::ItemActivationEvent<>RefCounted<>::
+::res://addons/godot_gameplay_systems/inventory_system/resources/::1700648815
+drop_group.gd::GDScript::-1::1700648815::0::1::::DropGroup<>Resource<>::
+drop_table.gd::GDScript::-1::1700648815::0::1::::DropTable<>Resource<>::
+equipment_slot.gd::GDScript::-1::1700648815::0::1::::EquipmentSlot<>Resource<>::
+item.gd::GDScript::-1::1700648815::0::1::::Item<>Resource<>res://addons/godot_gameplay_systems/inventory_system/assets/ItemIcon.png::
+::res://addons/godot_gameplay_systems/slideshow/::1700648815
+plugin.gd::GDScript::-1::1700648815::0::1::::<>EditorPlugin<>::
+slide_show.gd::GDScript::-1::1700648815::0::1::::SlideShow<>Node2D<>::
+::res://addons/godot_gameplay_systems/turn_based/::1700648815
+plugin.gd::GDScript::-1::1700648815::0::1::::<>EditorPlugin<>::
+::res://addons/godot_gameplay_systems/turn_based/autoloads/::1700648815
+turn_manager.gd::GDScript::-1::1700648815::0::1::::<>Node<>::
+::res://addons/godot_gameplay_systems/turn_based/nodes/::1700648815
+TurnBasedGame.gd::GDScript::-1::1700648815::0::1::::TurnBasedGame<>Node<>::
+TurnSubscriber.gd::GDScript::-1::1700648815::0::1::::TurnSubscriber<>Node<>::
+::res://addons/health_component/::1700618306
+health_component.gd::GDScript::-1::1700618306::0::1::::GodotParadiseHealthComponent<>Node<>::
+plugin.cfg::TextFile::-1::1700562669::0::1::::<><>::
+plugin.gd::GDScript::-1::1700562669::0::1::::<>EditorPlugin<>::
+suit_hearts.svg::CompressedTexture2D::9074872513647453045::1700562669::1700562669::1::::<><>::
+::res://Art/::1700614826
+::res://Art/Animals/::1700525008
+bird_recolor.png::CompressedTexture2D::2328191412686391361::1699838070::1700278156::1::::<><>::
+chick_24x24.png::CompressedTexture2D::4360253801208261366::1699838066::1700278156::1::::<><>::
+rat and bat spritesheet calciumtrice.png::CompressedTexture2D::8659461584777059085::1699837822::1700278156::1::::<><>::
+::res://Art/Char/::1700525009
+::res://Art/Char/24px Mini Characters(1)/::1700525008
+::res://Art/Char/24px Mini Characters(1)/images/::1700525008
+::res://Art/Char/24px Mini Characters(1)/images/Characters/::1700525008
+Civilian1(black)_Attack(Weapon1).png::CompressedTexture2D::5658962059417090583::1700437434::1700437578::1::::<><>::
+Civilian1(black)_Attack.png::CompressedTexture2D::5827856209686666699::1700437434::1700437578::1::::<><>::
+Civilian1(black)_Faint.png::CompressedTexture2D::8457403528626171706::1700437434::1700437578::1::::<><>::
+Civilian1(black)_Idle(Weapon1).png::CompressedTexture2D::5645876629811977912::1700437434::1700437578::1::::<><>::
+Civilian1(black)_Idle.png::CompressedTexture2D::2666944434875724072::1700437434::1700437578::1::::<><>::
+Civilian1(black)_Move(Weapon1).png::CompressedTexture2D::7688239589651274493::1700437434::1700437578::1::::<><>::
+Civilian1(black)_Move.png::CompressedTexture2D::6479318105919733251::1700437434::1700437578::1::::<><>::
+Civilian1_Attack(weapon1).png::CompressedTexture2D::2709129425235552824::1700437434::1700437578::1::::<><>::
+Civilian1_Attack.png::CompressedTexture2D::3161753296400149340::1700437434::1700437578::1::::<><>::
+Civilian1_Faint.png::CompressedTexture2D::5758226656265956750::1700437434::1700437578::1::::<><>::
+Civilian1_Idle(weapon1).png::CompressedTexture2D::6427899920970693261::1700437434::1700437578::1::::<><>::
+Civilian1_Idle.png::CompressedTexture2D::6905541288389183246::1700437434::1700437578::1::::<><>::
+Civilian1_Move(weapon1).png::CompressedTexture2D::4101751231817246940::1700437434::1700437578::1::::<><>::
+Civilian1_Move.png::CompressedTexture2D::5984135040973180296::1700437434::1700437578::1::::<><>::
+Civilian2(black)_Attack(Weapon1).png::CompressedTexture2D::6034337614577373955::1700437434::1700437578::1::::<><>::
+Civilian2(black)_Attack.png::CompressedTexture2D::4530759138840610052::1700437434::1700437578::1::::<><>::
+Civilian2(black)_Faint.png::CompressedTexture2D::3501726927945011767::1700437434::1700437578::1::::<><>::
+Civilian2(black)_Idle(Weapon1).png::CompressedTexture2D::7987025173496853137::1700437434::1700437578::1::::<><>::
+Civilian2(black)_Idle.png::CompressedTexture2D::3113261736799962164::1700437434::1700437578::1::::<><>::
+Civilian2(black)_Move(Weapon1).png::CompressedTexture2D::5269400896323020492::1700437434::1700437578::1::::<><>::
+Civilian2(black)_Move.png::CompressedTexture2D::7876066439268889654::1700437434::1700437578::1::::<><>::
+Civilian2_Attack.png::CompressedTexture2D::1456224217955656382::1700437434::1700437578::1::::<><>::
+Civilian2_Faint.png::CompressedTexture2D::7747060285250030122::1700437434::1700437578::1::::<><>::
+Civilian2_Idle.png::CompressedTexture2D::3200522327686660152::1700437434::1700437578::1::::<><>::
+Civilian2_Move.png::CompressedTexture2D::3227617008518705717::1700437434::1700437578::1::::<><>::
+Knight1_Attack.png::CompressedTexture2D::7601292224250786057::1700437434::1700437578::1::::<><>::
+Knight1_Faint.png::CompressedTexture2D::5408581809402513210::1700437434::1700437578::1::::<><>::
+Knight1_Idle.png::CompressedTexture2D::3115237992508977871::1700437434::1700437578::1::::<><>::
+Knight1_Move.png::CompressedTexture2D::4443519656755900892::1700437434::1700437578::1::::<><>::
+::res://Art/Char/24px Mini Characters(1)/images/Parts/::1700525009
+::res://Art/Char/24px Mini Characters(1)/images/Parts/Head/::1700525008
+Head1_Attack.png::CompressedTexture2D::4125617607340136620::1700437434::1700437578::1::::<><>::
+Head1_Faint.png::CompressedTexture2D::8996897414192301187::1700437434::1700437578::1::::<><>::
+Head1_Idle.png::CompressedTexture2D::4446105273141868553::1700437434::1700437578::1::::<><>::
+Head1_Move.png::CompressedTexture2D::652013090733993664::1700437434::1700437578::1::::<><>::
+Head2_Attack.png::CompressedTexture2D::2574939501475304754::1700437434::1700437578::1::::<><>::
+Head2_Faint.png::CompressedTexture2D::8194058527209618218::1700437434::1700437578::1::::<><>::
+Head2_Idle.png::CompressedTexture2D::4147098250698955602::1700437434::1700437578::1::::<><>::
+Head2_Move.png::CompressedTexture2D::2486769036701608520::1700437434::1700437578::1::::<><>::
+Head3_Attack.png::CompressedTexture2D::5060612694505082917::1700437434::1700437578::1::::<><>::
+Head3_Faint.png::CompressedTexture2D::1566729633297672362::1700437434::1700437578::1::::<><>::
+Head3_Idle.png::CompressedTexture2D::2036749974962052448::1700437434::1700437578::1::::<><>::
+Head3_Move.png::CompressedTexture2D::1559567287433558097::1700437434::1700437578::1::::<><>::
+::res://Art/Char/24px Mini Characters(1)/images/Parts/Nude/::1700525008
+Nude_Attack.png::CompressedTexture2D::4824200113877876709::1700437434::1700437578::1::::<><>::
+Nude_Faint.png::CompressedTexture2D::5551350340393133582::1700437434::1700437578::1::::<><>::
+Nude_Idle.png::CompressedTexture2D::1645136231819240897::1700437434::1700437578::1::::<><>::
+Nude_Move.png::CompressedTexture2D::8033968497659413949::1700437434::1700437578::1::::<><>::
+::res://Art/Char/24px Mini Characters(1)/images/Parts/Suit/::1700525009
+Suit1_Attack.png::CompressedTexture2D::5194563625239460298::1700437434::1700437578::1::::<><>::
+Suit1_Faint.png::CompressedTexture2D::8162978917300015804::1700437434::1700437578::1::::<><>::
+Suit1_Idle.png::CompressedTexture2D::7324676004168988033::1700437434::1700437578::1::::<><>::
+Suit1_Move.png::CompressedTexture2D::4803159421066452858::1700437434::1700437578::1::::<><>::
+Suit2_Attack.png::CompressedTexture2D::624648902452036001::1700437434::1700437578::1::::<><>::
+Suit2_Faint.png::CompressedTexture2D::8222715883516117431::1700437434::1700437578::1::::<><>::
+Suit2_Idle.png::CompressedTexture2D::2813456071983739480::1700437434::1700437578::1::::<><>::
+Suit2_Move.png::CompressedTexture2D::8305329851871614399::1700437434::1700437578::1::::<><>::
+Suit3_Attack.png::CompressedTexture2D::4036305432510179512::1700437434::1700437578::1::::<><>::
+Suit3_Faint.png::CompressedTexture2D::3554634167796803181::1700437434::1700437578::1::::<><>::
+Suit3_Idle.png::CompressedTexture2D::4305889257717570239::1700437434::1700437578::1::::<><>::
+Suit3_Move.png::CompressedTexture2D::1024784847325884131::1700437434::1700437578::1::::<><>::
+::res://Art/Char/24px Mini Characters(1)/images/Parts/Weapon/::1700525009
+Weapon1_Attack.png::CompressedTexture2D::4909428378956280069::1700437434::1700437578::1::::<><>::
+Weapon1_idle.png::CompressedTexture2D::957850668399516316::1700437434::1700437578::1::::<><>::
+Weapon1_Move.png::CompressedTexture2D::946773704974994689::1700437434::1700437578::1::::<><>::
+Weapon2_Attack.png::CompressedTexture2D::6824880953946295263::1700437434::1700437578::1::::<><>::
+Weapon2_Idle.png::CompressedTexture2D::1181267919397461483::1700437434::1700437578::1::::<><>::
+Weapon2_Move.png::CompressedTexture2D::4028353675330869526::1700437434::1700437578::1::::<><>::
+::res://Art/Char/Character/::1700525009
+_down attack.png::CompressedTexture2D::5816671756876092960::1699142406::1700435664::1::::<><>::
+_down idle.png::CompressedTexture2D::1400868830322658490::1699619888::1700435664::1::::<><>::
+_down walk.png::CompressedTexture2D::1619940808618695810::1699619888::1700435664::1::::<><>::
+_pick up.png::CompressedTexture2D::1909458881824121677::1699619888::1700435664::1::::<><>::
+_side attack left.png::CompressedTexture2D::7989365087136996058::1699732826::1700435664::1::::<><>::
+_side attack right.png::CompressedTexture2D::1895619923388016737::1699620432::1700435664::1::::<><>::
+_side idle left.png::CompressedTexture2D::2710473149984266245::1699619888::1700435664::1::::<><>::
+_side idle right.png::CompressedTexture2D::8161350266787876464::1699209642::1700435664::1::::<><>::
+_side walk left.png::CompressedTexture2D::2405302844458259542::1699619888::1700435664::1::::<><>::
+_side walk right.png::CompressedTexture2D::5469566998548641178::1699210024::1700435664::1::::<><>::
+_up attack.png::CompressedTexture2D::4847826811395779437::1699142730::1700435664::1::::<><>::
+_up idle.png::CompressedTexture2D::6143180972519721143::1699619888::1700435664::1::::<><>::
+_up walk.png::CompressedTexture2D::1340345151833315660::1699619888::1700435664::1::::<><>::
+::res://Art/Character v.2/::1700616406
+emoticons.png::CompressedTexture2D::3104510768539934930::1700614826::1700614945::1::::<><>::
+info.txt::TextFile::-1::1700614826::0::1::::<><>::
+list.txt::TextFile::-1::1700614826::0::1::::<><>::
+shadow.png::CompressedTexture2D::292327332630630274::1700614826::1700614945::1::::<><>::
+::res://Art/Character v.2/acc/::1700614949
+beard.png::CompressedTexture2D::7066210741290787630::1700614826::1700614949::1::::<><>::
+earring_emerald.png::CompressedTexture2D::4678596078181608341::1700614826::1700614948::1::::<><>::
+earring_emerald_silver.png::CompressedTexture2D::7224840800848870807::1700614826::1700614948::1::::<><>::
+earring_red.png::CompressedTexture2D::1921443681837673573::1700614826::1700614948::1::::<><>::
+earring_red_silver.png::CompressedTexture2D::8501112793840139025::1700614826::1700614948::1::::<><>::
+glasses.png::CompressedTexture2D::3983731888749715944::1700614826::1700614949::1::::<><>::
+glasses_sun.png::CompressedTexture2D::5361040459080794808::1700614826::1700614949::1::::<><>::
+hat_cowboy.png::CompressedTexture2D::7491606897358952227::1700614826::1700614948::1::::<><>::
+hat_lucky.png::CompressedTexture2D::6899720564868016457::1700614826::1700614948::1::::<><>::
+hat_pumpkin.png::CompressedTexture2D::6980829607718583396::1700614826::1700614948::1::::<><>::
+hat_pumpkin_purple.png::CompressedTexture2D::3818269003924884893::1700614826::1700614948::1::::<><>::
+hat_witch.png::CompressedTexture2D::3582644013349647548::1700614826::1700614948::1::::<><>::
+mask_clown_blue.png::CompressedTexture2D::8509272956748785499::1700614826::1700614948::1::::<><>::
+mask_clown_red.png::CompressedTexture2D::3415057146500120346::1700614826::1700614948::1::::<><>::
+mask_spooky.png::CompressedTexture2D::8445959514463539016::1700614826::1700614948::1::::<><>::
+::res://Art/Character v.2/characters/::1700614949
+char1.png::CompressedTexture2D::8226552957995784493::1700614826::1700614948::1::::<><>::
+char2.png::CompressedTexture2D::1023740218567081405::1700614826::1700614949::1::::<><>::
+char3.png::CompressedTexture2D::6301555229426773752::1700614826::1700614949::1::::<><>::
+char4.png::CompressedTexture2D::2062214349422154221::1700614826::1700614949::1::::<><>::
+char5.png::CompressedTexture2D::8371764407586542147::1700614826::1700614949::1::::<><>::
+char6.png::CompressedTexture2D::687947697145189681::1700614826::1700614949::1::::<><>::
+char7.png::CompressedTexture2D::2776295822727193675::1700614826::1700614949::1::::<><>::
+char8.png::CompressedTexture2D::1219249492381483401::1700614826::1700614949::1::::<><>::
+char_all.png::CompressedTexture2D::3669540911123887258::1700614826::1700614949::1::::<><>::
+::res://Art/Character v.2/clothes/::1700614949
+basic.png::CompressedTexture2D::4668271308431070202::1700614826::1700614949::1::::<><>::
+clown.png::CompressedTexture2D::1133873283888445955::1700614826::1700614948::1::::<><>::
+dress .png::CompressedTexture2D::9162125352419919660::1700614826::1700614949::1::::<><>::
+floral.png::CompressedTexture2D::8137587188217879571::1700614826::1700614949::1::::<><>::
+overalls.png::CompressedTexture2D::5689853147479162268::1700614826::1700614949::1::::<><>::
+pants.png::CompressedTexture2D::1720438527218510604::1700614826::1700614949::1::::<><>::
+pants_suit.png::CompressedTexture2D::8786899484897351200::1700614826::1700614949::1::::<><>::
+pumpkin.png::CompressedTexture2D::4457079066183530918::1700614826::1700614948::1::::<><>::
+sailor.png::CompressedTexture2D::3701099973238195116::1700614826::1700614949::1::::<><>::
+sailor_bow.png::CompressedTexture2D::5134941438837915727::1700614826::1700614948::1::::<><>::
+shoes.png::CompressedTexture2D::4812293223588848050::1700614826::1700614948::1::::<><>::
+skirt.png::CompressedTexture2D::5489631812893821587::1700614827::1700614948::1::::<><>::
+skull.png::CompressedTexture2D::3485889480865379022::1700614827::1700614948::1::::<><>::
+spaghetti.png::CompressedTexture2D::3722523762851266559::1700614827::1700614948::1::::<><>::
+spooky .png::CompressedTexture2D::4106326350409049634::1700614827::1700614947::1::::<><>::
+sporty.png::CompressedTexture2D::3459550500070836014::1700614827::1700614948::1::::<><>::
+stripe.png::CompressedTexture2D::5057787548703502651::1700614827::1700614948::1::::<><>::
+suit.png::CompressedTexture2D::5019825970043895417::1700614827::1700614948::1::::<><>::
+witch.png::CompressedTexture2D::4514847891114887908::1700614827::1700614947::1::::<><>::
+::res://Art/Character v.2/eyes/::1700614949
+blush_all.png::CompressedTexture2D::6738203720772438671::1700614827::1700614948::1::::<><>::
+eyes.png::CompressedTexture2D::8051716119610862115::1700614827::1700614949::1::::<><>::
+lipstick .png::CompressedTexture2D::7511116977901067691::1700614827::1700614948::1::::<><>::
+::res://Art/Character v.2/greyscale/::1700614828
+info.txt::TextFile::-1::1700614827::0::1::::<><>::
+::res://Art/Character v.2/greyscale/acc/::1700614827
+::res://Art/Character v.2/greyscale/acc/acc/::1700614948
+beard_grey.png::CompressedTexture2D::920456834038313089::1700614827::1700614948::1::::<><>::
+earring_emerald_grey.png::CompressedTexture2D::7336880721481742586::1700614827::1700614948::1::::<><>::
+earring_gold_grey.png::CompressedTexture2D::454973262667211870::1700614827::1700614948::1::::<><>::
+earring_red_grey.png::CompressedTexture2D::6444594800455745956::1700614827::1700614948::1::::<><>::
+earring_silver_grey.png::CompressedTexture2D::9200073504788920758::1700614827::1700614948::1::::<><>::
+glasses_grey.png::CompressedTexture2D::695404132069889548::1700614827::1700614948::1::::<><>::
+glasses_sun_grey.png::CompressedTexture2D::2485260378288634297::1700614827::1700614948::1::::<><>::
+hat_cowboy_grey.png::CompressedTexture2D::3200024665951815274::1700614827::1700614948::1::::<><>::
+hat_lucky_grey.png::CompressedTexture2D::9017830662234501172::1700614827::1700614948::1::::<><>::
+hat_pumpkin_grey.png::CompressedTexture2D::9016636693997580448::1700614827::1700614948::1::::<><>::
+hat_witch_grey.png::CompressedTexture2D::1959842101410895990::1700614827::1700614948::1::::<><>::
+mask_clown_grey.png::CompressedTexture2D::586200673806570551::1700614827::1700614948::1::::<><>::
+mask_spooky_grey.png::CompressedTexture2D::7619804168346239778::1700614827::1700614948::1::::<><>::
+::res://Art/Character v.2/greyscale/acc/modular/::1700614950
+earring_base.png::CompressedTexture2D::5734080515158423952::1700614827::1700614948::1::::<><>::
+earring_detail_grey.png::CompressedTexture2D::2910023239801246608::1700614827::1700614948::1::::<><>::
+glasses_frame_grey.png::CompressedTexture2D::1085572972311021224::1700614827::1700614948::1::::<><>::
+glasses_glass_grey.png::CompressedTexture2D::907957562352500198::1700614827::1700614948::1::::<><>::
+glasses_grey_frame.png::CompressedTexture2D::7481965568503333168::1700614827::1700614948::1::::<><>::
+glasses_grey_glass.png::CompressedTexture2D::143295338235842948::1700614827::1700614948::1::::<><>::
+hat_cowboy_grey_base.png::CompressedTexture2D::1587182854609373691::1700614827::1700614949::1::::<><>::
+hat_cowboy_grey_detail.png::CompressedTexture2D::19308387802238673::1700614827::1700614949::1::::<><>::
+hat_lucky_grey_band.png::CompressedTexture2D::2877627569776119249::1700614827::1700614949::1::::<><>::
+hat_lucky_grey_base.png::CompressedTexture2D::6117692615610829143::1700614827::1700614949::1::::<><>::
+hat_lucky_grey_detail.png::CompressedTexture2D::1888140007785757181::1700614827::1700614949::1::::<><>::
+hat_pumpkin_grey_base.png::CompressedTexture2D::137102792497222736::1700614827::1700614949::1::::<><>::
+hat_pumpkin_grey_stem.png::CompressedTexture2D::5350280250781613209::1700614827::1700614949::1::::<><>::
+hat_witch_grey_band.png::CompressedTexture2D::149640142726282934::1700614827::1700614949::1::::<><>::
+hat_witch_grey_base.png::CompressedTexture2D::7279521601856508618::1700614827::1700614949::1::::<><>::
+hat_witch_grey_detail.png::CompressedTexture2D::874516429120009158::1700614827::1700614949::1::::<><>::
+mask_clown_grey_detail.png::CompressedTexture2D::3022678379568450094::1700614827::1700614949::1::::<><>::
+mask_clown_grey_eye.png::CompressedTexture2D::2543432886519644309::1700614827::1700614949::1::::<><>::
+mask_clown_grey_face.png::CompressedTexture2D::6875513556077406863::1700614827::1700614949::1::::<><>::
+mask_clown_grey_hair.png::CompressedTexture2D::2110823720765633947::1700614827::1700614949::1::::<><>::
+mask_spooky_grey_detail.png::CompressedTexture2D::683979244036133532::1700614827::1700614949::1::::<><>::
+mask_spooky_grey_face.png::CompressedTexture2D::6541441753537091632::1700614827::1700614950::1::::<><>::
+::res://Art/Character v.2/greyscale/character/::1700614950
+greyscale .png::CompressedTexture2D::8926057340441385387::1700614827::1700614950::1::::<><>::
+::res://Art/Character v.2/greyscale/character/without/::1700614950
+char_axe_without_grey.png::CompressedTexture2D::7365426438402648863::1700614827::1700614950::1::::<><>::
+char_block_without_grey.png::CompressedTexture2D::3490490465323769589::1700614827::1700614950::1::::<><>::
+char_fish_without_grey.png::CompressedTexture2D::6375244686348560136::1700614827::1700614950::1::::<><>::
+char_hoe_without_grey.png::CompressedTexture2D::7083010890812467624::1700614827::1700614950::1::::<><>::
+char_sword_without_grey.png::CompressedTexture2D::8738052956498015178::1700614827::1700614950::1::::<><>::
+char_water_without_grey.png::CompressedTexture2D::8998371409565305360::1700614827::1700614950::1::::<><>::
+::res://Art/Character v.2/greyscale/clothes/::1700614827
+::res://Art/Character v.2/greyscale/clothes/clothes/::1700614950
+basic_grey.png::CompressedTexture2D::1360137158747601865::1700614827::1700614950::1::::<><>::
+clown_blue_grey.png::CompressedTexture2D::172108498959078579::1700614827::1700614950::1::::<><>::
+clown_red_grey.png::CompressedTexture2D::8680249436088988957::1700614827::1700614950::1::::<><>::
+dress_grey.png::CompressedTexture2D::8247867500949321942::1700614827::1700614950::1::::<><>::
+floral_grey.png::CompressedTexture2D::3551348636007307183::1700614827::1700614950::1::::<><>::
+overalls_grey.png::CompressedTexture2D::4618591459837866334::1700614827::1700614950::1::::<><>::
+pants_grey.png::CompressedTexture2D::5248665616272514441::1700614827::1700614950::1::::<><>::
+pumpkin_grey.png::CompressedTexture2D::1714809534028249417::1700614827::1700614950::1::::<><>::
+sailor_grey.png::CompressedTexture2D::3585530706736351432::1700614827::1700614950::1::::<><>::
+shoes_grey.png::CompressedTexture2D::5820532336519929319::1700614827::1700614949::1::::<><>::
+skirt_grey.png::CompressedTexture2D::4411023743014764259::1700614827::1700614949::1::::<><>::
+skull_grey.png::CompressedTexture2D::3919667115163780887::1700614827::1700614949::1::::<><>::
+spaghetti_grey.png::CompressedTexture2D::8406153060132483327::1700614827::1700614949::1::::<><>::
+spooky_grey.png::CompressedTexture2D::8072702336999931877::1700614827::1700614949::1::::<><>::
+sporty_grey.png::CompressedTexture2D::4509109565603985094::1700614827::1700614949::1::::<><>::
+stripe_grey.png::CompressedTexture2D::8492497536696332963::1700614827::1700614949::1::::<><>::
+suit_grey.png::CompressedTexture2D::719810494209238641::1700614827::1700614949::1::::<><>::
+suit_tie_grey.png::CompressedTexture2D::285966188463119753::1700614827::1700614949::1::::<><>::
+witch_grey.png::CompressedTexture2D::6801292430072897469::1700614827::1700614949::1::::<><>::
+::res://Art/Character v.2/greyscale/clothes/modular/::1700614949
+button_grey.png::CompressedTexture2D::4395029700624403721::1700614827::1700614949::1::::<><>::
+clown_base_grey.png::CompressedTexture2D::41587899008504989::1700614827::1700614949::1::::<><>::
+clown_belt_grey.png::CompressedTexture2D::8565662807794287522::1700614827::1700614949::1::::<><>::
+flower_base.png::CompressedTexture2D::5504401076625476206::1700614827::1700614949::1::::<><>::
+flower_detail.png::CompressedTexture2D::6737854060033359778::1700614827::1700614949::1::::<><>::
+gloves_grey.png::CompressedTexture2D::6833190822206406470::1700614827::1700614949::1::::<><>::
+overalls_grey.png::CompressedTexture2D::6001725459735144167::1700614827::1700614949::1::::<><>::
+overalls_grey_detail.png::CompressedTexture2D::1162558675093103667::1700614827::1700614949::1::::<><>::
+pumpkin_base_grey.png::CompressedTexture2D::1416655039130053892::1700614827::1700614949::1::::<><>::
+sailorbow_grey_detail.png::CompressedTexture2D::1340502252269098019::1700614827::1700614949::1::::<><>::
+sailorbow_grey_ribbon.png::CompressedTexture2D::5576045466975137968::1700614827::1700614949::1::::<><>::
+shoes_grey.png::CompressedTexture2D::2818662712576637986::1700614827::1700614949::1::::<><>::
+skull_detail.png::CompressedTexture2D::3595428374689452827::1700614827::1700614949::1::::<><>::
+spooky_base_grey.png::CompressedTexture2D::2412597056039847421::1700614827::1700614949::1::::<><>::
+spooky_detailgrey.png::CompressedTexture2D::4840247134058491830::1700614827::1700614949::1::::<><>::
+sporty_detail_grey.png::CompressedTexture2D::4366036960740328093::1700614827::1700614949::1::::<><>::
+stripe_detail_grey.png::CompressedTexture2D::1594863481509870648::1700614827::1700614949::1::::<><>::
+suit_button_grey.png::CompressedTexture2D::8700600819630928122::1700614827::1700614949::1::::<><>::
+suit_jacket_grey.png::CompressedTexture2D::6066469580637093577::1700614827::1700614949::1::::<><>::
+suit_shirt_grey.png::CompressedTexture2D::7536614855487076763::1700614827::1700614949::1::::<><>::
+suit_tie_grey.png::CompressedTexture2D::6851611114371532401::1700614827::1700614949::1::::<><>::
+witch_base_grey.png::CompressedTexture2D::8861545782974468683::1700614827::1700614949::1::::<><>::
+witch_belt_grey.png::CompressedTexture2D::1079212647541976772::1700614827::1700614949::1::::<><>::
+witch_detail_grey.png::CompressedTexture2D::3755923556312195065::1700614827::1700614947::1::::<><>::
+witch_middle_grey.png::CompressedTexture2D::5030048733849708054::1700614827::1700614947::1::::<><>::
+witch_shoes_grey.png::CompressedTexture2D::8107410156333637414::1700614827::1700614947::1::::<><>::
+::res://Art/Character v.2/greyscale/eyes/::1700614947
+blush_grey.png::CompressedTexture2D::7412664343694037475::1700614827::1700614947::1::::<><>::
+eyes_grey.png::CompressedTexture2D::3309805385771749089::1700614827::1700614947::1::::<><>::
+lipstick_grey.png::CompressedTexture2D::7698142544206405554::1700614827::1700614947::1::::<><>::
+::res://Art/Character v.2/greyscale/hair/::1700614947
+bob_grey.png::CompressedTexture2D::1323874081586675281::1700614827::1700614947::1::::<><>::
+braids_grey.png::CompressedTexture2D::5535055867388766531::1700614827::1700614947::1::::<><>::
+braids_tie_grey.png::CompressedTexture2D::475864031933041071::1700614827::1700614947::1::::<><>::
+buzzcut_grey.png::CompressedTexture2D::3126645492000560681::1700614827::1700614947::1::::<><>::
+curly_grey.png::CompressedTexture2D::5085599394690214930::1700614827::1700614947::1::::<><>::
+emo_grey.png::CompressedTexture2D::865352744555660429::1700614827::1700614947::1::::<><>::
+extra_long_grey.png::CompressedTexture2D::6991696537926489129::1700614827::1700614947::1::::<><>::
+extra_long_skirt_grey.png::CompressedTexture2D::2724149118699880276::1700614827::1700614947::1::::<><>::
+frenchcurl_grey.png::CompressedTexture2D::8027528363826012040::1700614827::1700614947::1::::<><>::
+gentleman_grey.png::CompressedTexture2D::9020656016603327875::1700614827::1700614947::1::::<><>::
+long_straight_grey.png::CompressedTexture2D::4839433669655014145::1700614827::1700614947::1::::<><>::
+long_straight_skirt_grey.png::CompressedTexture2D::3940615669716054459::1700614827::1700614947::1::::<><>::
+midiwave_grey.png::CompressedTexture2D::2190763759931517422::1700614827::1700614947::1::::<><>::
+ponytail_grey.png::CompressedTexture2D::6171401078864756987::1700614828::1700614947::1::::<><>::
+spacebuns_grey.png::CompressedTexture2D::4141784549611012346::1700614828::1700614947::1::::<><>::
+wavy_grey.png::CompressedTexture2D::509134277900888123::1700614828::1700614947::1::::<><>::
+::res://Art/Character v.2/greyscale/tools/::1700614947
+axe_blade_grey.png::CompressedTexture2D::1351512872352769916::1700614828::1700614947::1::::<><>::
+axe_handle_grey.png::CompressedTexture2D::6859772923437211937::1700614828::1700614947::1::::<><>::
+fishingrod_handle_grey.png::CompressedTexture2D::5184854506839894306::1700614828::1700614947::1::::<><>::
+fishingrod_rod_grey.png::CompressedTexture2D::7918510685369447561::1700614828::1700614947::1::::<><>::
+fishingrod_wheel_grey.png::CompressedTexture2D::8281640954019289790::1700614828::1700614947::1::::<><>::
+hoe_blade_grey.png::CompressedTexture2D::3990604406531541451::1700614828::1700614947::1::::<><>::
+hoe_handle_grey.png::CompressedTexture2D::6289091172233734315::1700614828::1700614947::1::::<><>::
+pickaxe_blade_grey.png::CompressedTexture2D::3163297453933815042::1700614828::1700614947::1::::<><>::
+pickaxe_handle_grey.png::CompressedTexture2D::3415169979751873283::1700614828::1700614947::1::::<><>::
+sword_blade_block_grey.png::CompressedTexture2D::699095803518021736::1700614828::1700614947::1::::<><>::
+sword_blade_grey.png::CompressedTexture2D::3481786395101426483::1700614828::1700614945::1::::<><>::
+sword_handle_block_grey.png::CompressedTexture2D::1798917264639857558::1700614828::1700614945::1::::<><>::
+sword_handle_grey.png::CompressedTexture2D::3000858183560315781::1700614828::1700614945::1::::<><>::
+wateringcan_base_grey.png::CompressedTexture2D::4545218176066166405::1700614828::1700614945::1::::<><>::
+wateringcan_water_grey.png::CompressedTexture2D::7302673452182886896::1700614828::1700614945::1::::<><>::
+::res://Art/Character v.2/hair/::1700614948
+bob .png::CompressedTexture2D::1243902406474355959::1700614828::1700614946::1::::<><>::
+braids.png::CompressedTexture2D::1167643176537534951::1700614828::1700614947::1::::<><>::
+buzzcut.png::CompressedTexture2D::8322787105317520866::1700614828::1700614946::1::::<><>::
+curly.png::CompressedTexture2D::5527329545102295695::1700614828::1700614947::1::::<><>::
+emo.png::CompressedTexture2D::3167779814269777042::1700614828::1700614946::1::::<><>::
+extra_long.png::CompressedTexture2D::8281381109920926335::1700614828::1700614946::1::::<><>::
+extra_long_skirt.png::CompressedTexture2D::5837619279781724745::1700614828::1700614947::1::::<><>::
+french_curl.png::CompressedTexture2D::1067982281339281985::1700614828::1700614946::1::::<><>::
+gentleman.png::CompressedTexture2D::5293878092622571601::1700614828::1700614946::1::::<><>::
+long_straight .png::CompressedTexture2D::6427424854854841994::1700614828::1700614947::1::::<><>::
+long_straight_skirt.png::CompressedTexture2D::8983469874541286002::1700614828::1700614947::1::::<><>::
+midiwave.png::CompressedTexture2D::8299177111245926666::1700614828::1700614947::1::::<><>::
+ponytail .png::CompressedTexture2D::4818178039259436087::1700614828::1700614948::1::::<><>::
+spacebuns.png::CompressedTexture2D::8567355344157849826::1700614828::1700614948::1::::<><>::
+wavy.png::CompressedTexture2D::6247103354451560553::1700614828::1700614948::1::::<><>::
+::res://Art/Character v.2/NewCharAnims/::1700653302
+idle.png::CompressedTexture2D::3169544064681078360::1700653297::1700653302::1::::<><>::
+swing_down.png::CompressedTexture2D::5401953936354217179::1700616062::1700616419::1::::<><>::
+swing_left.png::CompressedTexture2D::1981225547708472467::1700616324::1700616419::1::::<><>::
+swing_right.png::CompressedTexture2D::3879470869410886880::1700617031::1700617037::1::::<><>::
+swing_up.png::CompressedTexture2D::392916745648939504::1700616056::1700616419::1::::<><>::
+walk_down.png::CompressedTexture2D::4879186080233140506::1700615503::1700616419::1::::<><>::
+walk_left.png::CompressedTexture2D::837081517230529225::1700615574::1700616419::1::::<><>::
+walk_right.png::CompressedTexture2D::5824037848771224337::1700615555::1700616419::1::::<><>::
+walk_up.png::CompressedTexture2D::4730843707754883559::1700615533::1700616419::1::::<><>::
+::res://Art/Character v.2/separate/::1700614834
+::res://Art/Character v.2/separate/axe/::1700614947
+char1_axe.png::CompressedTexture2D::6843641149141083758::1700614828::1700614947::1::::<><>::
+char2_axe.png::CompressedTexture2D::8614542770635669360::1700614828::1700614947::1::::<><>::
+char3_axe.png::CompressedTexture2D::7335771497725651176::1700614828::1700614947::1::::<><>::
+char4_axe.png::CompressedTexture2D::7442628488790882671::1700614828::1700614947::1::::<><>::
+char5_axe.png::CompressedTexture2D::1595418977276968464::1700614828::1700614947::1::::<><>::
+char6_axe.png::CompressedTexture2D::1378396644991786074::1700614828::1700614947::1::::<><>::
+char7_axe.png::CompressedTexture2D::6620851662729913607::1700614828::1700614947::1::::<><>::
+char8_axe.png::CompressedTexture2D::1539178780054756457::1700614828::1700614947::1::::<><>::
+::res://Art/Character v.2/separate/axe/acc/::1700614947
+beard_axe.png::CompressedTexture2D::8824520499913423128::1700614828::1700614947::1::::<><>::
+earring_emerald_axe.png::CompressedTexture2D::330889220285708055::1700614828::1700614946::1::::<><>::
+earring_emerald_silver_axe.png::CompressedTexture2D::8752441327906177997::1700614828::1700614946::1::::<><>::
+earring_red_axe.png::CompressedTexture2D::5381877962102107768::1700614828::1700614946::1::::<><>::
+earring_red_silver_axe.png::CompressedTexture2D::3186703379382170338::1700614828::1700614946::1::::<><>::
+glasses_axe.png::CompressedTexture2D::7000836038236699299::1700614828::1700614947::1::::<><>::
+glasses_sun_axe.png::CompressedTexture2D::1372723880589323953::1700614828::1700614947::1::::<><>::
+hat_cowboy_axe.png::CompressedTexture2D::4351187498929401317::1700614828::1700614947::1::::<><>::
+hat_lucky_axe.png::CompressedTexture2D::1532018600283492941::1700614828::1700614947::1::::<><>::
+hat_pumpkin_axe.png::CompressedTexture2D::7070029511557506441::1700614828::1700614947::1::::<><>::
+hat_pumpkin_purple_axe.png::CompressedTexture2D::853236921627372942::1700614828::1700614947::1::::<><>::
+hat_witch_axe.png::CompressedTexture2D::1588899395638363637::1700614828::1700614947::1::::<><>::
+mask_clown_blue_axe.png::CompressedTexture2D::6499882018199790502::1700614828::1700614947::1::::<><>::
+mask_clown_red_axe.png::CompressedTexture2D::1679529082891474591::1700614828::1700614947::1::::<><>::
+mask_spooky_axe.png::CompressedTexture2D::8438653358090935098::1700614828::1700614947::1::::<><>::
+::res://Art/Character v.2/separate/axe/clothes/::1700614947
+basic_axe.png::CompressedTexture2D::841538825706511575::1700614828::1700614947::1::::<><>::
+clown_axe.png::CompressedTexture2D::4974497888932963116::1700614828::1700614947::1::::<><>::
+dress_axe.png::CompressedTexture2D::4608464349785230115::1700614828::1700614947::1::::<><>::
+floral_axe.png::CompressedTexture2D::6029503892160589473::1700614828::1700614947::1::::<><>::
+overall_axe.png::CompressedTexture2D::7911171891775382584::1700614828::1700614947::1::::<><>::
+pants_axe.png::CompressedTexture2D::3763426542578697263::1700614828::1700614947::1::::<><>::
+pants_suit_axe.png::CompressedTexture2D::7180433993075540672::1700614828::1700614947::1::::<><>::
+pumpkin_axe.png::CompressedTexture2D::5422367731664156032::1700614828::1700614947::1::::<><>::
+sailor_axe.png::CompressedTexture2D::1854896974920060840::1700614828::1700614947::1::::<><>::
+sailor_bow_axe.png::CompressedTexture2D::6049813634523744694::1700614828::1700614947::1::::<><>::
+shoes_axe.png::CompressedTexture2D::2533776257035316156::1700614828::1700614947::1::::<><>::
+skirt_axe.png::CompressedTexture2D::2913531961470393051::1700614828::1700614947::1::::<><>::
+skull_axe.png::CompressedTexture2D::7898368398647524928::1700614828::1700614947::1::::<><>::
+spaghetti_axe.png::CompressedTexture2D::8017379189044406811::1700614828::1700614947::1::::<><>::
+spooky_axe.png::CompressedTexture2D::6022144891368978813::1700614828::1700614947::1::::<><>::
+sporty_axe.png::CompressedTexture2D::5529346707333424923::1700614828::1700614947::1::::<><>::
+stripe_axe.png::CompressedTexture2D::7121706832247509708::1700614828::1700614947::1::::<><>::
+suit_axe.png::CompressedTexture2D::2921598263999850068::1700614828::1700614947::1::::<><>::
+witch_axe.png::CompressedTexture2D::783376704615803853::1700614828::1700614947::1::::<><>::
+::res://Art/Character v.2/separate/axe/eyes/::1700614947
+blush_axe.png::CompressedTexture2D::8024234925892912262::1700614828::1700614947::1::::<><>::
+eyes_axe.png::CompressedTexture2D::7555242262629574472::1700614828::1700614947::1::::<><>::
+lipstick_axe.png::CompressedTexture2D::8112106826080059655::1700614828::1700614947::1::::<><>::
+::res://Art/Character v.2/separate/axe/hair/::1700614947
+bob_axe.png::CompressedTexture2D::6922550146504812751::1700614828::1700614947::1::::<><>::
+braids_axe.png::CompressedTexture2D::3536304008076327155::1700614828::1700614947::1::::<><>::
+buzzcut_axe.png::CompressedTexture2D::7511849121228492025::1700614828::1700614947::1::::<><>::
+curly_axe.png::CompressedTexture2D::4336401469390617193::1700614828::1700614947::1::::<><>::
+emo_axe.png::CompressedTexture2D::5366354152190468276::1700614828::1700614947::1::::<><>::
+extra_long_axe.png::CompressedTexture2D::6847661206410810600::1700614828::1700614947::1::::<><>::
+french_curl_axe.png::CompressedTexture2D::8430974763541699585::1700614828::1700614947::1::::<><>::
+gentleman_axe.png::CompressedTexture2D::3508220254063458354::1700614828::1700614947::1::::<><>::
+long_straight_axe.png::CompressedTexture2D::221258916637844494::1700614828::1700614947::1::::<><>::
+midiwave_axe.png::CompressedTexture2D::4379698500252119033::1700614828::1700614947::1::::<><>::
+ponytail_axe.png::CompressedTexture2D::924274991050740547::1700614828::1700614947::1::::<><>::
+spacebuns_axe.png::CompressedTexture2D::2872086606479156607::1700614828::1700614947::1::::<><>::
+wavy_axe.png::CompressedTexture2D::7617967590207024310::1700614828::1700614947::1::::<><>::
+::res://Art/Character v.2/separate/axe/tool/::1700614947
+axe.png::CompressedTexture2D::3012450830548262731::1700614828::1700614947::1::::<><>::
+axe_blue.png::CompressedTexture2D::343292389688204920::1700614828::1700614947::1::::<><>::
+axe_copper.png::CompressedTexture2D::3888104023840203293::1700614828::1700614947::1::::<><>::
+axe_gold.png::CompressedTexture2D::2265357346683993021::1700614828::1700614947::1::::<><>::
+axe_pink.png::CompressedTexture2D::1817234189662598141::1700614828::1700614947::1::::<><>::
+axe_silver.png::CompressedTexture2D::1145833046806440017::1700614828::1700614947::1::::<><>::
+axe_wood.png::CompressedTexture2D::9219536660603977414::1700614828::1700614947::1::::<><>::
+::res://Art/Character v.2/separate/axe/without/::1700614947
+char1_axe_without.png::CompressedTexture2D::5798317456268104771::1700614828::1700614947::1::::<><>::
+char2_axe_without.png::CompressedTexture2D::8336639171251936718::1700614828::1700614947::1::::<><>::
+char3_axe_without.png::CompressedTexture2D::6381548730598207879::1700614828::1700614947::1::::<><>::
+char4_axe_without.png::CompressedTexture2D::3692893700072704984::1700614828::1700614947::1::::<><>::
+char5_axe_without.png::CompressedTexture2D::3665406609343935320::1700614828::1700614947::1::::<><>::
+char6_axe_without.png::CompressedTexture2D::1361162073972260568::1700614828::1700614947::1::::<><>::
+char7_axe_without.png::CompressedTexture2D::2809548565421324054::1700614828::1700614947::1::::<><>::
+char8_axe_without.png::CompressedTexture2D::1223056005663504720::1700614828::1700614947::1::::<><>::
+::res://Art/Character v.2/separate/block/::1700614950
+char1_block.png::CompressedTexture2D::1986615133461649669::1700614828::1700614950::1::::<><>::
+char2_block.png::CompressedTexture2D::8726915703030007036::1700614828::1700614950::1::::<><>::
+char3_block.png::CompressedTexture2D::7115481986793912643::1700614828::1700614950::1::::<><>::
+char4_block.png::CompressedTexture2D::3893950747828953081::1700614828::1700614950::1::::<><>::
+char5_block.png::CompressedTexture2D::8972424739005937144::1700614828::1700614950::1::::<><>::
+char6_block.png::CompressedTexture2D::8372844714056131201::1700614828::1700614950::1::::<><>::
+char7_block.png::CompressedTexture2D::5289563321640850093::1700614828::1700614950::1::::<><>::
+char8_block.png::CompressedTexture2D::5730489746033383731::1700614828::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/block/acc/::1700614950
+beard_block.png::CompressedTexture2D::9107003302107856052::1700614828::1700614947::1::::<><>::
+earring_emerald_block.png::CompressedTexture2D::6195206198210218803::1700614828::1700614947::1::::<><>::
+earring_emerald_silver_block.png::CompressedTexture2D::6336109416517962792::1700614828::1700614947::1::::<><>::
+earring_red_block.png::CompressedTexture2D::3652465685844172905::1700614829::1700614947::1::::<><>::
+earring_red_silver_block.png::CompressedTexture2D::555160711708733134::1700614829::1700614950::1::::<><>::
+glasses_block.png::CompressedTexture2D::6781123451422439352::1700614829::1700614950::1::::<><>::
+glasses_sun_block.png::CompressedTexture2D::1908996801537663420::1700614829::1700614950::1::::<><>::
+hat_cowboy_block.png::CompressedTexture2D::4788431956308445102::1700614829::1700614950::1::::<><>::
+hat_lucky_block.png::CompressedTexture2D::9049247118708595184::1700614829::1700614950::1::::<><>::
+hat_pumpkin_block.png::CompressedTexture2D::1095310219049288803::1700614829::1700614950::1::::<><>::
+hat_pumpkin_purple_block.png::CompressedTexture2D::4528289945839591307::1700614829::1700614950::1::::<><>::
+hat_witch_block.png::CompressedTexture2D::2796933577706802001::1700614829::1700614950::1::::<><>::
+mask_clown_blue_block.png::CompressedTexture2D::3017007725225116394::1700614829::1700614950::1::::<><>::
+mask_clown_red_block.png::CompressedTexture2D::8328073392082029721::1700614829::1700614950::1::::<><>::
+mask_spooky_block.png::CompressedTexture2D::8227557656829074545::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/block/clothes/::1700614950
+basic_block.png::CompressedTexture2D::4427617643190672659::1700614829::1700614950::1::::<><>::
+clown_block.png::CompressedTexture2D::8089433608598484252::1700614829::1700614950::1::::<><>::
+dress_block.png::CompressedTexture2D::7473771661406898068::1700614829::1700614950::1::::<><>::
+floral_block.png::CompressedTexture2D::3506429396609384222::1700614829::1700614950::1::::<><>::
+overall_block.png::CompressedTexture2D::551138557578040013::1700614829::1700614950::1::::<><>::
+pants_block.png::CompressedTexture2D::7421007904239768079::1700614829::1700614950::1::::<><>::
+pants_suit_block.png::CompressedTexture2D::1112135660931545::1700614829::1700614950::1::::<><>::
+pumpkin_block.png::CompressedTexture2D::416296018731542883::1700614829::1700614950::1::::<><>::
+sailor_block.png::CompressedTexture2D::3386230767416548927::1700614829::1700614950::1::::<><>::
+sailor_bow_block.png::CompressedTexture2D::7954943050008883027::1700614829::1700614950::1::::<><>::
+shoes_block.png::CompressedTexture2D::7069503955441855345::1700614829::1700614950::1::::<><>::
+skirt_block.png::CompressedTexture2D::5337222488637018362::1700614829::1700614950::1::::<><>::
+skull_block.png::CompressedTexture2D::5695201542021716533::1700614829::1700614950::1::::<><>::
+spaghetti_block.png::CompressedTexture2D::8023680588751473445::1700614829::1700614950::1::::<><>::
+spooky_block.png::CompressedTexture2D::3815555838414975024::1700614829::1700614950::1::::<><>::
+sporty_block.png::CompressedTexture2D::7516605970028531997::1700614829::1700614950::1::::<><>::
+stripe_block.png::CompressedTexture2D::7472796623431125896::1700614829::1700614950::1::::<><>::
+suit_block.png::CompressedTexture2D::8893105196172889936::1700614829::1700614950::1::::<><>::
+witch_block.png::CompressedTexture2D::13029641937860026::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/block/eyes/::1700614950
+blush_block.png::CompressedTexture2D::3564049481627081119::1700614829::1700614950::1::::<><>::
+eyes_block.png::CompressedTexture2D::3678836022020159674::1700614829::1700614950::1::::<><>::
+lipstick_block.png::CompressedTexture2D::8397317726744677382::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/block/hair/::1700614950
+bob_block.png::CompressedTexture2D::3690432944246758604::1700614829::1700614950::1::::<><>::
+braids_block.png::CompressedTexture2D::464113967976706924::1700614829::1700614950::1::::<><>::
+buzzcut_block.png::CompressedTexture2D::9207308385443121709::1700614829::1700614950::1::::<><>::
+curly_block.png::CompressedTexture2D::6982812618405301687::1700614829::1700614950::1::::<><>::
+emo_block.png::CompressedTexture2D::7461305735307477310::1700614829::1700614950::1::::<><>::
+extra_long_block.png::CompressedTexture2D::5861633697144959022::1700614829::1700614950::1::::<><>::
+french_curl_block.png::CompressedTexture2D::2661265604864492076::1700614829::1700614950::1::::<><>::
+gentleman_block.png::CompressedTexture2D::3255989426188992019::1700614829::1700614950::1::::<><>::
+long_straight_block.png::CompressedTexture2D::377456320041708602::1700614829::1700614950::1::::<><>::
+midiwave_block.png::CompressedTexture2D::692212530693471241::1700614829::1700614950::1::::<><>::
+ponytail_block.png::CompressedTexture2D::2390066864626481466::1700614829::1700614950::1::::<><>::
+spacebuns_block.png::CompressedTexture2D::1974163884723513165::1700614829::1700614950::1::::<><>::
+wavy_block.png::CompressedTexture2D::8691242035260089436::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/block/tool/::1700614950
+sword_block.png::CompressedTexture2D::6686316434964310265::1700614829::1700614950::1::::<><>::
+sword_block_blue.png::CompressedTexture2D::4882928661630991729::1700614829::1700614950::1::::<><>::
+sword_block_copper.png::CompressedTexture2D::6309560543565325656::1700614829::1700614950::1::::<><>::
+sword_block_gold.png::CompressedTexture2D::7124705646423589870::1700614829::1700614950::1::::<><>::
+sword_block_pink.png::CompressedTexture2D::5126343564983186451::1700614829::1700614950::1::::<><>::
+sword_block_wood.png::CompressedTexture2D::9198676668234539660::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/block/without/::1700614950
+char1_block_without.png::CompressedTexture2D::4385327029968549921::1700614829::1700614950::1::::<><>::
+char2_block_without.png::CompressedTexture2D::28401025497821879::1700614829::1700614950::1::::<><>::
+char3_block_without.png::CompressedTexture2D::8881949259874926158::1700614829::1700614950::1::::<><>::
+char4_block_without.png::CompressedTexture2D::3587631599569859109::1700614829::1700614950::1::::<><>::
+char5_block_without.png::CompressedTexture2D::5878376830199789746::1700614829::1700614950::1::::<><>::
+char6_block_without.png::CompressedTexture2D::567833462094458098::1700614829::1700614950::1::::<><>::
+char7_block_without.png::CompressedTexture2D::2258711584824147591::1700614829::1700614950::1::::<><>::
+char8_block_without.png::CompressedTexture2D::5339195491692169215::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/carry/::1700614950
+char1_carry.png::CompressedTexture2D::3462699970009734084::1700614829::1700614950::1::::<><>::
+char2_carry.png::CompressedTexture2D::9191514848931187314::1700614829::1700614950::1::::<><>::
+char3_carry.png::CompressedTexture2D::6235945169855807370::1700614829::1700614950::1::::<><>::
+char4_carry.png::CompressedTexture2D::706186645990413909::1700614829::1700614950::1::::<><>::
+char5_carry.png::CompressedTexture2D::32368372803425038::1700614829::1700614950::1::::<><>::
+char6_carry.png::CompressedTexture2D::6857805285240629759::1700614829::1700614950::1::::<><>::
+char7_carry.png::CompressedTexture2D::5498093426756849160::1700614829::1700614950::1::::<><>::
+char8_carry.png::CompressedTexture2D::1159913938168174002::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/carry/acc/::1700614950
+beard_carry.png::CompressedTexture2D::7116214091070606697::1700614829::1700614950::1::::<><>::
+glasses_carry.png::CompressedTexture2D::455679621562792778::1700614829::1700614950::1::::<><>::
+glasses_sun_carry.png::CompressedTexture2D::314973706638275213::1700614829::1700614950::1::::<><>::
+hat_cowboy_carry.png::CompressedTexture2D::5787708684821998657::1700614829::1700614950::1::::<><>::
+hat_lucky_carry.png::CompressedTexture2D::6777871976183132286::1700614829::1700614950::1::::<><>::
+hat_pumpkin_carry.png::CompressedTexture2D::196461444590661395::1700614829::1700614950::1::::<><>::
+hat_pumpkin_purple_carry.png::CompressedTexture2D::7072973773489664432::1700614829::1700614950::1::::<><>::
+hat_witch_carry.png::CompressedTexture2D::1462660559930510794::1700614829::1700614950::1::::<><>::
+mask_clown_blue_carry.png::CompressedTexture2D::4407508835584893942::1700614829::1700614950::1::::<><>::
+mask_clown_red_carry.png::CompressedTexture2D::3062477048278885786::1700614829::1700614950::1::::<><>::
+mask_spooky_carry.png::CompressedTexture2D::1255498710240076342::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/carry/clothes/::1700614950
+basic_carry.png::CompressedTexture2D::1724414609256354694::1700614829::1700614950::1::::<><>::
+clown_carry.png::CompressedTexture2D::7987478078608879597::1700614829::1700614950::1::::<><>::
+dress_carry.png::CompressedTexture2D::4831855735141498550::1700614829::1700614950::1::::<><>::
+floral_carry.png::CompressedTexture2D::3157514942326207029::1700614829::1700614950::1::::<><>::
+overall_carry.png::CompressedTexture2D::3834321644188060753::1700614829::1700614950::1::::<><>::
+pants_carry.png::CompressedTexture2D::8848724602117611634::1700614829::1700614950::1::::<><>::
+pants_suit_carry.png::CompressedTexture2D::6615435061178557107::1700614829::1700614950::1::::<><>::
+pumpkin_carry.png::CompressedTexture2D::980035062513891190::1700614829::1700614950::1::::<><>::
+sailor_bow_carry.png::CompressedTexture2D::5918136141747753872::1700614829::1700614950::1::::<><>::
+sailor_carry.png::CompressedTexture2D::7020783790815560526::1700614829::1700614950::1::::<><>::
+shoes_carry.png::CompressedTexture2D::2205715580217062624::1700614829::1700614950::1::::<><>::
+skirt_carry.png::CompressedTexture2D::1733487470328030399::1700614829::1700614950::1::::<><>::
+skull_carry.png::CompressedTexture2D::6936114456889220217::1700614829::1700614950::1::::<><>::
+spaghetti_carry.png::CompressedTexture2D::1891773249072414128::1700614829::1700614950::1::::<><>::
+spooky_carry.png::CompressedTexture2D::7508464005684346155::1700614829::1700614950::1::::<><>::
+sporty_carry.png::CompressedTexture2D::7103633321592855282::1700614829::1700614950::1::::<><>::
+stripe_carry.png::CompressedTexture2D::2700846537163905584::1700614829::1700614950::1::::<><>::
+suit_carry.png::CompressedTexture2D::2990475675236375821::1700614829::1700614950::1::::<><>::
+witch_carry.png::CompressedTexture2D::795184611015698109::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/carry/eyes/::1700614950
+blush_carry.png::CompressedTexture2D::1039183764724576326::1700614829::1700614950::1::::<><>::
+eyes_carry.png::CompressedTexture2D::8415110577372687461::1700614829::1700614950::1::::<><>::
+lipstick_carry.png::CompressedTexture2D::341703859591756978::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/carry/hair/::1700614950
+bob_carry.png::CompressedTexture2D::3724337673465741563::1700614829::1700614950::1::::<><>::
+braids_carry.png::CompressedTexture2D::8422659425145795605::1700614829::1700614950::1::::<><>::
+buzzcut_carry.png::CompressedTexture2D::2446596397731939635::1700614829::1700614950::1::::<><>::
+curly_carry.png::CompressedTexture2D::4133991940951302766::1700614829::1700614950::1::::<><>::
+emo_carry.png::CompressedTexture2D::6383175680240757924::1700614829::1700614950::1::::<><>::
+extra_long_carry.png::CompressedTexture2D::3063094010958438339::1700614829::1700614950::1::::<><>::
+french_curl_carry.png::CompressedTexture2D::3508384623554368603::1700614829::1700614950::1::::<><>::
+gentleman_carry.png::CompressedTexture2D::6340522825467263260::1700614829::1700614950::1::::<><>::
+long_straight_carry.png::CompressedTexture2D::8326522763577426315::1700614829::1700614950::1::::<><>::
+midiwave_carry.png::CompressedTexture2D::1469666491734779588::1700614829::1700614950::1::::<><>::
+ponytail_carry.png::CompressedTexture2D::5809391574673471218::1700614829::1700614950::1::::<><>::
+spacebuns_carry.png::CompressedTexture2D::5323672453253924587::1700614829::1700614950::1::::<><>::
+wavy_carry.png::CompressedTexture2D::5874331908374590010::1700614829::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/die/::1700614950
+char1_die.png::CompressedTexture2D::5087174133291780045::1700614829::1700614950::1::::<><>::
+char2_die.png::CompressedTexture2D::4607739445928449996::1700614829::1700614950::1::::<><>::
+char3_die.png::CompressedTexture2D::7901962859682727908::1700614829::1700614950::1::::<><>::
+char4_die.png::CompressedTexture2D::682937468238742441::1700614829::1700614950::1::::<><>::
+char5_die.png::CompressedTexture2D::5041109856039163782::1700614830::1700614950::1::::<><>::
+char6_die.png::CompressedTexture2D::5606159742247453750::1700614830::1700614950::1::::<><>::
+char7_die.png::CompressedTexture2D::1999800815594049778::1700614830::1700614950::1::::<><>::
+char8_die.png::CompressedTexture2D::3959602027973678619::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/die/acc/::1700614950
+beard_die.png::CompressedTexture2D::8105841304678068658::1700614830::1700614950::1::::<><>::
+earring_emerald_die.png::CompressedTexture2D::7421754914845403381::1700614830::1700614950::1::::<><>::
+earring_emerald_silver_die.png::CompressedTexture2D::3067166903138317380::1700614830::1700614950::1::::<><>::
+earring_red_die.png::CompressedTexture2D::9113389265848353579::1700614830::1700614950::1::::<><>::
+earring_red_silver_die.png::CompressedTexture2D::2259947386221491231::1700614830::1700614950::1::::<><>::
+glasses_die.png::CompressedTexture2D::8704882114766505586::1700614830::1700614950::1::::<><>::
+glasses_sun_die.png::CompressedTexture2D::7130194606558457197::1700614830::1700614950::1::::<><>::
+hat_cowboy_die.png::CompressedTexture2D::8521695587031064156::1700614830::1700614950::1::::<><>::
+hat_lucky_die.png::CompressedTexture2D::7799767287251147920::1700614830::1700614950::1::::<><>::
+hat_pumpkin_die.png::CompressedTexture2D::646344787695005004::1700614830::1700614950::1::::<><>::
+hat_pumpkin_purple_die.png::CompressedTexture2D::8721257217432440656::1700614830::1700614950::1::::<><>::
+hat_witch_die.png::CompressedTexture2D::99319871396921356::1700614830::1700614950::1::::<><>::
+mask_clown_blue_die.png::CompressedTexture2D::8631055407119623011::1700614830::1700614950::1::::<><>::
+mask_clown_red_die.png::CompressedTexture2D::1602194473614497561::1700614830::1700614950::1::::<><>::
+mask_spooky_die.png::CompressedTexture2D::3271017809287853064::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/die/clothes/::1700614950
+basic_die.png::CompressedTexture2D::6767149882065761846::1700614830::1700614950::1::::<><>::
+clown_die.png::CompressedTexture2D::5673531430408500114::1700614830::1700614950::1::::<><>::
+dress_die.png::CompressedTexture2D::6987571228199393207::1700614830::1700614950::1::::<><>::
+floral_die.png::CompressedTexture2D::8202857243178514375::1700614830::1700614950::1::::<><>::
+overall_die.png::CompressedTexture2D::2725486285652763888::1700614830::1700614950::1::::<><>::
+pants_die.png::CompressedTexture2D::7288692356349770404::1700614830::1700614950::1::::<><>::
+pants_suit_die.png::CompressedTexture2D::9170369490963609201::1700614830::1700614950::1::::<><>::
+pumpkin_die.png::CompressedTexture2D::8381710911478771280::1700614830::1700614950::1::::<><>::
+sailor_bow_die.png::CompressedTexture2D::1530974094174547528::1700614830::1700614950::1::::<><>::
+sailor_die.png::CompressedTexture2D::2183263431255654273::1700614830::1700614950::1::::<><>::
+shoes_die.png::CompressedTexture2D::3901227727828689793::1700614830::1700614950::1::::<><>::
+skirt_die.png::CompressedTexture2D::5169015711816111436::1700614830::1700614950::1::::<><>::
+skull_die.png::CompressedTexture2D::1944924790561423481::1700614830::1700614950::1::::<><>::
+spaghetti_die.png::CompressedTexture2D::3810255513560151875::1700614830::1700614950::1::::<><>::
+spooky_die.png::CompressedTexture2D::4014956519786070344::1700614830::1700614950::1::::<><>::
+sporty_die.png::CompressedTexture2D::3207542128851544158::1700614830::1700614950::1::::<><>::
+stripe_die.png::CompressedTexture2D::5439731696050429852::1700614830::1700614950::1::::<><>::
+suit_die.png::CompressedTexture2D::2465547875984244096::1700614830::1700614950::1::::<><>::
+witch_die.png::CompressedTexture2D::460318073770364713::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/die/eyes/::1700614950
+blush_die.png::CompressedTexture2D::5931030176742405783::1700614830::1700614950::1::::<><>::
+eyes_die.png::CompressedTexture2D::8095899515425860135::1700614830::1700614950::1::::<><>::
+lipstick_die.png::CompressedTexture2D::9193161786074066490::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/die/hair/::1700614950
+bob_die.png::CompressedTexture2D::3042671569876551605::1700614830::1700614950::1::::<><>::
+braids_die.png::CompressedTexture2D::8583483725950579687::1700614830::1700614950::1::::<><>::
+buzzcut_die.png::CompressedTexture2D::3262538030522160029::1700614830::1700614950::1::::<><>::
+curly_die.png::CompressedTexture2D::3362173476333014593::1700614830::1700614950::1::::<><>::
+emo_die.png::CompressedTexture2D::8005562382993061558::1700614830::1700614950::1::::<><>::
+extra_long_die.png::CompressedTexture2D::7315356718008626472::1700614830::1700614950::1::::<><>::
+frenchcurl_die.png::CompressedTexture2D::1796672780697500903::1700614830::1700614950::1::::<><>::
+gentleman_die.png::CompressedTexture2D::5976268267395891546::1700614830::1700614950::1::::<><>::
+long_straight_die.png::CompressedTexture2D::737047422050906919::1700614830::1700614950::1::::<><>::
+midiwave_die.png::CompressedTexture2D::6716932572171112559::1700614830::1700614950::1::::<><>::
+ponytail_die.png::CompressedTexture2D::3653226997262296921::1700614830::1700614950::1::::<><>::
+spacebuns_die.png::CompressedTexture2D::3831421107237350828::1700614830::1700614950::1::::<><>::
+wavy_die.png::CompressedTexture2D::2699145059892612678::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/fish/::1700614950
+char1_fish.png::CompressedTexture2D::3363019495066265219::1700614830::1700614950::1::::<><>::
+char2_fish.png::CompressedTexture2D::7734060308766510644::1700614830::1700614950::1::::<><>::
+char3_fish.png::CompressedTexture2D::5353643543062463043::1700614830::1700614950::1::::<><>::
+char4_fish.png::CompressedTexture2D::3994457880065553324::1700614830::1700614950::1::::<><>::
+char5_fish.png::CompressedTexture2D::1434468277266501726::1700614830::1700614950::1::::<><>::
+char6_fish.png::CompressedTexture2D::5948852711492293404::1700614830::1700614950::1::::<><>::
+char7_fish.png::CompressedTexture2D::7595715052450619788::1700614830::1700614950::1::::<><>::
+char8_fish.png::CompressedTexture2D::3159758768110302553::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/fish/acc/::1700614950
+beard_fish.png::CompressedTexture2D::5949866851566625882::1700614830::1700614950::1::::<><>::
+earring_emerald_fish.png::CompressedTexture2D::6673047743991851721::1700614830::1700614950::1::::<><>::
+earring_emerald_silver_fish.png::CompressedTexture2D::2546995337497351099::1700614830::1700614950::1::::<><>::
+earring_red_fish.png::CompressedTexture2D::6834206547465901672::1700614830::1700614950::1::::<><>::
+earring_red_silver_fish.png::CompressedTexture2D::8638200669729790921::1700614830::1700614950::1::::<><>::
+glasses_fish.png::CompressedTexture2D::6994440405235885748::1700614830::1700614950::1::::<><>::
+glasses_sun_fish.png::CompressedTexture2D::8693788123372379626::1700614830::1700614950::1::::<><>::
+hat_cowboy_fish.png::CompressedTexture2D::2072826778816934367::1700614830::1700614950::1::::<><>::
+hat_lucky_fish.png::CompressedTexture2D::8153355546486661635::1700614830::1700614950::1::::<><>::
+hat_pumpkin_fish.png::CompressedTexture2D::1143188940230859064::1700614830::1700614950::1::::<><>::
+hat_pumpkin_purple_fish.png::CompressedTexture2D::4185874307504748906::1700614830::1700614950::1::::<><>::
+hat_witch_fish.png::CompressedTexture2D::815354917105884283::1700614830::1700614950::1::::<><>::
+mask_clown_blue_fish.png::CompressedTexture2D::6008043972805206437::1700614830::1700614950::1::::<><>::
+mask_clown_red_fish.png::CompressedTexture2D::1693460574484017339::1700614830::1700614950::1::::<><>::
+mask_spooky_fish.png::CompressedTexture2D::8460216155106145883::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/fish/clothes/::1700614950
+basic_fish.png::CompressedTexture2D::2817074032811753975::1700614830::1700614950::1::::<><>::
+clown_fish.png::CompressedTexture2D::6035297762833960793::1700614830::1700614950::1::::<><>::
+dress_fish.png::CompressedTexture2D::1021027741985903879::1700614830::1700614950::1::::<><>::
+floral_fish.png::CompressedTexture2D::8413866219647940717::1700614830::1700614950::1::::<><>::
+overall_fish.png::CompressedTexture2D::8677176165991964803::1700614830::1700614950::1::::<><>::
+pants_fish.png::CompressedTexture2D::5821094639350302431::1700614830::1700614950::1::::<><>::
+pants_suit_fish.png::CompressedTexture2D::5613102831432547726::1700614830::1700614950::1::::<><>::
+pumpkin_fish.png::CompressedTexture2D::5174283442069671870::1700614830::1700614950::1::::<><>::
+sailor_bow_fish.png::CompressedTexture2D::6839009536922887848::1700614830::1700614950::1::::<><>::
+sailor_fish.png::CompressedTexture2D::5145686848016955861::1700614830::1700614950::1::::<><>::
+shoes_fish.png::CompressedTexture2D::911549653206965013::1700614830::1700614950::1::::<><>::
+skirt_fish.png::CompressedTexture2D::6236409906916171488::1700614830::1700614950::1::::<><>::
+skull_fish.png::CompressedTexture2D::2746509462062957821::1700614830::1700614950::1::::<><>::
+spaghetti_fish.png::CompressedTexture2D::4000422686261997659::1700614830::1700614950::1::::<><>::
+spooky_fish.png::CompressedTexture2D::7976516032087975346::1700614830::1700614950::1::::<><>::
+sporty_fish.png::CompressedTexture2D::932493875135562071::1700614830::1700614950::1::::<><>::
+stripe_fish.png::CompressedTexture2D::7020881950783552930::1700614830::1700614950::1::::<><>::
+suit_fish.png::CompressedTexture2D::432713542562749450::1700614830::1700614950::1::::<><>::
+witch_fish.png::CompressedTexture2D::2100808021926989032::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/fish/eyes/::1700614950
+blush_fish.png::CompressedTexture2D::4176546346682659335::1700614830::1700614950::1::::<><>::
+eyes_fish.png::CompressedTexture2D::6540644782948116292::1700614830::1700614950::1::::<><>::
+lipstick_fish.png::CompressedTexture2D::7418047289895582495::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/fish/hair/::1700614950
+bob_fish.png::CompressedTexture2D::152244450849645890::1700614830::1700614950::1::::<><>::
+braids_fish.png::CompressedTexture2D::3092911142429981653::1700614830::1700614950::1::::<><>::
+buzzcut_fish.png::CompressedTexture2D::3435851565167607409::1700614830::1700614950::1::::<><>::
+curly_fish.png::CompressedTexture2D::5711171413790424040::1700614830::1700614950::1::::<><>::
+emo_fish.png::CompressedTexture2D::5152615783353547800::1700614830::1700614950::1::::<><>::
+extra_long_fish.png::CompressedTexture2D::1437186019191546743::1700614830::1700614950::1::::<><>::
+french_curl_fish.png::CompressedTexture2D::4351642979626490511::1700614830::1700614950::1::::<><>::
+gentleman_fish.png::CompressedTexture2D::5966289678565882029::1700614830::1700614950::1::::<><>::
+long_straight_fish.png::CompressedTexture2D::1124928910334140222::1700614830::1700614950::1::::<><>::
+midiwave_fish.png::CompressedTexture2D::4788235162623947243::1700614830::1700614950::1::::<><>::
+ponytail_fish.png::CompressedTexture2D::5353977626707109118::1700614830::1700614950::1::::<><>::
+spacebuns_fish.png::CompressedTexture2D::8116740042015232931::1700614830::1700614950::1::::<><>::
+wavy_fish.png::CompressedTexture2D::2289012036444467967::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/fish/tool/::1700614950
+bobber.png::CompressedTexture2D::1317537966610804144::1700614830::1700614950::1::::<><>::
+fishingrod.png::CompressedTexture2D::1855950969607559851::1700614830::1700614950::1::::<><>::
+fishingrod_blue.png::CompressedTexture2D::5848027581954860544::1700614830::1700614950::1::::<><>::
+fishingrod_brown.png::CompressedTexture2D::5481188962380629816::1700614830::1700614950::1::::<><>::
+fishingrod_pink.png::CompressedTexture2D::923770200622914871::1700614830::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/fish/without/::1700614950
+char1_fish_without.png::CompressedTexture2D::6280394209123984922::1700614830::1700614950::1::::<><>::
+char2_fish_without.png::CompressedTexture2D::8387910982106645828::1700614830::1700614950::1::::<><>::
+char3_fish_without.png::CompressedTexture2D::7380284399453257781::1700614830::1700614950::1::::<><>::
+char4_fish_without.png::CompressedTexture2D::4298265381818309019::1700614830::1700614950::1::::<><>::
+char5_fish_without.png::CompressedTexture2D::331609560350319446::1700614830::1700614950::1::::<><>::
+char6_fish_without.png::CompressedTexture2D::6909942616089173699::1700614830::1700614950::1::::<><>::
+char7_fish_without.png::CompressedTexture2D::8827942021758940532::1700614830::1700614950::1::::<><>::
+char8_fish_without.png::CompressedTexture2D::8922866289282461615::1700614831::1700614950::1::::<><>::
+::res://Art/Character v.2/separate/hoe/::1700614939
+char1_hoe.png::CompressedTexture2D::8588438650103849629::1700614831::1700614939::1::::<><>::
+char2_hoe.png::CompressedTexture2D::4197067032156349777::1700614831::1700614939::1::::<><>::
+char3_hoe.png::CompressedTexture2D::4564428447366355266::1700614831::1700614939::1::::<><>::
+char4_hoe.png::CompressedTexture2D::2921373222451431311::1700614831::1700614939::1::::<><>::
+char5_hoe.png::CompressedTexture2D::7724924163675358671::1700614831::1700614939::1::::<><>::
+char6_hoe.png::CompressedTexture2D::8278695554036595398::1700614831::1700614939::1::::<><>::
+char7_hoe.png::CompressedTexture2D::2387505096594339678::1700614831::1700614939::1::::<><>::
+char8_hoe.png::CompressedTexture2D::3965535658073271954::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hoe/acc/::1700614950
+beard_hoe.png::CompressedTexture2D::4733667475207644545::1700614831::1700614950::1::::<><>::
+earring_emerald_hoe.png::CompressedTexture2D::7801640135307349235::1700614831::1700614950::1::::<><>::
+earring_emerald_silver_hoe.png::CompressedTexture2D::3874773155367003383::1700614831::1700614950::1::::<><>::
+earring_red_hoe.png::CompressedTexture2D::8753952716994189007::1700614831::1700614950::1::::<><>::
+earring_red_silver_hoe.png::CompressedTexture2D::5134448978111916797::1700614831::1700614950::1::::<><>::
+glasses_hoe.png::CompressedTexture2D::665070371668860531::1700614831::1700614950::1::::<><>::
+glasses_sun_hoe.png::CompressedTexture2D::4616772303014807448::1700614831::1700614950::1::::<><>::
+hat_cowboy_hoe.png::CompressedTexture2D::4681173762085485730::1700614831::1700614950::1::::<><>::
+hat_lucky_hoe.png::CompressedTexture2D::1440377196752237986::1700614831::1700614939::1::::<><>::
+hat_pumpkin_hoe.png::CompressedTexture2D::4369487606765573093::1700614831::1700614939::1::::<><>::
+hat_pumpkin_purple_hoe.png::CompressedTexture2D::8615150404315662871::1700614831::1700614939::1::::<><>::
+hat_witch_hoe.png::CompressedTexture2D::4655409964444528848::1700614831::1700614939::1::::<><>::
+mask_clown_blue_hoe.png::CompressedTexture2D::7115043844103407571::1700614831::1700614939::1::::<><>::
+mask_clown_red_hoe.png::CompressedTexture2D::523219184309278017::1700614831::1700614939::1::::<><>::
+mask_spooky_hoe.png::CompressedTexture2D::1662188489965307840::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hoe/clothes/::1700614939
+basic_hoe.png::CompressedTexture2D::5821124529949825205::1700614831::1700614939::1::::<><>::
+clown_hoe.png::CompressedTexture2D::3306525767737552573::1700614831::1700614939::1::::<><>::
+dress_hoe.png::CompressedTexture2D::4641545059437453336::1700614831::1700614939::1::::<><>::
+floral_hoe.png::CompressedTexture2D::2856144734691611816::1700614831::1700614939::1::::<><>::
+overall_hoe.png::CompressedTexture2D::8521815444781457039::1700614831::1700614939::1::::<><>::
+pants_hoe.png::CompressedTexture2D::2079384660452548937::1700614831::1700614939::1::::<><>::
+pants_suit_hoe.png::CompressedTexture2D::351190089539079371::1700614831::1700614939::1::::<><>::
+pumpkin_hoe.png::CompressedTexture2D::659905787237195374::1700614831::1700614939::1::::<><>::
+sailor_bow_hoe.png::CompressedTexture2D::8448309784175645209::1700614831::1700614939::1::::<><>::
+sailor_hoe.png::CompressedTexture2D::4470183883607198831::1700614831::1700614939::1::::<><>::
+shoes_hoe.png::CompressedTexture2D::7477305912255098836::1700614831::1700614939::1::::<><>::
+skirt_hoe.png::CompressedTexture2D::1418275668700740928::1700614831::1700614939::1::::<><>::
+skull_hoe.png::CompressedTexture2D::1735857223598594185::1700614831::1700614939::1::::<><>::
+spaghetti_hoe.png::CompressedTexture2D::7167057556879763322::1700614831::1700614939::1::::<><>::
+spooky_hoe.png::CompressedTexture2D::6964233688919803266::1700614831::1700614939::1::::<><>::
+sporty_hoe.png::CompressedTexture2D::7206783177320439684::1700614831::1700614939::1::::<><>::
+stripe_hoe.png::CompressedTexture2D::7355409846839300271::1700614831::1700614939::1::::<><>::
+suit_hoe.png::CompressedTexture2D::7477311402542568861::1700614831::1700614939::1::::<><>::
+witch_hoe.png::CompressedTexture2D::9165615262348172888::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hoe/eyes/::1700614939
+blush_hoe.png::CompressedTexture2D::3697673613784936204::1700614831::1700614939::1::::<><>::
+eyes_hoe.png::CompressedTexture2D::8634450070557397331::1700614831::1700614939::1::::<><>::
+lipstick_hoe.png::CompressedTexture2D::555913807595850812::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hoe/hair/::1700614939
+bob_hoe.png::CompressedTexture2D::6600074850410559092::1700614831::1700614939::1::::<><>::
+braids_hoe.png::CompressedTexture2D::5305744876730397092::1700614831::1700614939::1::::<><>::
+buzzcut_hoe.png::CompressedTexture2D::4265174691415124156::1700614831::1700614939::1::::<><>::
+curly_hoe.png::CompressedTexture2D::6213259383867913936::1700614831::1700614939::1::::<><>::
+emo_hoe.png::CompressedTexture2D::7055219648201742007::1700614831::1700614939::1::::<><>::
+extra_long_hoe.png::CompressedTexture2D::8203064526698740680::1700614831::1700614939::1::::<><>::
+french_curl_hoe.png::CompressedTexture2D::4105445703438233628::1700614831::1700614939::1::::<><>::
+gentleman_hoe.png::CompressedTexture2D::1129643638477574167::1700614831::1700614939::1::::<><>::
+long_straight_hoe.png::CompressedTexture2D::3351960539195796843::1700614831::1700614939::1::::<><>::
+midiwave_hoe.png::CompressedTexture2D::7711016717425198288::1700614831::1700614939::1::::<><>::
+ponytail_hoe.png::CompressedTexture2D::4487369602192238176::1700614831::1700614939::1::::<><>::
+spacebuns_hoe.png::CompressedTexture2D::1147741771018688180::1700614831::1700614939::1::::<><>::
+wavy_hoe.png::CompressedTexture2D::7459894749223749868::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hoe/tool/::1700614939
+hoe.png::CompressedTexture2D::4744167426442512315::1700614831::1700614939::1::::<><>::
+hoe_blue.png::CompressedTexture2D::147567398413609199::1700614831::1700614939::1::::<><>::
+hoe_copper.png::CompressedTexture2D::1698409292618557779::1700614831::1700614939::1::::<><>::
+hoe_gold.png::CompressedTexture2D::5447934171776812869::1700614831::1700614939::1::::<><>::
+hoe_pink.png::CompressedTexture2D::4830838393591217867::1700614831::1700614939::1::::<><>::
+hoe_silver.png::CompressedTexture2D::7155085923022875129::1700614831::1700614939::1::::<><>::
+hoe_wood.png::CompressedTexture2D::3484906648489092957::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hoe/without/::1700614939
+char1_hoe_without.png::CompressedTexture2D::5216493338729215876::1700614831::1700614939::1::::<><>::
+char2_hoe_without.png::CompressedTexture2D::2653626644697328061::1700614831::1700614939::1::::<><>::
+char3_hoe_without.png::CompressedTexture2D::8313212895375715549::1700614831::1700614939::1::::<><>::
+char4_hoe_without.png::CompressedTexture2D::3766327413518294598::1700614831::1700614939::1::::<><>::
+char5_hoe_without.png::CompressedTexture2D::2541709964707929374::1700614831::1700614939::1::::<><>::
+char6_hoe_without.png::CompressedTexture2D::7214810609272023290::1700614831::1700614939::1::::<><>::
+char7_hoe_without.png::CompressedTexture2D::9021489713973417283::1700614831::1700614939::1::::<><>::
+char8_hoe_without.png::CompressedTexture2D::8598167097912618526::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hurt/::1700614939
+char1_hurt.png::CompressedTexture2D::260569022624622512::1700614831::1700614939::1::::<><>::
+char2_hurt.png::CompressedTexture2D::3794220854179321309::1700614831::1700614939::1::::<><>::
+char3_hurt.png::CompressedTexture2D::8461636848422276466::1700614831::1700614939::1::::<><>::
+char4_hurt.png::CompressedTexture2D::5730991866732484572::1700614831::1700614939::1::::<><>::
+char5_hurt.png::CompressedTexture2D::3310835545579971825::1700614831::1700614939::1::::<><>::
+char6_hurt.png::CompressedTexture2D::7155886551129335904::1700614831::1700614939::1::::<><>::
+char7_hurt.png::CompressedTexture2D::4214616480863580387::1700614831::1700614939::1::::<><>::
+char8_hurt.png::CompressedTexture2D::7699811116869377679::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hurt/acc/::1700614944
+beard_hurt.png::CompressedTexture2D::2557003300801413733::1700614831::1700614939::1::::<><>::
+earring_emerald_hurt.png::CompressedTexture2D::6225898686463738186::1700614831::1700614939::1::::<><>::
+earring_emerald_silver_hurt.png::CompressedTexture2D::2053049016978610692::1700614831::1700614939::1::::<><>::
+earring_red_hurt.png::CompressedTexture2D::6890798123660926094::1700614831::1700614939::1::::<><>::
+earring_red_silver_hurt.png::CompressedTexture2D::7434641336322597427::1700614831::1700614944::1::::<><>::
+glasses_hurt.png::CompressedTexture2D::2826809786026028815::1700614831::1700614944::1::::<><>::
+glasses_sun_hurt.png::CompressedTexture2D::6495420886000134433::1700614831::1700614944::1::::<><>::
+hat_cowboy_hurt.png::CompressedTexture2D::8045086061084835580::1700614831::1700614944::1::::<><>::
+hat_lucky_hurt.png::CompressedTexture2D::6470090936523367646::1700614831::1700614944::1::::<><>::
+hat_pumpkin_hurt.png::CompressedTexture2D::3401421591494564735::1700614831::1700614944::1::::<><>::
+hat_pumpkin_purple_hurt.png::CompressedTexture2D::415840315167779::1700614831::1700614944::1::::<><>::
+hat_witch_hurt.png::CompressedTexture2D::3340598164631806561::1700614831::1700614944::1::::<><>::
+mask_clown_blue_hurt.png::CompressedTexture2D::4421141696985117969::1700614831::1700614944::1::::<><>::
+mask_clown_hurt.png::CompressedTexture2D::8872830946971765189::1700614831::1700614944::1::::<><>::
+mask_spooky_hurt.png::CompressedTexture2D::2276163500769433867::1700614831::1700614944::1::::<><>::
+::res://Art/Character v.2/separate/hurt/clothes/::1700614944
+basic_hurt.png::CompressedTexture2D::8950678386335261492::1700614831::1700614944::1::::<><>::
+clown_hurt.png::CompressedTexture2D::8020055994461284918::1700614831::1700614944::1::::<><>::
+dress_hurt.png::CompressedTexture2D::907403560160301451::1700614831::1700614944::1::::<><>::
+floral_hurt.png::CompressedTexture2D::7982447383843472771::1700614831::1700614944::1::::<><>::
+overall_hurt.png::CompressedTexture2D::7188836501385518480::1700614831::1700614944::1::::<><>::
+pants_hurt.png::CompressedTexture2D::9093473764392782807::1700614831::1700614944::1::::<><>::
+pants_suit_hurt.png::CompressedTexture2D::9212002929437182425::1700614831::1700614944::1::::<><>::
+pumpkin_hurt.png::CompressedTexture2D::7696141627285752284::1700614831::1700614944::1::::<><>::
+sailor_bow_hurt.png::CompressedTexture2D::3627420682546328121::1700614831::1700614944::1::::<><>::
+sailor_hurt.png::CompressedTexture2D::485931392679943402::1700614831::1700614944::1::::<><>::
+shoes_hurt.png::CompressedTexture2D::193820357017177464::1700614831::1700614944::1::::<><>::
+skirt_hurt.png::CompressedTexture2D::2469712112070328762::1700614831::1700614944::1::::<><>::
+skull_hurt.png::CompressedTexture2D::6248821395143731502::1700614831::1700614944::1::::<><>::
+spaghetti_hurt.png::CompressedTexture2D::7447590702489955404::1700614831::1700614944::1::::<><>::
+spooky_hurt.png::CompressedTexture2D::2012967669834347343::1700614831::1700614944::1::::<><>::
+sporty_hurt.png::CompressedTexture2D::9085453397177355613::1700614831::1700614944::1::::<><>::
+stripe_hurt.png::CompressedTexture2D::5731527409836677094::1700614831::1700614944::1::::<><>::
+suit_hurt.png::CompressedTexture2D::8718382191896923287::1700614831::1700614944::1::::<><>::
+witch_hurt.png::CompressedTexture2D::7041830258164962905::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hurt/eyes/::1700614939
+blush_hurt.png::CompressedTexture2D::2911199939709528890::1700614831::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/hurt/hair/::1700614939
+bob_hurt.png::CompressedTexture2D::8251410649977945776::1700614831::1700614939::1::::<><>::
+braids_hurt.png::CompressedTexture2D::606506516308083075::1700614831::1700614939::1::::<><>::
+buzzcut_hurt.png::CompressedTexture2D::8523299647471555976::1700614831::1700614939::1::::<><>::
+curly_hurt.png::CompressedTexture2D::2699625168990146099::1700614831::1700614939::1::::<><>::
+emo_hurt.png::CompressedTexture2D::3464962788177532124::1700614832::1700614939::1::::<><>::
+extra_long_hurt.png::CompressedTexture2D::7980396965889686745::1700614832::1700614939::1::::<><>::
+french_curl_hurt.png::CompressedTexture2D::917799587973722410::1700614832::1700614939::1::::<><>::
+gentleman_hurt.png::CompressedTexture2D::4140800351249694468::1700614832::1700614939::1::::<><>::
+long_straight_hurt.png::CompressedTexture2D::1463883546130285552::1700614832::1700614939::1::::<><>::
+midiwave_hurt.png::CompressedTexture2D::7761676911648798767::1700614832::1700614939::1::::<><>::
+ponytail_hurt.png::CompressedTexture2D::6594153749712529701::1700614832::1700614939::1::::<><>::
+spacebuns_hurt.png::CompressedTexture2D::65559802268603785::1700614832::1700614939::1::::<><>::
+wavy_hurt.png::CompressedTexture2D::3860109097913376916::1700614832::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/jump/::1700614938
+char1_jump.png::CompressedTexture2D::2612366728644176957::1700614832::1700614938::1::::<><>::
+char2_jump.png::CompressedTexture2D::8382856507851557678::1700614832::1700614938::1::::<><>::
+char3_jump.png::CompressedTexture2D::6580785610614516694::1700614832::1700614938::1::::<><>::
+char4_jump.png::CompressedTexture2D::4652058789475036226::1700614832::1700614938::1::::<><>::
+char5_jump.png::CompressedTexture2D::5078473405225154281::1700614832::1700614938::1::::<><>::
+char6_jump.png::CompressedTexture2D::4773313630974985488::1700614832::1700614938::1::::<><>::
+char7_jump.png::CompressedTexture2D::2453016565955594474::1700614832::1700614938::1::::<><>::
+char8_jump.png::CompressedTexture2D::1360150500594375410::1700614832::1700614938::1::::<><>::
+::res://Art/Character v.2/separate/jump/acc/::1700614944
+beard_jump.png::CompressedTexture2D::2931143079860865683::1700614832::1700614944::1::::<><>::
+earring_emerald_jump.png::CompressedTexture2D::8307351007045903624::1700614832::1700614939::1::::<><>::
+earring_emerald_silver_jump.png::CompressedTexture2D::5388780703444581301::1700614832::1700614939::1::::<><>::
+earring_red_jump.png::CompressedTexture2D::8386893069887842072::1700614832::1700614939::1::::<><>::
+earring_red_silver_jump.png::CompressedTexture2D::8218710730210833008::1700614832::1700614939::1::::<><>::
+glasses_jump.png::CompressedTexture2D::4111966025540665711::1700614832::1700614944::1::::<><>::
+glasses_sun_jump.png::CompressedTexture2D::6918230921820817605::1700614832::1700614944::1::::<><>::
+hat_cowboy_jump.png::CompressedTexture2D::8925015078628111807::1700614832::1700614939::1::::<><>::
+hat_lucky_jump.png::CompressedTexture2D::6676700160673048181::1700614832::1700614939::1::::<><>::
+hat_pumpkin_jump.png::CompressedTexture2D::720361240206871415::1700614832::1700614938::1::::<><>::
+hat_pumpkin_purple_jump.png::CompressedTexture2D::3188118037353854653::1700614832::1700614938::1::::<><>::
+hat_witch_jump.png::CompressedTexture2D::8186378921128359709::1700614832::1700614938::1::::<><>::
+mask_clown_blue_jump.png::CompressedTexture2D::677772062989561456::1700614832::1700614938::1::::<><>::
+mask_clown_red_jump.png::CompressedTexture2D::6253395669223750822::1700614832::1700614938::1::::<><>::
+mask_spooky_jump.png::CompressedTexture2D::8055332914763141557::1700614832::1700614938::1::::<><>::
+::res://Art/Character v.2/separate/jump/clothes/::1700614938
+basic_jump.png::CompressedTexture2D::6924660692529671124::1700614832::1700614938::1::::<><>::
+clown_jump.png::CompressedTexture2D::175943911326127267::1700614832::1700614938::1::::<><>::
+dress_jump.png::CompressedTexture2D::6423319590592420329::1700614832::1700614938::1::::<><>::
+floral_jump.png::CompressedTexture2D::1315011351878253701::1700614832::1700614938::1::::<><>::
+overall_jump.png::CompressedTexture2D::4672394308344355025::1700614832::1700614938::1::::<><>::
+pants_jump.png::CompressedTexture2D::9194977187449158429::1700614832::1700614938::1::::<><>::
+pants_suit_jump.png::CompressedTexture2D::2552534165162605092::1700614832::1700614938::1::::<><>::
+pumpkin_jump.png::CompressedTexture2D::8756058892800025836::1700614832::1700614938::1::::<><>::
+sailor_bow_jump.png::CompressedTexture2D::5870338022162105531::1700614832::1700614938::1::::<><>::
+sailor_jump.png::CompressedTexture2D::4237257140105119270::1700614832::1700614938::1::::<><>::
+shoes_jump.png::CompressedTexture2D::5261275933338888050::1700614832::1700614938::1::::<><>::
+skirt_jump.png::CompressedTexture2D::5658883830104187948::1700614832::1700614938::1::::<><>::
+skull_jump.png::CompressedTexture2D::5443114278531799715::1700614832::1700614938::1::::<><>::
+spaghetti_jump.png::CompressedTexture2D::4512287045188627142::1700614832::1700614938::1::::<><>::
+spooky_jump.png::CompressedTexture2D::8606511786921274765::1700614832::1700614938::1::::<><>::
+sporty_jump.png::CompressedTexture2D::2133912623519000808::1700614832::1700614938::1::::<><>::
+stripe_jump.png::CompressedTexture2D::3131155764288431689::1700614832::1700614938::1::::<><>::
+suit_jump.png::CompressedTexture2D::2163114757552827967::1700614832::1700614938::1::::<><>::
+witch_jump.png::CompressedTexture2D::5081535370987579886::1700614832::1700614938::1::::<><>::
+::res://Art/Character v.2/separate/jump/eyes/::1700614939
+blush_jump.png::CompressedTexture2D::1346880060590006288::1700614832::1700614938::1::::<><>::
+eyes_jump.png::CompressedTexture2D::6319596171842766743::1700614832::1700614939::1::::<><>::
+lipstick_jump.png::CompressedTexture2D::8388704797595412285::1700614832::1700614938::1::::<><>::
+::res://Art/Character v.2/separate/jump/hair/::1700614939
+bob_jump.png::CompressedTexture2D::1039483128900887288::1700614832::1700614939::1::::<><>::
+braids_jump.png::CompressedTexture2D::6666876886028579535::1700614832::1700614939::1::::<><>::
+buzzcut_jump.png::CompressedTexture2D::3957906824396437406::1700614832::1700614939::1::::<><>::
+curly_jump.png::CompressedTexture2D::5729952500816323473::1700614832::1700614939::1::::<><>::
+emo_jump.png::CompressedTexture2D::3864259444069948271::1700614832::1700614938::1::::<><>::
+extra_long_jump.png::CompressedTexture2D::4207429178648142435::1700614832::1700614938::1::::<><>::
+french_curl_jump.png::CompressedTexture2D::2554032911650664936::1700614832::1700614938::1::::<><>::
+gentleman_jump.png::CompressedTexture2D::8008444199811635841::1700614832::1700614938::1::::<><>::
+long_straight_jump.png::CompressedTexture2D::5889448043242339461::1700614832::1700614938::1::::<><>::
+midiwave_jump.png::CompressedTexture2D::581118264675337441::1700614832::1700614938::1::::<><>::
+ponytail_jump.png::CompressedTexture2D::5662429313785917261::1700614832::1700614938::1::::<><>::
+spacebuns_jump.png::CompressedTexture2D::251270639053033677::1700614832::1700614938::1::::<><>::
+wavy_jump.png::CompressedTexture2D::2126377729386185620::1700614832::1700614938::1::::<><>::
+::res://Art/Character v.2/separate/pickaxe/::1700614939
+char1_pickaxe.png::CompressedTexture2D::2290115798478005091::1700614832::1700614939::1::::<><>::
+char2_pickaxe.png::CompressedTexture2D::8477880276606953867::1700614832::1700614939::1::::<><>::
+char3_pickaxe.png::CompressedTexture2D::719227038834836779::1700614832::1700614939::1::::<><>::
+char4_pickaxe.png::CompressedTexture2D::731334241170478100::1700614832::1700614939::1::::<><>::
+char5_pickaxe.png::CompressedTexture2D::8988120383942696305::1700614832::1700614939::1::::<><>::
+char6_pickaxe.png::CompressedTexture2D::7235839011097579462::1700614832::1700614939::1::::<><>::
+char7_pickaxe.png::CompressedTexture2D::9068009667071651257::1700614832::1700614939::1::::<><>::
+char8_pickaxe.png::CompressedTexture2D::4613284431331272322::1700614832::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/pickaxe/acc/::1700614938
+beard_pickaxe.png::CompressedTexture2D::8796564665782643117::1700614832::1700614938::1::::<><>::
+earring_emerald_pickaxe.png::CompressedTexture2D::3204517529430598264::1700614832::1700614938::1::::<><>::
+earring_emerald_red_silver_pickaxe.png::CompressedTexture2D::4733732020161999743::1700614832::1700614938::1::::<><>::
+earring_emerald_silver_pickaxe.png::CompressedTexture2D::5267715304359214513::1700614832::1700614938::1::::<><>::
+earring_red_pickaxe.png::CompressedTexture2D::3454049343304495508::1700614832::1700614938::1::::<><>::
+glasses_pickaxe.png::CompressedTexture2D::2542190016832924818::1700614832::1700614938::1::::<><>::
+glasses_sun_pickaxe.png::CompressedTexture2D::6903774872221048331::1700614832::1700614938::1::::<><>::
+hat_cowboy_pickaxe.png::CompressedTexture2D::9133580173441917933::1700614832::1700614938::1::::<><>::
+hat_lucky_pickaxe.png::CompressedTexture2D::5801482180974743250::1700614832::1700614938::1::::<><>::
+hat_pumkin_purple_pickaxe.png::CompressedTexture2D::1131433736618265863::1700614832::1700614938::1::::<><>::
+hat_pumpkin_pickaxe.png::CompressedTexture2D::1718496136823053853::1700614832::1700614938::1::::<><>::
+hat_witch_pickaxe.png::CompressedTexture2D::4254149420173127602::1700614832::1700614938::1::::<><>::
+mask_clown_blue_pickaxe.png::CompressedTexture2D::7824500805519317817::1700614832::1700614938::1::::<><>::
+mask_clown_red_pickaxe.png::CompressedTexture2D::829726542395934922::1700614832::1700614938::1::::<><>::
+mask_spooky_pickaxe.png::CompressedTexture2D::2398104932254327610::1700614832::1700614938::1::::<><>::
+::res://Art/Character v.2/separate/pickaxe/clothes/::1700614939
+basic_pickaxe.png::CompressedTexture2D::5925844925173938809::1700614832::1700614939::1::::<><>::
+clown_pickaxe.png::CompressedTexture2D::4742824484223341882::1700614832::1700614939::1::::<><>::
+dress_pickaxe.png::CompressedTexture2D::3515396070158750477::1700614832::1700614939::1::::<><>::
+floral_pickaxe.png::CompressedTexture2D::6017259852730437942::1700614832::1700614939::1::::<><>::
+overall_pickaxe.png::CompressedTexture2D::5313813599727682558::1700614832::1700614939::1::::<><>::
+pants_pickaxe.png::CompressedTexture2D::7975072386524988253::1700614832::1700614939::1::::<><>::
+pants_suit_pickaxe.png::CompressedTexture2D::8173923559838894222::1700614832::1700614939::1::::<><>::
+pumpkin_pickaxe.png::CompressedTexture2D::3297092028775727932::1700614832::1700614939::1::::<><>::
+sailor_bow_pickaxe.png::CompressedTexture2D::1554929280785234571::1700614832::1700614939::1::::<><>::
+sailor_pickaxe.png::CompressedTexture2D::6685561612480741748::1700614832::1700614939::1::::<><>::
+shoes_pickaxe.png::CompressedTexture2D::3181808269913263193::1700614832::1700614939::1::::<><>::
+skirt_pickaxe.png::CompressedTexture2D::4290121050816120709::1700614832::1700614939::1::::<><>::
+skull_pickaxe.png::CompressedTexture2D::6590853815895695871::1700614832::1700614939::1::::<><>::
+spaghetti_pickaxe.png::CompressedTexture2D::8435001173613173048::1700614832::1700614939::1::::<><>::
+spooky_pickaxe.png::CompressedTexture2D::5842747910277376953::1700614832::1700614939::1::::<><>::
+sporty_pickaxe.png::CompressedTexture2D::5265011237191196374::1700614832::1700614939::1::::<><>::
+stripe_pickaxe.png::CompressedTexture2D::4298663995094853057::1700614832::1700614939::1::::<><>::
+suit_pickaxe.png::CompressedTexture2D::6072769004412352866::1700614832::1700614939::1::::<><>::
+witch_pickaxe.png::CompressedTexture2D::1847490360125094606::1700614832::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/pickaxe/eyes/::1700614939
+blush_pickaxe.png::CompressedTexture2D::5589633426349123116::1700614832::1700614939::1::::<><>::
+eyes_pickaxe.png::CompressedTexture2D::203944200893760696::1700614832::1700614939::1::::<><>::
+lipstick_pickaxe.png::CompressedTexture2D::1606724928860457332::1700614832::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/pickaxe/hair/::1700614939
+bob_pickaxe.png::CompressedTexture2D::4298466339790729837::1700614832::1700614939::1::::<><>::
+braids_pickaxe.png::CompressedTexture2D::3436352642235745165::1700614832::1700614939::1::::<><>::
+buzzcut_pickaxe.png::CompressedTexture2D::2564774727930429804::1700614832::1700614939::1::::<><>::
+curly_pickaxe.png::CompressedTexture2D::3774608106821927662::1700614832::1700614939::1::::<><>::
+emo_pickaxe.png::CompressedTexture2D::7280928071950728263::1700614832::1700614939::1::::<><>::
+extra_long_pickaxe.png::CompressedTexture2D::4971070037061932013::1700614832::1700614939::1::::<><>::
+french_curl_pickaxe.png::CompressedTexture2D::8034530487675645508::1700614832::1700614939::1::::<><>::
+gentleman_pickaxe.png::CompressedTexture2D::8098548681644643722::1700614832::1700614939::1::::<><>::
+long_straight_pickaxe.png::CompressedTexture2D::3950763476588666675::1700614832::1700614939::1::::<><>::
+midiwave_pickaxe.png::CompressedTexture2D::8511785346813116316::1700614832::1700614939::1::::<><>::
+ponytail_pickaxe.png::CompressedTexture2D::8677173145407110891::1700614832::1700614939::1::::<><>::
+spacebuns_pickaxe.png::CompressedTexture2D::5530327470653394544::1700614832::1700614939::1::::<><>::
+wavy_pickaxe.png::CompressedTexture2D::2134867448103084956::1700614832::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/pickaxe/tool/::1700614939
+pickaxe.png::CompressedTexture2D::375768069371383073::1700614832::1700614938::1::::<><>::
+pickaxe_blue.png::CompressedTexture2D::8761247159762782516::1700614832::1700614938::1::::<><>::
+pickaxe_copper.png::CompressedTexture2D::1721918169532643001::1700614832::1700614938::1::::<><>::
+pickaxe_full.png::CompressedTexture2D::6516598073055001034::1700614832::1700614938::1::::<><>::
+pickaxe_gold.png::CompressedTexture2D::4898877463015027387::1700614832::1700614939::1::::<><>::
+pickaxe_pink.png::CompressedTexture2D::1329134766879967596::1700614833::1700614939::1::::<><>::
+pickaxe_wood.png::CompressedTexture2D::3221432290950232382::1700614833::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/pickaxe/without/::1700614939
+char1_pickaxe_without.png::CompressedTexture2D::4176587601136551636::1700614833::1700614939::1::::<><>::
+char2_pickaxe_without.png::CompressedTexture2D::3746344402463984303::1700614833::1700614939::1::::<><>::
+char3_pickaxe_without.png::CompressedTexture2D::2569185562980725939::1700614833::1700614939::1::::<><>::
+char4_pickaxe_without.png::CompressedTexture2D::7193103887468516210::1700614833::1700614939::1::::<><>::
+char5_pickaxe_without.png::CompressedTexture2D::747513037439858286::1700614833::1700614939::1::::<><>::
+char6_pickaxe_without.png::CompressedTexture2D::1589061173998208300::1700614833::1700614939::1::::<><>::
+char7_pickaxe_without.png::CompressedTexture2D::7552252339659133949::1700614833::1700614939::1::::<><>::
+char8_pickaxe_without.png::CompressedTexture2D::86897542580596011::1700614833::1700614939::1::::<><>::
+::res://Art/Character v.2/separate/pickup/::1700614945
+char1_pickup.png::CompressedTexture2D::3509177102915364841::1700614833::1700614945::1::::<><>::
+char2_pickup.png::CompressedTexture2D::7061363802104008198::1700614833::1700614945::1::::<><>::
+char3_pickup.png::CompressedTexture2D::6917705301330132215::1700614833::1700614945::1::::<><>::
+char4_pickup.png::CompressedTexture2D::295756671059573894::1700614833::1700614945::1::::<><>::
+char5_pickup.png::CompressedTexture2D::6196710169004215675::1700614833::1700614945::1::::<><>::
+char6_pickup.png::CompressedTexture2D::7057384247878576169::1700614833::1700614945::1::::<><>::
+char7_pickup.png::CompressedTexture2D::1861465415463779167::1700614833::1700614945::1::::<><>::
+char8_pickup.png::CompressedTexture2D::2318606366196183914::1700614833::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/pickup/acc/::1700614945
+beard_pickup.png::CompressedTexture2D::5509693743451282151::1700614833::1700614939::1::::<><>::
+earring_emerald_pickup.png::CompressedTexture2D::846420387805361146::1700614833::1700614939::1::::<><>::
+earring_emerald_silver_pickup.png::CompressedTexture2D::6332569734132626084::1700614833::1700614939::1::::<><>::
+earring_red_pickup.png::CompressedTexture2D::6046307466752149521::1700614833::1700614939::1::::<><>::
+earring_red_silver_pickup.png::CompressedTexture2D::2839556990905622060::1700614833::1700614939::1::::<><>::
+glasses_pickup.png::CompressedTexture2D::1138802689470471514::1700614833::1700614939::1::::<><>::
+glasses_sun_pickup.png::CompressedTexture2D::4961533228890465263::1700614833::1700614939::1::::<><>::
+hat_cowboy_pickup.png::CompressedTexture2D::8179021179164979355::1700614833::1700614945::1::::<><>::
+hat_lucky_pickup.png::CompressedTexture2D::6135136936031052013::1700614833::1700614945::1::::<><>::
+hat_pumpkin_pickup.png::CompressedTexture2D::3659700740575339593::1700614833::1700614945::1::::<><>::
+hat_pumpkin_purple_pickup.png::CompressedTexture2D::390801564394840616::1700614833::1700614945::1::::<><>::
+hat_witch_pickup.png::CompressedTexture2D::5615138727733153604::1700614833::1700614945::1::::<><>::
+mask_clown_blue_pickup.png::CompressedTexture2D::1118536820328786301::1700614833::1700614945::1::::<><>::
+mask_clown_pickup.png::CompressedTexture2D::50268799087893127::1700614833::1700614945::1::::<><>::
+mask_spooky_pickup.png::CompressedTexture2D::5145904900649682268::1700614833::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/pickup/clothes/::1700614945
+basic_pickup.png::CompressedTexture2D::2877976909732736577::1700614833::1700614945::1::::<><>::
+clown_pickup.png::CompressedTexture2D::4909794157055114753::1700614833::1700614945::1::::<><>::
+dress_pickup.png::CompressedTexture2D::8908333125339372063::1700614833::1700614945::1::::<><>::
+floral_pickup.png::CompressedTexture2D::4740969025445903159::1700614833::1700614945::1::::<><>::
+overalls_pickup.png::CompressedTexture2D::3408693165240601369::1700614833::1700614945::1::::<><>::
+pants_pickup.png::CompressedTexture2D::5698694974825753914::1700614833::1700614945::1::::<><>::
+pants_suit_pickup.png::CompressedTexture2D::8729516052954148573::1700614833::1700614945::1::::<><>::
+pumpkin_pickup.png::CompressedTexture2D::119939798422522703::1700614833::1700614945::1::::<><>::
+sailor_bow_pickup.png::CompressedTexture2D::7764711537863428144::1700614833::1700614945::1::::<><>::
+sailor_pickup.png::CompressedTexture2D::1394244267513276849::1700614833::1700614945::1::::<><>::
+shoes_pickup.png::CompressedTexture2D::5398170480570595669::1700614833::1700614945::1::::<><>::
+skirt_pickup.png::CompressedTexture2D::6477330842119436908::1700614833::1700614945::1::::<><>::
+skull_pickup.png::CompressedTexture2D::2641189329794171382::1700614833::1700614945::1::::<><>::
+spaghetti_pickup.png::CompressedTexture2D::1726160386785601061::1700614833::1700614945::1::::<><>::
+spooky_pickup.png::CompressedTexture2D::4540180868199291952::1700614833::1700614945::1::::<><>::
+sporty_pickup.png::CompressedTexture2D::6425628332956775924::1700614833::1700614945::1::::<><>::
+stripe_pickup.png::CompressedTexture2D::7172071268181781186::1700614833::1700614945::1::::<><>::
+suit_pickup.png::CompressedTexture2D::4390582910134415324::1700614833::1700614945::1::::<><>::
+witch_pickup.png::CompressedTexture2D::8442076936391887161::1700614833::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/pickup/eyes/::1700614945
+blush_pickup.png::CompressedTexture2D::7731182487771554988::1700614833::1700614945::1::::<><>::
+eyes_pickup.png::CompressedTexture2D::848161611403273265::1700614833::1700614945::1::::<><>::
+lipstick_pickup.png::CompressedTexture2D::9195642293191478751::1700614833::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/pickup/hair/::1700614945
+bob_pickup.png::CompressedTexture2D::2438129808330755117::1700614833::1700614945::1::::<><>::
+braids_pickup.png::CompressedTexture2D::2345691613561552596::1700614833::1700614945::1::::<><>::
+buzzcut_pickup.png::CompressedTexture2D::5701561379716791798::1700614833::1700614945::1::::<><>::
+curly_pickup.png::CompressedTexture2D::2584568743646222905::1700614833::1700614945::1::::<><>::
+emo_pickup.png::CompressedTexture2D::930228283386091898::1700614833::1700614945::1::::<><>::
+extra_long_pickup.png::CompressedTexture2D::1581593891142133606::1700614833::1700614945::1::::<><>::
+french_curl_pickup.png::CompressedTexture2D::4946913126070372512::1700614833::1700614945::1::::<><>::
+gentleman_pickup.png::CompressedTexture2D::4106159362910481634::1700614833::1700614945::1::::<><>::
+long_straight_pickup.png::CompressedTexture2D::3957185966987478370::1700614833::1700614945::1::::<><>::
+midiwave_pickup.png::CompressedTexture2D::3113232077687665905::1700614833::1700614945::1::::<><>::
+ponytail_pickup.png::CompressedTexture2D::2086383687956436067::1700614833::1700614945::1::::<><>::
+spacebuns_pickup.png::CompressedTexture2D::8276654753373133810::1700614833::1700614945::1::::<><>::
+wavy_pickup.png::CompressedTexture2D::2932004106050017597::1700614833::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/sword/::1700614945
+char1_sword.png::CompressedTexture2D::9061386541598042229::1700614833::1700614945::1::::<><>::
+char2_sword.png::CompressedTexture2D::2920566018898260022::1700614833::1700614945::1::::<><>::
+char3_sword.png::CompressedTexture2D::7700154151416854646::1700614833::1700614945::1::::<><>::
+char4_sword.png::CompressedTexture2D::5870766680082128105::1700614833::1700614945::1::::<><>::
+char5_sword.png::CompressedTexture2D::6726320294511397354::1700614833::1700614945::1::::<><>::
+char6_sword.png::CompressedTexture2D::1718435089683075075::1700614833::1700614945::1::::<><>::
+char7_sword.png::CompressedTexture2D::2880920120494180999::1700614833::1700614945::1::::<><>::
+char8_sword.png::CompressedTexture2D::4768144048846921127::1700614833::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/sword/acc/::1700614945
+beard_sword.png::CompressedTexture2D::2200613460608174069::1700614833::1700614945::1::::<><>::
+earring_emerald_silver_sword.png::CompressedTexture2D::1242448805081765212::1700614833::1700614945::1::::<><>::
+earring_emerald_sword.png::CompressedTexture2D::1226901521178680030::1700614833::1700614945::1::::<><>::
+earring_red_silver_sword.png::CompressedTexture2D::3514543641896291827::1700614833::1700614945::1::::<><>::
+earring_red_sword.png::CompressedTexture2D::6842189193051889860::1700614833::1700614945::1::::<><>::
+glasses_sun_sword.png::CompressedTexture2D::3916301456320449750::1700614833::1700614945::1::::<><>::
+glasses_sword.png::CompressedTexture2D::6650203540578293321::1700614833::1700614945::1::::<><>::
+hat_cowboy_sword.png::CompressedTexture2D::1626637752605915846::1700614833::1700614945::1::::<><>::
+hat_lucky_sword.png::CompressedTexture2D::2158854343414915883::1700614833::1700614945::1::::<><>::
+hat_pumpkin_purple_sword.png::CompressedTexture2D::1723697780319775746::1700614833::1700614945::1::::<><>::
+hat_pumpkin_sword.png::CompressedTexture2D::1963552400638892192::1700614833::1700614945::1::::<><>::
+hat_witch_sword.png::CompressedTexture2D::6004459125848722135::1700614833::1700614945::1::::<><>::
+mask_clown_blue_sword.png::CompressedTexture2D::4030426365720147472::1700614833::1700614945::1::::<><>::
+mask_clown_red_sword.png::CompressedTexture2D::3349304742711066127::1700614833::1700614945::1::::<><>::
+mask_spooky_sword.png::CompressedTexture2D::8045595549778147635::1700614833::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/sword/clothes/::1700614945
+basic_sword.png::CompressedTexture2D::8276043380699184316::1700614833::1700614945::1::::<><>::
+clown_sword.png::CompressedTexture2D::7660593017898160521::1700614833::1700614945::1::::<><>::
+dress_sword.png::CompressedTexture2D::144791962568865055::1700614833::1700614945::1::::<><>::
+floral_sword.png::CompressedTexture2D::6639630137909705759::1700614833::1700614945::1::::<><>::
+overall_sword.png::CompressedTexture2D::4579800355961983071::1700614833::1700614945::1::::<><>::
+pants_suit_sword.png::CompressedTexture2D::4441070443845827578::1700614833::1700614945::1::::<><>::
+pants_sword.png::CompressedTexture2D::5453836569570255343::1700614833::1700614945::1::::<><>::
+pumpkin_sword.png::CompressedTexture2D::2794117334634893163::1700614833::1700614945::1::::<><>::
+sailor_bow_sword.png::CompressedTexture2D::8724701859730913463::1700614833::1700614945::1::::<><>::
+sailor_sword.png::CompressedTexture2D::7272150712810566625::1700614833::1700614945::1::::<><>::
+shoes_sword.png::CompressedTexture2D::2949431300469099844::1700614833::1700614945::1::::<><>::
+skirt_sword.png::CompressedTexture2D::8779850318074119289::1700614833::1700614945::1::::<><>::
+skull_sword.png::CompressedTexture2D::6189798708736517518::1700614833::1700614945::1::::<><>::
+spaghetti_sword.png::CompressedTexture2D::7365585305203244883::1700614833::1700614945::1::::<><>::
+spooky_sword.png::CompressedTexture2D::7825144527609133608::1700614833::1700614945::1::::<><>::
+sporty_sword.png::CompressedTexture2D::8891433691119936506::1700614833::1700614945::1::::<><>::
+stripe_sword.png::CompressedTexture2D::5946154049044391850::1700614833::1700614945::1::::<><>::
+suit_sword.png::CompressedTexture2D::2813166496623016221::1700614833::1700614945::1::::<><>::
+witch_sword.png::CompressedTexture2D::4357182412298937480::1700614833::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/sword/eyes/::1700614945
+blush_sword.png::CompressedTexture2D::5044107762030904212::1700614833::1700614945::1::::<><>::
+eyes_sword.png::CompressedTexture2D::7558722278632628233::1700614833::1700614945::1::::<><>::
+lipstick_sword.png::CompressedTexture2D::421062795118115549::1700614833::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/sword/hair/::1700614945
+bob_sword.png::CompressedTexture2D::7313994035140583903::1700614833::1700614945::1::::<><>::
+braids_sword.png::CompressedTexture2D::7953161552084966978::1700614833::1700614945::1::::<><>::
+buzzcut_sword.png::CompressedTexture2D::8741360675356739289::1700614833::1700614945::1::::<><>::
+curly_sword.png::CompressedTexture2D::8078506945460107439::1700614833::1700614945::1::::<><>::
+emo_sword.png::CompressedTexture2D::1973445949949495981::1700614833::1700614945::1::::<><>::
+extra_long_sword.png::CompressedTexture2D::2666092499794523791::1700614833::1700614945::1::::<><>::
+french_curl_sword.png::CompressedTexture2D::5859911395693727206::1700614833::1700614945::1::::<><>::
+gentleman_sword.png::CompressedTexture2D::7519567652485826245::1700614833::1700614945::1::::<><>::
+long_straight_sword.png::CompressedTexture2D::6625850146628897596::1700614833::1700614945::1::::<><>::
+midiwave_sword.png::CompressedTexture2D::6488935055225533575::1700614833::1700614945::1::::<><>::
+ponytail_sword.png::CompressedTexture2D::2092615142731675469::1700614833::1700614945::1::::<><>::
+spacebuns_sword.png::CompressedTexture2D::1350134209327920037::1700614834::1700614945::1::::<><>::
+wavy_sword.png::CompressedTexture2D::4469881613495277000::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/sword/tool/::1700614945
+sword.png::CompressedTexture2D::7854766189921384651::1700614834::1700614945::1::::<><>::
+sword_blue.png::CompressedTexture2D::5634098652146839721::1700614834::1700614945::1::::<><>::
+sword_copper.png::CompressedTexture2D::634826398895500129::1700614834::1700614945::1::::<><>::
+sword_gold.png::CompressedTexture2D::769537422773218203::1700614834::1700614945::1::::<><>::
+sword_pink.png::CompressedTexture2D::3846687999467839157::1700614834::1700614945::1::::<><>::
+sword_wood.png::CompressedTexture2D::8699363993012909994::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/sword/without/::1700614945
+char1_sword_without.png::CompressedTexture2D::8124410021854842095::1700614834::1700614945::1::::<><>::
+char2_sword_without.png::CompressedTexture2D::8654945677508051334::1700614834::1700614945::1::::<><>::
+char3_sword_without.png::CompressedTexture2D::5393511864369728401::1700614834::1700614945::1::::<><>::
+char4_sword_without.png::CompressedTexture2D::7751890134984905124::1700614834::1700614945::1::::<><>::
+char5_sword_without.png::CompressedTexture2D::8985539197513802261::1700614834::1700614945::1::::<><>::
+char6_sword_without.png::CompressedTexture2D::525549026873200325::1700614834::1700614945::1::::<><>::
+char7_sword_without.png::CompressedTexture2D::3578011855407082512::1700614834::1700614945::1::::<><>::
+char8_sword_without.png::CompressedTexture2D::5692345227232937763::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/walk/::1700614945
+char1_walk.png::CompressedTexture2D::8679364483327008421::1700614834::1700614944::1::::<><>::
+char2_walk.png::CompressedTexture2D::6969099394228394121::1700614834::1700614944::1::::<><>::
+char3_walk.png::CompressedTexture2D::2989157245918644553::1700614834::1700614944::1::::<><>::
+char4_walk.png::CompressedTexture2D::9051882136440027423::1700614834::1700614944::1::::<><>::
+char5_walk.png::CompressedTexture2D::7247015426524237603::1700614834::1700614944::1::::<><>::
+char6_walk.png::CompressedTexture2D::3051086588912732975::1700614834::1700614945::1::::<><>::
+char7_walk.png::CompressedTexture2D::6792732607982389707::1700614834::1700614945::1::::<><>::
+char8_walk.png::CompressedTexture2D::7491948754592343982::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/walk/acc/::1700614945
+beard_walk.png::CompressedTexture2D::7809356689384311189::1700614834::1700614945::1::::<><>::
+earring_emerald_silver_walk.png::CompressedTexture2D::7044753975432693185::1700614834::1700614945::1::::<><>::
+earring_emerald_walk.png::CompressedTexture2D::7310954634832356095::1700614834::1700614945::1::::<><>::
+earring_red_silver_walk.png::CompressedTexture2D::5505524573148851134::1700614834::1700614945::1::::<><>::
+earring_red_walk.png::CompressedTexture2D::6809564897763945808::1700614834::1700614945::1::::<><>::
+glasses_sun_walk.png::CompressedTexture2D::5643474172084636089::1700614834::1700614945::1::::<><>::
+glasses_walk.png::CompressedTexture2D::3194838592146837238::1700614834::1700614945::1::::<><>::
+hat_cowboy_walk.png::CompressedTexture2D::1697340638743915679::1700614834::1700614945::1::::<><>::
+hat_lucky_walk.png::CompressedTexture2D::1784292659406388639::1700614834::1700614945::1::::<><>::
+hat_pumpkin_purple_walk.png::CompressedTexture2D::5689386265765568486::1700614834::1700614945::1::::<><>::
+hat_pumpkin_walk.png::CompressedTexture2D::5232370112680173151::1700614834::1700614945::1::::<><>::
+hat_witch_walk.png::CompressedTexture2D::8745826078034336187::1700614834::1700614945::1::::<><>::
+mask_clown_blue_walk.png::CompressedTexture2D::8964775555178490073::1700614834::1700614945::1::::<><>::
+mask_clown_red_walk.png::CompressedTexture2D::5707455599296214329::1700614834::1700614945::1::::<><>::
+mask_spooky_walk.png::CompressedTexture2D::6852333692136415318::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/walk/clothes/::1700614945
+basic_walk.png::CompressedTexture2D::6294568348689816883::1700614834::1700614945::1::::<><>::
+clown_walk.png::CompressedTexture2D::2914040583849366902::1700614834::1700614945::1::::<><>::
+dress_walk.png::CompressedTexture2D::5310065281230575555::1700614834::1700614945::1::::<><>::
+floral_walk.png::CompressedTexture2D::3233956474774462881::1700614834::1700614945::1::::<><>::
+overalls_walk.png::CompressedTexture2D::6007992236558451521::1700614834::1700614945::1::::<><>::
+pants_suit_walk.png::CompressedTexture2D::648106412899105288::1700614834::1700614945::1::::<><>::
+pants_walk.png::CompressedTexture2D::6966817805460664166::1700614834::1700614945::1::::<><>::
+pumpkin_walk.png::CompressedTexture2D::3097795370131559650::1700614834::1700614945::1::::<><>::
+sailor_bow_walk.png::CompressedTexture2D::1999178899018469592::1700614834::1700614945::1::::<><>::
+sailor_walk.png::CompressedTexture2D::9056188986757691298::1700614834::1700614945::1::::<><>::
+shoes_walk.png::CompressedTexture2D::4935381840567569928::1700614834::1700614945::1::::<><>::
+skirt_walk.png::CompressedTexture2D::6775701003341290839::1700614834::1700614945::1::::<><>::
+skull_walk.png::CompressedTexture2D::7992704057907517293::1700614834::1700614945::1::::<><>::
+spaghetti_walk.png::CompressedTexture2D::1186567956031153087::1700614834::1700614945::1::::<><>::
+spooky_walk.png::CompressedTexture2D::2900156610777072011::1700614834::1700614945::1::::<><>::
+sporty_walk.png::CompressedTexture2D::1555227734056189457::1700614834::1700614945::1::::<><>::
+stripe_walk.png::CompressedTexture2D::4088644598433897172::1700614834::1700614945::1::::<><>::
+suit_walk.png::CompressedTexture2D::5570487848862683064::1700614834::1700614945::1::::<><>::
+witch_walk.png::CompressedTexture2D::28271031046738500::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/walk/eyes/::1700614945
+blush_walk.png::CompressedTexture2D::2726071244496237753::1700614834::1700614945::1::::<><>::
+eyes_walk.png::CompressedTexture2D::1609099684391212761::1700614834::1700614945::1::::<><>::
+lipstick_walk.png::CompressedTexture2D::610767682612842219::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/walk/hair/::1700614945
+bob_walk.png::CompressedTexture2D::2237951534787793301::1700614834::1700614945::1::::<><>::
+braids_walk.png::CompressedTexture2D::6381020612462461449::1700614834::1700614945::1::::<><>::
+buzzcut_walk.png::CompressedTexture2D::3676267261995285689::1700614834::1700614945::1::::<><>::
+curly_walk.png::CompressedTexture2D::5654449931803320403::1700614834::1700614945::1::::<><>::
+emo_walk.png::CompressedTexture2D::8672399482604885853::1700614834::1700614945::1::::<><>::
+extra_long_walk.png::CompressedTexture2D::4112736104900739663::1700614834::1700614945::1::::<><>::
+french_curl_walk.png::CompressedTexture2D::9050693333739415469::1700614834::1700614945::1::::<><>::
+gentleman_walk.png::CompressedTexture2D::7809671627198066344::1700614834::1700614945::1::::<><>::
+long_straight_walk.png::CompressedTexture2D::5854104209440634005::1700614834::1700614945::1::::<><>::
+midiwave_walk.png::CompressedTexture2D::222467130196085614::1700614834::1700614945::1::::<><>::
+ponytail_walk.png::CompressedTexture2D::7951568082794395985::1700614834::1700614945::1::::<><>::
+spacebuns_walk.png::CompressedTexture2D::6213283813680746407::1700614834::1700614945::1::::<><>::
+wavy_walk.png::CompressedTexture2D::633422786622398859::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/water/::1700614945
+char1_water.png::CompressedTexture2D::5995211413537225326::1700614834::1700614945::1::::<><>::
+char2_water.png::CompressedTexture2D::7037335695152065299::1700614834::1700614945::1::::<><>::
+char3_water.png::CompressedTexture2D::3264290496986841802::1700614834::1700614945::1::::<><>::
+char4_water.png::CompressedTexture2D::7927272550674256529::1700614834::1700614945::1::::<><>::
+char5_water.png::CompressedTexture2D::5202584848128608970::1700614834::1700614945::1::::<><>::
+char6_water.png::CompressedTexture2D::4539376275105585177::1700614834::1700614945::1::::<><>::
+char7_water.png::CompressedTexture2D::1563473951802478042::1700614834::1700614945::1::::<><>::
+char8_water.png::CompressedTexture2D::2374506003484718740::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/water/acc/::1700614945
+beard_water.png::CompressedTexture2D::1655074964416948243::1700614834::1700614945::1::::<><>::
+earring_emerald_silver_water.png::CompressedTexture2D::6018125984325747612::1700614834::1700614945::1::::<><>::
+earring_emerald_water.png::CompressedTexture2D::3520176833060518732::1700614834::1700614945::1::::<><>::
+earring_red_silver_water.png::CompressedTexture2D::6875543353606887650::1700614834::1700614945::1::::<><>::
+earring_red_water.png::CompressedTexture2D::8333997019061875701::1700614834::1700614945::1::::<><>::
+glasses_sun_water.png::CompressedTexture2D::5988175013180448946::1700614834::1700614945::1::::<><>::
+glasses_water.png::CompressedTexture2D::2456984756938977888::1700614834::1700614945::1::::<><>::
+hat_cowboy_water.png::CompressedTexture2D::1944127568171358700::1700614834::1700614945::1::::<><>::
+hat_lucky_water.png::CompressedTexture2D::2107094389513666296::1700614834::1700614945::1::::<><>::
+hat_pumpkin_purple_water.png::CompressedTexture2D::6528950279811094663::1700614834::1700614945::1::::<><>::
+hat_pumpkin_water.png::CompressedTexture2D::4104313257583111463::1700614834::1700614945::1::::<><>::
+hat_witch_water.png::CompressedTexture2D::4963671788450635590::1700614834::1700614945::1::::<><>::
+mask_clown_blue_water.png::CompressedTexture2D::4248389645433813936::1700614834::1700614945::1::::<><>::
+mask_clown_red_water.png::CompressedTexture2D::6140179694316330804::1700614834::1700614945::1::::<><>::
+mask_spooky_water.png::CompressedTexture2D::9100905236329413863::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/water/clothes/::1700614945
+basic_water.png::CompressedTexture2D::6359002684925500289::1700614834::1700614945::1::::<><>::
+clown_water.png::CompressedTexture2D::5127553249568901211::1700614834::1700614945::1::::<><>::
+dress_water.png::CompressedTexture2D::6540152132687986126::1700614834::1700614945::1::::<><>::
+floral_water.png::CompressedTexture2D::1493818132738505561::1700614834::1700614945::1::::<><>::
+overall_water.png::CompressedTexture2D::3325505362878012662::1700614834::1700614945::1::::<><>::
+pants_suit_water.png::CompressedTexture2D::1583065233949816507::1700614834::1700614945::1::::<><>::
+pants_water.png::CompressedTexture2D::7918634851189823738::1700614834::1700614945::1::::<><>::
+pumpkin_water.png::CompressedTexture2D::2971826970697341954::1700614834::1700614945::1::::<><>::
+sailor_bow_water.png::CompressedTexture2D::8571441679760972461::1700614834::1700614945::1::::<><>::
+sailor_water.png::CompressedTexture2D::3960226304168272527::1700614834::1700614945::1::::<><>::
+shoes_water.png::CompressedTexture2D::3190514461825631777::1700614834::1700614945::1::::<><>::
+skirt_water.png::CompressedTexture2D::5556152420635831032::1700614834::1700614945::1::::<><>::
+skull_water.png::CompressedTexture2D::6664610638418026646::1700614834::1700614945::1::::<><>::
+spaghetti_water.png::CompressedTexture2D::9168323726124188677::1700614834::1700614945::1::::<><>::
+spooky_water.png::CompressedTexture2D::9145835969429708113::1700614834::1700614945::1::::<><>::
+sporty_water.png::CompressedTexture2D::4836475297962108706::1700614834::1700614945::1::::<><>::
+stripe_water.png::CompressedTexture2D::4862390889107136752::1700614834::1700614945::1::::<><>::
+suit_water.png::CompressedTexture2D::2768723649459015609::1700614834::1700614945::1::::<><>::
+witch_water.png::CompressedTexture2D::1291389264945807615::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/water/eyes/::1700614945
+blush_water.png::CompressedTexture2D::3304741248979432256::1700614834::1700614945::1::::<><>::
+eyes_water.png::CompressedTexture2D::5203438995791158736::1700614834::1700614945::1::::<><>::
+lipstick_water.png::CompressedTexture2D::8544325399274816873::1700614834::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/water/hair/::1700614945
+bob_water.png::CompressedTexture2D::3436050526227580123::1700614834::1700614945::1::::<><>::
+braids_water.png::CompressedTexture2D::7354093552591171736::1700614834::1700614945::1::::<><>::
+buzzcut_water.png::CompressedTexture2D::5383284084636401050::1700614834::1700614945::1::::<><>::
+curly_water.png::CompressedTexture2D::8428909830643187748::1700614834::1700614945::1::::<><>::
+emo_water.png::CompressedTexture2D::2162705592433679945::1700614835::1700614945::1::::<><>::
+extra_long_water.png::CompressedTexture2D::7970475880677538125::1700614835::1700614945::1::::<><>::
+french_curl_water.png::CompressedTexture2D::8658752168800599266::1700614835::1700614945::1::::<><>::
+gentleman_water.png::CompressedTexture2D::841309149129199340::1700614835::1700614945::1::::<><>::
+long_straight_water.png::CompressedTexture2D::1268787185540562196::1700614835::1700614945::1::::<><>::
+midiwave_water.png::CompressedTexture2D::893323958005399492::1700614835::1700614945::1::::<><>::
+ponytail_water.png::CompressedTexture2D::7293747978887993836::1700614835::1700614945::1::::<><>::
+spacebuns_water.png::CompressedTexture2D::9013559276243498105::1700614835::1700614945::1::::<><>::
+wavy_water.png::CompressedTexture2D::8903692738603170733::1700614835::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/water/tool/::1700614945
+wateringcan_full_gold.png::CompressedTexture2D::2600352192409919171::1700614835::1700614945::1::::<><>::
+wateringcan_full_green.png::CompressedTexture2D::7509508902741682239::1700614835::1700614945::1::::<><>::
+wateringcan_full_pink.png::CompressedTexture2D::4677419102466284837::1700614835::1700614945::1::::<><>::
+wateringcan_full_purple.png::CompressedTexture2D::1119612271331105434::1700614835::1700614945::1::::<><>::
+wateringcan_full_red.png::CompressedTexture2D::3135705059062182923::1700614835::1700614945::1::::<><>::
+wateringcan_gold.png::CompressedTexture2D::6963813738870900048::1700614835::1700614945::1::::<><>::
+wateringcan_green.png::CompressedTexture2D::6519743388216996743::1700614835::1700614945::1::::<><>::
+wateringcan_pink.png::CompressedTexture2D::4055941946535536660::1700614835::1700614945::1::::<><>::
+wateringcan_purple.png::CompressedTexture2D::5699914515107955955::1700614835::1700614945::1::::<><>::
+wateringcan_red.png::CompressedTexture2D::6485663394318007472::1700614835::1700614945::1::::<><>::
+::res://Art/Character v.2/separate/water/without/::1700614945
+char1_water_without.png::CompressedTexture2D::93612003709080153::1700614835::1700614945::1::::<><>::
+char2_water_without.png::CompressedTexture2D::7517075944216919923::1700614835::1700614945::1::::<><>::
+char3_water_without.png::CompressedTexture2D::8615486610891500429::1700614835::1700614945::1::::<><>::
+char4_water_without.png::CompressedTexture2D::1664057522087786523::1700614835::1700614945::1::::<><>::
+char5_water_without.png::CompressedTexture2D::1761646718573162789::1700614835::1700614945::1::::<><>::
+char6_water_without.png::CompressedTexture2D::859638223806400645::1700614835::1700614945::1::::<><>::
+char7_water_without.png::CompressedTexture2D::4728881885641083420::1700614835::1700614945::1::::<><>::
+char8_water_without.png::CompressedTexture2D::5186145034488278837::1700614835::1700614945::1::::<><>::
+::res://Art/Enemies/::1700566612
+::res://Art/Enemies/RandomMonsters/::1700566613
+goblin spritesheet calciumtrice.png::CompressedTexture2D::77379324109906172::1699837814::1700278156::1::::<><>::
+slime spritesheet calciumtrice.png::CompressedTexture2D::2787830990389932719::1699901990::1700278156::1::::<><>::
+slime.png::CompressedTexture2D::7042623197169984070::1700566610::1700566613::1::::<><>::
+snake spritesheet calciumtrice.png::CompressedTexture2D::1395017560523146058::1699837828::1700278156::1::::<><>::
+::res://Art/Enemies/RandomMonsters/Bat/::1700525009
+32x32-bat-sprite.png::CompressedTexture2D::9053116418337672265::1699837010::1700278156::1::::<><>::
+batwalk.png::CompressedTexture2D::6991387700725411039::1699898806::1700278156::1::::<><>::
+::res://Art/Enemies/RandomMonsters/Eyeball/::1700525009
+eyeball spritesheet.png::CompressedTexture2D::6488730140320703383::1699837586::1700278156::1::::<><>::
+EyeballIdle.png::CompressedTexture2D::7778144679519586235::1699899764::1700278156::1::::<><>::
+EyeballWalk.png::CompressedTexture2D::4333097668400847976::1699899946::1700278156::1::::<><>::
+::res://Art/ItemSprites/::1700525009
+all the icons (gardens).png::CompressedTexture2D::6377957862051258774::1698589358::1700278156::1::::<><>::
+CoinAnim.png::CompressedTexture2D::8920905523249507882::1699742936::1700435544::1::::<><>::
+Coins.png::CompressedTexture2D::3362675527095463775::1700478150::1700478150::1::::<><>::
+pickaxe.png::CompressedTexture2D::1408033767353841822::1700446654::1700446654::1::::<><>::
+Rock.png::CompressedTexture2D::6310182909819718142::1700479782::1700479784::1::::<><>::
+roguelikeitems.png::CompressedTexture2D::4275407231125510530::1699836852::1700278156::1::::<><>::
+spritesheet_16x16.png::CompressedTexture2D::7358771309365712024::1700135974::1700278156::1::::<><>::
+treasure chests.png::CompressedTexture2D::3064902199927383610::1700384686::1700384698::1::::<><>::
+::res://Art/ItemSprites/FarmingSprites/::1700525009
+Crop_Spritesheet.png::CompressedTexture2D::268118662825659503::1699837408::1700435540::1::::<><>::
+::res://Art/ItemSprites/ItemIcons/::1700525009
+Book.png::CompressedTexture2D::3622351655652109725::1700136772::1700278158::1::::<><>::
+HealthPotion.png::CompressedTexture2D::5110982530636005519::1700136346::1700278158::1::::<><>::
+::res://Art/ObjectArt/::1700525009
+ResourceNodeRock.png::CompressedTexture2D::829289194231672263::1700440992::1700441040::1::::<><>::
+::res://Art/RavenFantastyArtBundle/::1700525040
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/::1700525009
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/::1700525039
+readme.txt::TextFile::-1::1690261418::0::1::::<><>::
+Thanks for downloading!.txt::TextFile::-1::1690260846::0::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/::1700525009
+0-shadow.png::CompressedTexture2D::5747509269818373570::1690166236::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/::1700525009
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/shinon/::1700525009
+shinon-pt1.png::CompressedTexture2D::5118745386433616259::1690820906::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/zapdos/::1700525009
+zapdos-pt1.png::CompressedTexture2D::7321961080193238904::1690820932::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/zapdos/24px Mini Characters(1)/::1700525009
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/zapdos/24px Mini Characters(1)/images/::1700525039
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/zapdos/24px Mini Characters(1)/images/Characters/::1700525109
+Civilian1(black)_Attack.png::CompressedTexture2D::8189207319821389319::1700437448::1700525109::1::::<><>::
+Civilian1(black)_Faint.png::CompressedTexture2D::6373187118945933142::1700437448::1700437578::1::::<><>::
+Civilian1(black)_Idle.png::CompressedTexture2D::4516519660492644625::1700437448::1700437578::1::::<><>::
+Civilian1(black)_Move.png::CompressedTexture2D::941097176247395510::1700437448::1700437578::1::::<><>::
+Civilian1_Attack(weapon1).png::CompressedTexture2D::5275478462481568836::1700437448::1700525109::1::::<><>::
+Civilian1_Attack.png::CompressedTexture2D::9058910501151357149::1700437448::1700437578::1::::<><>::
+Civilian1_Faint.png::CompressedTexture2D::2941839324825579109::1700437448::1700437578::1::::<><>::
+Civilian1_Idle(weapon1).png::CompressedTexture2D::6852146336978019133::1700437448::1700525109::1::::<><>::
+Civilian1_Idle.png::CompressedTexture2D::1946939504555133644::1700437448::1700437578::1::::<><>::
+Civilian1_Move(weapon1).png::CompressedTexture2D::3119907533505200013::1700437448::1700525109::1::::<><>::
+Civilian1_Move.png::CompressedTexture2D::2980288749314240095::1700437448::1700437578::1::::<><>::
+Civilian2(black)_Attack.png::CompressedTexture2D::9061313999542035888::1700437448::1700525109::1::::<><>::
+Civilian2(black)_Faint.png::CompressedTexture2D::6753015533287652491::1700437448::1700437578::1::::<><>::
+Civilian2(black)_Idle.png::CompressedTexture2D::821355973749157905::1700437448::1700437578::1::::<><>::
+Civilian2(black)_Move.png::CompressedTexture2D::4737409471709559162::1700437448::1700437578::1::::<><>::
+Civilian2_Attack.png::CompressedTexture2D::4927689051481851938::1700437448::1700437578::1::::<><>::
+Civilian2_Faint.png::CompressedTexture2D::8632287406238248367::1700437448::1700437578::1::::<><>::
+Civilian2_Idle.png::CompressedTexture2D::624174014944590951::1700437448::1700437578::1::::<><>::
+Civilian2_Move.png::CompressedTexture2D::1171675643660100420::1700437448::1700437578::1::::<><>::
+Knight1_Attack.png::CompressedTexture2D::1640980753136738259::1700437448::1700437578::1::::<><>::
+Knight1_Faint.png::CompressedTexture2D::2362956860534634307::1700437448::1700437578::1::::<><>::
+Knight1_Idle.png::CompressedTexture2D::7375315808924873900::1700437448::1700437578::1::::<><>::
+Knight1_Move.png::CompressedTexture2D::2623721463999348486::1700437448::1700437578::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/zapdos/24px Mini Characters(1)/images/Parts/::1700525039
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/zapdos/24px Mini Characters(1)/images/Parts/Head/::1700525039
+Head1_Attack.png::CompressedTexture2D::290317923429894794::1700437448::1700437578::1::::<><>::
+Head1_Faint.png::CompressedTexture2D::7896971569298232905::1700437448::1700437578::1::::<><>::
+Head1_Idle.png::CompressedTexture2D::6598285432272510934::1700437448::1700437578::1::::<><>::
+Head1_Move.png::CompressedTexture2D::8627230236170199476::1700437448::1700437578::1::::<><>::
+Head2_Attack.png::CompressedTexture2D::3227967796648730279::1700437448::1700437578::1::::<><>::
+Head2_Faint.png::CompressedTexture2D::4429750694837908222::1700437448::1700437578::1::::<><>::
+Head2_Idle.png::CompressedTexture2D::4018248568772070245::1700437448::1700437578::1::::<><>::
+Head2_Move.png::CompressedTexture2D::310117510813010828::1700437448::1700437578::1::::<><>::
+Head3_Attack.png::CompressedTexture2D::5730320884951683060::1700437448::1700437578::1::::<><>::
+Head3_Faint.png::CompressedTexture2D::2303435533068013728::1700437448::1700437578::1::::<><>::
+Head3_Idle.png::CompressedTexture2D::7976955427569850995::1700437448::1700437578::1::::<><>::
+Head3_Move.png::CompressedTexture2D::1514351047481353685::1700437448::1700437578::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/zapdos/24px Mini Characters(1)/images/Parts/Nude/::1700525039
+Nude_Attack.png::CompressedTexture2D::7167613012831306493::1700437448::1700437578::1::::<><>::
+Nude_Faint.png::CompressedTexture2D::1021182565271813991::1700437448::1700437578::1::::<><>::
+Nude_Idle.png::CompressedTexture2D::6423348710110662861::1700437448::1700437578::1::::<><>::
+Nude_Move.png::CompressedTexture2D::7675950434404946809::1700437448::1700437578::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/zapdos/24px Mini Characters(1)/images/Parts/Suit/::1700525039
+Suit1_Attack.png::CompressedTexture2D::4586469941102939752::1700437448::1700437578::1::::<><>::
+Suit1_Faint.png::CompressedTexture2D::5848193706795724633::1700437448::1700437578::1::::<><>::
+Suit1_Idle.png::CompressedTexture2D::1889669255711159196::1700437448::1700437578::1::::<><>::
+Suit1_Move.png::CompressedTexture2D::5826987635350023015::1700437448::1700437578::1::::<><>::
+Suit2_Attack.png::CompressedTexture2D::4835992695148256331::1700437448::1700437578::1::::<><>::
+Suit2_Faint.png::CompressedTexture2D::602053240345021252::1700437448::1700437578::1::::<><>::
+Suit2_Idle.png::CompressedTexture2D::7748538154613136343::1700437448::1700437578::1::::<><>::
+Suit2_Move.png::CompressedTexture2D::7960337361524498459::1700437448::1700437578::1::::<><>::
+Suit3_Attack.png::CompressedTexture2D::1860278253670932787::1700437448::1700437578::1::::<><>::
+Suit3_Faint.png::CompressedTexture2D::2963221493089540615::1700437448::1700437578::1::::<><>::
+Suit3_Idle.png::CompressedTexture2D::1638927023542363997::1700437448::1700437578::1::::<><>::
+Suit3_Move.png::CompressedTexture2D::1684288233790131819::1700437448::1700437578::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/pre-made character-free/anim-pt1/zapdos/24px Mini Characters(1)/images/Parts/Weapon/::1700525039
+Weapon1_Attack.png::CompressedTexture2D::5996995195002924788::1700437448::1700437578::1::::<><>::
+Weapon1_idle.png::CompressedTexture2D::5506493695407010399::1700437448::1700437578::1::::<><>::
+Weapon1_Move.png::CompressedTexture2D::5291268468596645291::1700437448::1700437578::1::::<><>::
+Weapon2_Attack.png::CompressedTexture2D::6778995090250996552::1700437448::1700437578::1::::<><>::
+Weapon2_Idle.png::CompressedTexture2D::5187246244001906794::1700437448::1700437578::1::::<><>::
+Weapon2_Move.png::CompressedTexture2D::4182597892536387455::1700437448::1700437578::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/::1700525039
+0-shadow.png::CompressedTexture2D::8769436550385144132::1690166236::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/::1700525039
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/0_body/::1700525039
+body-coffee.png::CompressedTexture2D::1764921552332920575::1690820966::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/1_weapon-tools(always next to body)/::1700525039
+w&t-iron.png::CompressedTexture2D::178685720480891956::1690785952::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/2_shirt/::1700525039
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/2_shirt/t-shirt/::1700525039
+tshirt-grn.png::CompressedTexture2D::2421855597595835948::1690821042::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/3_pants/::1700525039
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/3_pants/jumper/::1700525039
+jumper-ble.png::CompressedTexture2D::3443342700338814039::1690821084::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/4_boots/::1700525039
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/4_boots/boots/::1700525039
+boots-brn.png::CompressedTexture2D::7680619797107206750::1690821106::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/5_hair/::1700525039
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/5_hair/hair-deefault/::1700525039
+default-dark.png::CompressedTexture2D::2689056500279859390::1690821136::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/6-beard/::1700525039
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/6-beard/dark/::1700525039
+lvl-0.png::CompressedTexture2D::8385169524414850733::1690821188::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Dream-Character-Free-1-0/Dream-Character-Free/separated parts character-free/anim-pt1/7_eye/::1700525039
+eye-dark.png::CompressedTexture2D::8526492058439311180::1690821226::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/::1700525039
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/All Tileset/::1700525039
+16X16.png::CompressedTexture2D::1653231986687147345::1677091328::1700435996::1::::<><>::
+32x32.png::CompressedTexture2D::600297106839697190::1677091348::1700435996::1::::<><>::
+48x48.png::CompressedTexture2D::4344828652469569324::1677093628::1700435996::1::::<><>::
+64x64.png::CompressedTexture2D::397679257101490504::1677091398::1700435996::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Honey Bee/::1700525039
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Honey Bee/All Tileset/::1700525039
+16x16.png::CompressedTexture2D::7692610842167019814::1699968610::1700435996::1::::<><>::
+32x32.png::CompressedTexture2D::6350105688672248008::1699968490::1700435996::1::::<><>::
+48x48.png::CompressedTexture2D::6508989215944014007::1699968516::1700435996::1::::<><>::
+64x64.png::CompressedTexture2D::3942871979577544239::1699968562::1700435998::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Sun City/::1700525039
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Sun City/All Tileset/::1700525039
+16x16.png::CompressedTexture2D::3423231599049804925::1689341276::1700435996::1::::<><>::
+32x32.png::CompressedTexture2D::2720564274973022439::1689341364::1700435996::1::::<><>::
+48x48.png::CompressedTexture2D::5508158887966790221::1689341390::1700435998::1::::<><>::
+64x64.png::CompressedTexture2D::8348943250986790994::1689341406::1700435998::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Beach, Ocean and Shore/::1700525039
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Beach, Ocean and Shore/All Tileset/::1700525040
+16X16.png::CompressedTexture2D::2068105187905154118::1661516980::1700435996::1::::<><>::
+32x32.png::CompressedTexture2D::6697084808144208407::1661517036::1700435996::1::::<><>::
+48x48.png::CompressedTexture2D::5059001000279011471::1661517100::1700435996::1::::<><>::
+64x64.png::CompressedTexture2D::4935359401678272595::1661517062::1700435998::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Craft Stations/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Craft Stations/All Tileset/::1700525040
+16X16.png::CompressedTexture2D::2354515506621156183::1631039570::1700435998::1::::<><>::
+32x32.png::CompressedTexture2D::6719106581845022541::1631039632::1700435998::1::::<><>::
+48x48.png::CompressedTexture2D::3879687034615989117::1631039654::1700435998::1::::<><>::
+64x64.png::CompressedTexture2D::324265279745475976::1631039676::1700435998::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Farmlands V3/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Farmlands V3/All Tileset/::1700525040
+32x32.png::CompressedTexture2D::4021123917093042435::1629481534::1700435998::1::::<><>::
+48x48.png::CompressedTexture2D::302615733218481662::1629566266::1700435998::1::::<><>::
+64x64.png::CompressedTexture2D::5599682621126095872::1629481608::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Buildings/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Buildings/All Tileset/::1700525040
+16X16.png::CompressedTexture2D::3504579902007648199::1638898172::1700435998::1::::<><>::
+32x32.png::CompressedTexture2D::1998894985200338706::1638897812::1700435998::1::::<><>::
+48x48.png::CompressedTexture2D::3339254889023387183::1638897848::1700436000::1::::<><>::
+64x64.png::CompressedTexture2D::1224071390400465364::1638898326::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Dungeon/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Dungeon/All Tileset/::1700525040
+16x16.png::CompressedTexture2D::5684377863946738778::1627330204::1700435998::1::::<><>::
+32x32.png::CompressedTexture2D::1004634635057935162::1627330244::1700435998::1::::<><>::
+48x48.png::CompressedTexture2D::44392910182760663::1627330294::1700435998::1::::<><>::
+64x64.png::CompressedTexture2D::3971037280897382523::1627330320::1700435998::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Forest v2/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Forest v2/All Tileset/::1700525040
+16x16.png::CompressedTexture2D::5986938485408080519::1666718996::1700435998::1::::<><>::
+32x32.png::CompressedTexture2D::3067333373208438969::1666719070::1700435998::1::::<><>::
+48x48.png::CompressedTexture2D::2346834427443418218::1666719090::1700435998::1::::<><>::
+64x64.png::CompressedTexture2D::4530362880963919814::1666719110::1700435998::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Village/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Village/All Tileset/::1700525040
+16x16.png::CompressedTexture2D::8926303241583073134::1634137200::1700435998::1::::<><>::
+32x32.png::CompressedTexture2D::5030362070285752062::1623173204::1700435998::1::::<><>::
+48x48.png::CompressedTexture2D::8900055644631096042::1623173222::1700435998::1::::<><>::
+64x64.png::CompressedTexture2D::5415392949745696593::1623173240::1700435998::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Interiors/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Interiors/All Tileset/::1700525040
+16x16.png::CompressedTexture2D::6025991154066385343::1624733922::1700435998::1::::<><>::
+32x32.png::CompressedTexture2D::8390590355462070192::1624734018::1700435998::1::::<><>::
+48x48.png::CompressedTexture2D::9027987816668351536::1624756786::1700435998::1::::<><>::
+64x64.png::CompressedTexture2D::3805115239046196496::1624734074::1700435998::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Miner's Cave/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Miner's Cave/All Tileset/::1700525040
+16x16.png::CompressedTexture2D::3535592530568453457::1622050992::1700436000::1::::<><>::
+32x32.png::CompressedTexture2D::3688817567447874607::1622051122::1700436000::1::::<><>::
+48x48.png::CompressedTexture2D::2827130433522213712::1622051148::1700436000::1::::<><>::
+64x64.png::CompressedTexture2D::2483207484576414835::1622051184::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - The Underworld/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - The Underworld/All Tileset/::1700525040
+16x16.png::CompressedTexture2D::5456044689488814559::1669305598::1700436000::1::::<><>::
+32x32.png::CompressedTexture2D::407664348310070033::1669306906::1700436000::1::::<><>::
+48x48.png::CompressedTexture2D::7894410556520407523::1669307078::1700436000::1::::<><>::
+64x64.png::CompressedTexture2D::3601522214290750103::1669307010::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Winter Forest/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Winter Forest/All Tileset/::1700525040
+16X16.png::CompressedTexture2D::666353740079476911::1642352550::1700436000::1::::<><>::
+32x32.png::CompressedTexture2D::7456019534309365010::1642352662::1700436000::1::::<><>::
+48x48.png::CompressedTexture2D::6055816290636404142::1642352684::1700436000::1::::<><>::
+64x64.png::CompressedTexture2D::5492428761263130443::1642352778::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Winter Village/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Winter Village/All Tileset/::1700525040
+16X16.png::CompressedTexture2D::3043669293314086485::1648743802::1700436000::1::::<><>::
+32x32.png::CompressedTexture2D::4696618883448498454::1648743830::1700436000::1::::<><>::
+48x48.png::CompressedTexture2D::6467933000513821817::1648743862::1700436000::1::::<><>::
+64x64.png::CompressedTexture2D::6971309060717100799::1648743888::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/::1700525040
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/::1700525041
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Categories/::1700525041
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Categories/16x16/::1700525040
+Alchemy and Potions.png::CompressedTexture2D::1705920645755617362::1679755278::1700436000::1::::<><>::
+Loot and Treasure.png::CompressedTexture2D::832209139552507383::1679755266::1700436000::1::::<><>::
+Map and UI.png::CompressedTexture2D::4960183668092927692::1679755254::1700436000::1::::<><>::
+Sea and Food.png::CompressedTexture2D::9143701280511553047::1679755316::1700436000::1::::<><>::
+Skills and Spells.png::CompressedTexture2D::1212555646887886466::1679755326::1700436000::1::::<><>::
+Weapons and Equipment.png::CompressedTexture2D::1081118114166793123::1679755336::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Categories/24x24/::1700525040
+Alchemy and Potions.png::CompressedTexture2D::877997258052752617::1679755768::1700436000::1::::<><>::
+Loot and Treasure.png::CompressedTexture2D::8670835967346914443::1679755756::1700436000::1::::<><>::
+Map and UI.png::CompressedTexture2D::7468612559478967469::1679755748::1700436000::1::::<><>::
+Sea and Food.png::CompressedTexture2D::7869395471173410003::1679755776::1700436000::1::::<><>::
+Skills and Spells.png::CompressedTexture2D::4071129126794863562::1679755786::1700436000::1::::<><>::
+Weapons and Equipment.png::CompressedTexture2D::7092976606544274260::1679755796::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Categories/32x32/::1700525040
+Alchemy and Potions.png::CompressedTexture2D::8291080036715477959::1679755564::1700436000::1::::<><>::
+Loot and Treasure.png::CompressedTexture2D::5049893989683026240::1679755550::1700436000::1::::<><>::
+Map and UI.png::CompressedTexture2D::8157973081940383909::1679755540::1700436000::1::::<><>::
+Sea and Food.png::CompressedTexture2D::8509711441008635894::1679755598::1700436000::1::::<><>::
+Skills and Spells.png::CompressedTexture2D::844989477925782942::1679755608::1700436000::1::::<><>::
+Weapons and Equipment.png::CompressedTexture2D::7618763059731338368::1679755618::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Categories/64x64/::1700525041
+Alchemy and Potions.png::CompressedTexture2D::2731494132475466761::1679755892::1700436000::1::::<><>::
+Loot and Treasure.png::CompressedTexture2D::6341921008034172557::1679755880::1700436000::1::::<><>::
+Map and UI.png::CompressedTexture2D::6034236433950156712::1679755870::1700436000::1::::<><>::
+Sea and Food.png::CompressedTexture2D::2495999571766252511::1679755900::1700436000::1::::<><>::
+Skills and Spells.png::CompressedTexture2D::7749468332877397782::1679755914::1700436000::1::::<><>::
+Weapons and Equipment.png::CompressedTexture2D::7425622482376086822::1679755924::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Full Spritesheet/::1700525041
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Full Spritesheet/16x16/::1700525041
+16x16.png::CompressedTexture2D::5346711830678347864::1679756262::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Full Spritesheet/24x24/::1700525041
+24x24.png::CompressedTexture2D::979897539622653133::1679756206::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Full Spritesheet/32x32/::1700525041
+32x32.png::CompressedTexture2D::3714210986022337149::1679756048::1700436000::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Full Spritesheet/64x64/::1700525041
+64x64.png::CompressedTexture2D::2718638501865446833::1679756120::1700436002::1::::<><>::
+::res://Art/UI Art/::1700525041
+::res://Art/UI Art/Fonts/::1700525041
+BitPotion.ttf::FontFile::1509150908777862233::1700360416::1700360440::1::::<><>::
+Clarity.ttf::FontFile::8154292412137782320::1700360726::1700360730::1::::<><>::
+DungeonFont.ttf::FontFile::338642133904008966::1699832992::1700353792::1::::<><>::
+mago1.ttf::FontFile::2412128735862545279::1700360666::1700360730::1::::<><>::
+mago2.ttf::FontFile::2972326732315065870::1700360666::1700360730::1::::<><>::
+mago3.ttf::FontFile::1942026068657949652::1700360666::1700360730::1::::<><>::
+monogram.ttf::FontFile::892215261991836780::1700281178::1700353792::1::::<><>::
+PeaberryBase.ttf::FontFile::7657766461178267606::1700360532::1700360536::1::::<><>::
+pixelated-loveNew.ttf::FontFile::7663479419010661697::1566996344::1700360730::1::::<><>::
+PixelatedLoveOld.ttf::FontFile::500548213604707159::1566947412::1700360730::1::::<><>::
+QuinqueFive.ttf::FontFile::5619519825406255483::1699833228::1700353792::1::::<><>::
+Salmon Typewriter 9 Regular.ttf::FontFile::5608397606212223507::1700360680::1700360730::1::::<><>::
+::res://Art/UI Art/InvUISprites/::1700525041
+GUI(1).png::CompressedTexture2D::5428076864390079559::1699840314::1700278156::1::::<><>::
+hotbar_bg.png::CompressedTexture2D::7154547297929215122::1700333658::1700333658::1::::<><>::
+InvBackground.png::CompressedTexture2D::5418109596213739037::1699757014::1700353776::1::::<><>::
+InvBG.png::CompressedTexture2D::4907576629638735361::1699842108::1700278156::1::::<><>::
+InvSlot.png::CompressedTexture2D::1075568100023066079::1699757058::1700353776::1::::<><>::
+slotBG.png::CompressedTexture2D::8550472520606718668::1699842588::1700278156::1::::<><>::
+::res://Art/UI Art/UI Assets pack_v.1_st/::1700525041
+Book.png::CompressedTexture2D::3000478668926156463::1700281260::1700435686::1::::<><>::
+Interface.png::CompressedTexture2D::2353602740925872447::1700281260::1700435686::1::::<><>::
+UI.png::CompressedTexture2D::1338839757427425966::1700281260::1700435686::1::::<><>::
+::res://GameFiles/::1700697657
+Main.gd::GDScript::-1::1700476408::0::1::::<>Node<>::
+TestInv.tres::Resource/InventoryData::7980674983935832454::1700697588::0::1::::<><>::res://GameFiles/Inventory/inventory_data.gd<>uid://nlhser1g5rqi::::res://GameFiles/Item/Items/Log.tres<>res://GameFiles/Inventory/slot_data.gd<>uid://dke1n0a672leg::::res://GameFiles/Item/Items/Book.tres<>uid://ymg38xod05i6::::res://GameFiles/Item/Consumables/HealthPotion.tres<>uid://gmld0wc6cap4::::res://GameFiles/Item/Armor/IronHelm.tres<>uid://d8r1roj12r7l::::res://GameFiles/Item/Armor/IronArmor.tres<>uid://clq0vumye6wye::::res://GameFiles/Item/Tools/IronPickaxe.tres
+World.tscn::PackedScene::1000501116119582316::1700697657::0::1::::<><>::res://GameFiles/Main.gd<>uid://xs3qvuxf613j::::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/All Tileset/16X16.png<>uid://crkeacqt2s2o6::::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Forest v2/All Tileset/16x16.png<>uid://bxj4k840cx7ch::::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Farmlands V3/All Tileset/32x32.png<>res://GameFiles/Inventory/inventory_data_hotbar.gd<>uid://4p2njf8ygitq::::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Beach, Ocean and Shore/All Tileset/16X16.png<>uid://bu2ftw4uk4i8n::::res://GameFiles/player/Player.tscn<>uid://dlx5sy7jn2qpa::::res://GameFiles/TestInv.tres<>uid://ca887ms5jlh8j::::res://GameFiles/Inventory/inventory.tscn<>res://GameFiles/Inventory/inventory_data_equip.gd<>res://GameFiles/Inventory/inventory_interface.gd<>uid://ut17m22tdeu1::::res://GameFiles/Inventory/slot.tscn<>uid://bl4v837rk21ca::::res://GameFiles/Inventory/equipment.tscn<>uid://bisfvokdton3p::::res://GameFiles/Inventory/hot_bar_inventory.tscn<>uid://2j0frwyuevor::::res://GameFiles/Interactable/chest.tscn<>uid://c7ehgs4kytx6x::::res://GameFiles/ResourceNodes/mineable_node.tres<>uid://dolormmskbwsn::::res://GameFiles/Inventory/hotbar.tscn<>res://GameFiles/Inventory/inventory_data.gd<>uid://8dtcvyrepkqh::::res://GameFiles/Item/Consumables/ManaPotion.tres<>uid://nlhser1g5rqi::::res://GameFiles/Item/Items/Log.tres<>res://GameFiles/Inventory/slot_data.gd<>uid://cdb14ybs7lxmg::::res://GameFiles/Item/pick_up/pick_up.tscn<>uid://3cqpm4m0tbfm::::res://GameFiles/Item/Items/Rock.tres<>uid://c5ru48qal21i::::res://GameFiles/Item/Items/GoldCoin.tres<>uid://psfado6dwrh1::::res://GameFiles/ResourceNodes/ResourceNode_RockTall.tscn<>uid://dv5qa5dcbkmit::::res://GameFiles/Enemies/slime.tscn
+::res://GameFiles/Enemies/::1700697657
+slime.gd::GDScript::-1::1700568200::0::1::::<>CharacterBody2D<>::
+slime.tscn::PackedScene::8696132152411571891::1700697657::0::1::::<><>::uid://c7lq8fiakkr5w::::res://Art/Enemies/RandomMonsters/slime.png<>res://GameFiles/Enemies/slime.gd
+::res://GameFiles/Interactable/::1700697657
+chest.gd::GDScript::-1::1700351236::0::1::::<>StaticBody2D<>::
+chest.tscn::PackedScene::1915205959802106913::1700697657::0::1::::<><>::res://GameFiles/Interactable/chest.gd<>uid://bjwwqyd0vorgk::::res://Art/ItemSprites/treasure chests.png
+::res://GameFiles/Inventory/::1700525041
+equipment.tscn::PackedScene::3219700427500550340::1700431030::0::1::::<><>::res://GameFiles/Inventory/inventory.gd<>uid://plapjt1e60nj
+hotbar.tscn::PackedScene::8165495063350648881::1700431078::0::1::::<><>::res://GameFiles/Inventory/inventory.gd<>uid://c86yl4dqkvqy1
+hot_bar_inventory.gd::GDScript::-1::1700414330::0::1::::<>PanelContainer<>::
+hot_bar_inventory.tscn::PackedScene::2985432069943480315::1700415388::0::1::::<><>::res://GameFiles/Inventory/hot_bar_inventory.gd<>uid://c86yl4dqkvqy1
+inventory.gd::GDScript::-1::1700425302::0::1::::<>PanelContainer<>::
+inventory.tscn::PackedScene::4843027298898637231::1700417042::0::1::::<><>::res://GameFiles/Inventory/inventory.gd<>uid://cb6jcnauc0u7j
+inventory_data.gd::GDScript::-1::1700430152::0::1::::InventoryData<>Resource<>::
+inventory_data_equip.gd::GDScript::-1::1700351270::0::1::::InventoryDataEquip<>InventoryData<>::
+inventory_data_hotbar.gd::GDScript::-1::1700430514::0::1::::InventoryDataHotbar<>InventoryData<>::
+inventory_interface.gd::GDScript::-1::1700425484::0::1::::<>Control<>::
+slot.gd::GDScript::-1::1700372788::0::1::::<>PanelContainer<>::
+slot.tscn::PackedScene::1444636510546859194::1700415388::0::1::::<><>::res://GameFiles/Inventory/slot.gd<>uid://dt26bel5tu3h5
+slot_data.gd::GDScript::-1::1700350680::0::1::::SlotData<>Resource<>::
+::res://GameFiles/Item/::1700655482
+axe_test.tres::AtlasTexture::6979275032636699123::1700447028::0::1::::<><>::uid://cw4sbfqq2gd2u
+ItemAtlas1.tres::AtlasTexture::1492340023790545676::1700478330::0::1::::<><>::uid://b16blkkxlsxag
+ItemAtlas2.tres::AtlasTexture::4609770656137769977::1700382418::0::1::::<><>::uid://cw4sbfqq2gd2u
+item_data.gd::GDScript::-1::1700429388::0::1::::ItemData<>Resource<>::
+item_data_consumable.gd::GDScript::-1::1700564943::0::1::::ItemDataConsumable<>ItemData<>::
+item_data_equip.gd::GDScript::-1::1700412574::0::1::::ItemDataEquip<>ItemData<>::
+item_data_tools.gd::GDScript::-1::1700655482::0::1::::ItemDataTool<>ItemData<>::
+ToolSprites.tres::AtlasTexture::9140710818603390896::1700446912::0::1::::<><>::uid://cw4sbfqq2gd2u
+::res://GameFiles/Item/Armor/::1700697588
+IronArmor.tres::Resource/ItemDataEquip::279770531285586727::1700697588::0::1::::<><>::res://GameFiles/Item/item_data_equip.gd<>uid://b16blkkxlsxag::::res://Art/ItemSprites/roguelikeitems.png
+IronHelm.tres::Resource/ItemDataEquip::446580186380884571::1700697588::0::1::::<><>::res://GameFiles/Item/item_data_equip.gd<>uid://b16blkkxlsxag::::res://Art/ItemSprites/roguelikeitems.png
+::res://GameFiles/Item/Consumables/::1700697588
+HealthPotion.tres::Resource/ItemDataConsumable::1709720853989609247::1700697588::0::1::::<><>::res://GameFiles/Item/item_data_consumable.gd<>uid://b16blkkxlsxag::::res://Art/ItemSprites/roguelikeitems.png
+ManaPotion.tres::Resource/ItemDataConsumable::2323583308611628839::1700697588::0::1::::<><>::res://GameFiles/Item/item_data_consumable.gd<>uid://b16blkkxlsxag::::res://Art/ItemSprites/roguelikeitems.png
+::res://GameFiles/Item/Items/::1700697588
+Book2.tres::Resource/Resource::5334101674656383305::1700382418::0::1::::<><>::res://GameFiles/Item/item_data.gd<>uid://b16blkkxlsxag
+Book.tres::Resource/ItemData::7871011170144646386::1700697588::0::1::::<><>::res://GameFiles/Item/item_data.gd<>uid://b16blkkxlsxag::::res://Art/ItemSprites/roguelikeitems.png
+GoldCoin.tres::Resource/ItemData::203378499536116992::1700697588::0::1::::<><>::res://GameFiles/Item/item_data.gd<>uid://b16blkkxlsxag::::res://Art/ItemSprites/roguelikeitems.png
+Log.tres::Resource/ItemData::935620523374345916::1700697588::0::1::::<><>::res://GameFiles/Item/item_data.gd<>uid://b16blkkxlsxag::::res://Art/ItemSprites/roguelikeitems.png
+Rock.tres::Resource/ItemData::1970415311824774562::1700697588::0::1::::<><>::res://GameFiles/Item/item_data.gd<>uid://b16blkkxlsxag::::res://Art/ItemSprites/roguelikeitems.png
+::res://GameFiles/Item/pick_up/::1700697657
+pick_up.gd::GDScript::-1::1700655191::0::1::::<>RigidBody2D<>::
+pick_up.tscn::PackedScene::4987103968855796690::1700697657::0::1::::<><>::res://GameFiles/Item/pick_up/pick_up.gd<>uid://bn551lqm665lj::::res://Art/ItemSprites/Coins.png
+pick_up_minable.tscn::PackedScene::8817092358415976885::1700697657::0::1::::<><>::res://GameFiles/Item/pick_up/pick_up.gd<>uid://cv5x146tgm3qo::::res://Art/ItemSprites/Rock.png<>uid://3cqpm4m0tbfm::::res://GameFiles/Item/Items/Rock.tres<>res://GameFiles/Inventory/slot_data.gd
+::res://GameFiles/Item/Tools/::1700697588
+equippable_item.gd::GDScript::-1::1700445642::0::1::::EquippableItem<>Resource<>::
+IronPickaxe.tres::Resource/ItemDataTool::5579505188062375236::1700697588::0::1::::<><>::res://GameFiles/Item/item_data_tools.gd<>uid://c7ehgs4kytx6x::::res://GameFiles/ResourceNodes/mineable_node.tres<>uid://cw4sbfqq2gd2u::::res://Art/ItemSprites/all the icons (gardens).png
+::res://GameFiles/player/::1700697657
+hand_equip.gd::GDScript::-1::1700649717::0::1::::HandEquip<>Sprite2D<>::
+Player.gd::GDScript::-1::1700618924::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::3846274472097641303::1700697657::0::1::::<><>::res://GameFiles/player/Player.gd<>uid://blfl6sndvscge::::res://Art/Character v.2/NewCharAnims/idle.png<>uid://tcsq3pi1idd3::::res://Art/UI Art/UI Assets pack_v.1_st/UI.png<>uid://ci70nli7sqmtf::::res://Art/Character v.2/NewCharAnims/swing_down.png<>uid://efuuai11g7wg::::res://Art/Character v.2/shadow.png<>uid://3hyq3twxwfkl::::res://Art/Character v.2/NewCharAnims/swing_left.png<>uid://bvjik3dh81a0o::::res://Art/Character v.2/NewCharAnims/swing_right.png<>uid://fuljtj7imqaq::::res://Art/Character v.2/NewCharAnims/swing_up.png<>uid://cbrrqnb7gb41k::::res://Art/Character v.2/NewCharAnims/walk_down.png<>uid://l6qu0q3a4ckf::::res://Art/Character v.2/NewCharAnims/walk_left.png<>uid://co8hb1wfeacmr::::res://Art/Character v.2/NewCharAnims/walk_right.png<>uid://b8nwkmhhjdaa6::::res://Art/Character v.2/NewCharAnims/walk_up.png<>res://GameFiles/player/hand_equip.gd<>uid://clq0vumye6wye::::res://GameFiles/Item/Tools/IronPickaxe.tres
+player_manager.gd::GDScript::-1::1700429388::0::1::::<>Node<>::
+::res://GameFiles/ResourceNodes/::1700697657
+mineable_node.tres::Resource/Resource::7027578599239103529::1700477242::0::1::::<><>::res://GameFiles/ResourceNodes/resource_node_type.gd
+ResourceNode_RockTall.tscn::PackedScene::1090295219718098060::1700697657::0::1::::<><>::res://GameFiles/ResourceNodes/resource_node.gd<>uid://l2yjijro0yvv::::res://Art/ObjectArt/ResourceNodeRock.png<>uid://dxvchty23re5b::::res://GameFiles/Item/pick_up/pick_up_minable.tscn
+resource_node.gd::GDScript::-1::1700656209::0::1::::ResourceNode<>StaticBody2D<>::
+resource_node_type.gd::GDScript::-1::1700477200::0::1::::ResourceNodeType<>Resource<>::

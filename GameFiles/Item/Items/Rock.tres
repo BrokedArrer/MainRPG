@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://3cqpm4m0tbfm"]
+
+[ext_resource type="Script" path="res://GameFiles/Item/item_data.gd" id="1_31usk"]
+[ext_resource type="Texture2D" uid="uid://b16blkkxlsxag" path="res://Art/ItemSprites/roguelikeitems.png" id="2_tqysi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nks5c"]
+atlas = ExtResource("2_tqysi")
+region = Rect2(176, 160, 16, 16)
+
+[resource]
+script = ExtResource("1_31usk")
+name = "Rock"
+description = "It's a rock..."
+stackable = true
+texture = SubResource("AtlasTexture_nks5c")

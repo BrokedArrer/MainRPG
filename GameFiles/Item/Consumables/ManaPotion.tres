@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemDataConsumable" load_steps=4 format=3 uid="uid://8dtcvyrepkqh"]
+
+[ext_resource type="Script" path="res://GameFiles/Item/item_data_consumable.gd" id="1_h4fh2"]
+[ext_resource type="Texture2D" uid="uid://b16blkkxlsxag" path="res://Art/ItemSprites/roguelikeitems.png" id="2_ncm55"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_04idp"]
+atlas = ExtResource("2_ncm55")
+region = Rect2(192, 64, 16, 16)
+
+[resource]
+script = ExtResource("1_h4fh2")
+heal_value = 0
+name = "Mana Potion"
+description = "A blue potion that smells nice."
+stackable = true
+texture = SubResource("AtlasTexture_04idp")

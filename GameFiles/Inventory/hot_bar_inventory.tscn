@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://bisfvokdton3p"]
+
+[ext_resource type="Script" path="res://GameFiles/Inventory/hot_bar_inventory.gd" id="1_nynkx"]
+[ext_resource type="Texture2D" uid="uid://c86yl4dqkvqy1" path="res://Art/UI Art/InvUISprites/hotbar_bg.png" id="1_p2o7l"]
+
+[node name="HotBarInventory" type="PanelContainer"]
+self_modulate = Color(1, 1, 1, 0)
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_nynkx")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("1_p2o7l")
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme_override_constants/separation = 4

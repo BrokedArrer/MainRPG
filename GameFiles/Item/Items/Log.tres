@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://nlhser1g5rqi"]
+
+[ext_resource type="Script" path="res://GameFiles/Item/item_data.gd" id="1_jyp3y"]
+[ext_resource type="Texture2D" uid="uid://b16blkkxlsxag" path="res://Art/ItemSprites/roguelikeitems.png" id="2_c1prf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jv1dn"]
+atlas = ExtResource("2_c1prf")
+region = Rect2(32, 96, 16, 16)
+
+[resource]
+script = ExtResource("1_jyp3y")
+name = "A Log"
+description = "a chunk of wood...."
+stackable = true
+texture = SubResource("AtlasTexture_jv1dn")

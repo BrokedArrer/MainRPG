@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemDataEquip" load_steps=4 format=3 uid="uid://d8r1roj12r7l"]
+
+[ext_resource type="Script" path="res://GameFiles/Item/item_data_equip.gd" id="1_vyjqk"]
+[ext_resource type="Texture2D" uid="uid://b16blkkxlsxag" path="res://Art/ItemSprites/roguelikeitems.png" id="2_x8blf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lr524"]
+atlas = ExtResource("2_x8blf")
+region = Rect2(144, 144, 16, 16)
+
+[resource]
+script = ExtResource("1_vyjqk")
+defence = 2
+name = "Iron Armor"
+description = "A suit of Iron Armor."
+stackable = false
+texture = SubResource("AtlasTexture_lr524")

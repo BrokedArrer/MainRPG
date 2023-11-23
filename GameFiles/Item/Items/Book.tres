@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://dke1n0a672leg"]
+
+[ext_resource type="Script" path="res://GameFiles/Item/item_data.gd" id="1_vmkou"]
+[ext_resource type="Texture2D" uid="uid://b16blkkxlsxag" path="res://Art/ItemSprites/roguelikeitems.png" id="2_xefm8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_43af2"]
+atlas = ExtResource("2_xefm8")
+region = Rect2(160, 192, 16, 16)
+
+[resource]
+script = ExtResource("1_vmkou")
+name = "A blue book."
+description = "A simple book."
+stackable = false
+texture = SubResource("AtlasTexture_43af2")
