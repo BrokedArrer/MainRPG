@@ -12,6 +12,9 @@ var external_inventory_owner
 @onready var external_inventory: PanelContainer = $ExternalInventory
 @onready var equip_inventory: PanelContainer = $EquipInventory
 #@onready var hotbar_inventory: PanelContainer = $HotbarInventory
+@onready var _player = $"../../Node2D/Player"
+@onready var _label = $"../ExpLabel"
+#@onready var _bar = ExpBar needs to be placed.
 
 @onready var hotbar_inventory = $"../HotbarInventory"
 

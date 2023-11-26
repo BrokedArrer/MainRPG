@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://psfado6dwrh1"]
+[gd_scene load_steps=6 format=3 uid="uid://psfado6dwrh1"]
 
 [ext_resource type="Script" path="res://GameFiles/ResourceNodes/resource_node.gd" id="1_j8bwt"]
-[ext_resource type="Texture2D" uid="uid://l2yjijro0yvv" path="res://Art/ObjectArt/ResourceNodeRock.png" id="2_fuuv0"]
+[ext_resource type="Texture2D" uid="uid://l2yjijro0yvv" path="res://Art/ResourceNodeArt/ResourceNodeRock.png" id="2_fuuv0"]
+[ext_resource type="PackedScene" uid="uid://2n0njkw48s0o" path="res://GameFiles/ResourceNodes/ParticleEffects/depleted_resoures_node.tscn" id="3_07feg"]
 [ext_resource type="PackedScene" uid="uid://dxvchty23re5b" path="res://GameFiles/Item/pick_up/pick_up_minable.tscn" id="3_77ram"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_fdv81"]
@@ -9,10 +10,12 @@
 [node name="StaticBody2D" type="StaticBody2D"]
 script = ExtResource("1_j8bwt")
 pickup_type = ExtResource("3_77ram")
+depleted_effect = ExtResource("3_07feg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -24)
 texture = ExtResource("2_fuuv0")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 12)
+position = Vector2(0, -9)
 shape = SubResource("CircleShape2D_fdv81")

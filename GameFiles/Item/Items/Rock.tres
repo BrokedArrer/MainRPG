@@ -10,6 +10,8 @@ region = Rect2(176, 160, 16, 16)
 [resource]
 script = ExtResource("1_31usk")
 name = "Rock"
-description = "It's a rock..."
+description = "It's a rock...
+
+"
 stackable = true
 texture = SubResource("AtlasTexture_nks5c")

@@ -3,8 +3,9 @@ extends StaticBody2D
 
 class_name ResourceNode
 @export var node_types : Array[ResourceNodeType]
-@export var starting_resources : int = 5
+@export var starting_resources : int
 @export var pickup_type : PackedScene 
+@export var depleted_effect : PackedScene
 const PickUp = preload("res://GameFiles/Item/pick_up/pick_up_minable.tscn")
 @onready var level_parent = get_parent()
 @export var launch_speed : float = 100
@@ -15,6 +16,11 @@ var current_resources : int :
 		current_resources = resource_count
 		#A Resource node emptied of its resources is removed from the scene.
 		if(resource_count <= 0):
+			#spawn particle effect before removing node
+			var effect_instance : GPUParticles2D = depleted_effect.instantiate()
+			effect_instance.position = position
+			level_parent.add_child(effect_instance)
+			effect_instance.emitting = true
 			queue_free()
 			
 			
@@ -26,7 +32,7 @@ func _ready():
 
 
 func harvest(amount: int):
-	for n in range(amount):  # Use range to loop the specified number of times
+	for i in range(amount):  # Use range to loop the specified number of times
 		spawn_resource()
 
 	current_resources -= amount

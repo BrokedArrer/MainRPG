@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="ResourceNodeType" load_steps=2 format=3 uid="uid://51lwuvhkca8f"]
+
+[ext_resource type="Script" path="res://GameFiles/ResourceNodes/resource_node_type.gd" id="1_440d8"]
+
+[resource]
+script = ExtResource("1_440d8")
+display_name = "Slime"

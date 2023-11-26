@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ItemDataWeapon" load_steps=4 format=3 uid="uid://ucwnnwk16m7j"]
+
+[ext_resource type="Script" path="res://item_data_weapons.gd" id="1_jtfnt"]
+[ext_resource type="Texture2D" uid="uid://kuugwkv6vnw1" path="res://GameFiles/Item/Armor/ArmorTypes/ArmorandItemSprites.tres" id="2_v4n7m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cg032"]
+atlas = ExtResource("2_v4n7m")
+region = Rect2(128, 4240, 16, 16)
+
+[resource]
+script = ExtResource("1_jtfnt")
+effected_types = Array[Resource("res://GameFiles/Enemies/enemy.gd")]([])
+minDamage = 1
+maxDamage = 3
+Value = 12
+Rarity = "Common"
+name = "Iron Sword"
+description = "A sword of Iron"
+stackable = false
+texture = SubResource("AtlasTexture_cg032")

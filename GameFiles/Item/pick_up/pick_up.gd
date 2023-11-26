@@ -7,6 +7,7 @@ extends RigidBody2D
 # OnReady variable for referencing the Sprite2D node.
 @onready var sprite_2d: Sprite2D = $Sprite2D
 var launch_velocity : Vector2 = Vector2.ZERO
+
 var move_duration : float = 0
 var time_since_launch : float = 0
 var launching : bool = false :

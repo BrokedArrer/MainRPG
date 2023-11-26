@@ -1,31 +1,43 @@
-[gd_scene load_steps=3 format=3 uid="uid://ca887ms5jlh8j"]
+[gd_scene load_steps=5 format=3 uid="uid://ca887ms5jlh8j"]
 
 [ext_resource type="Script" path="res://GameFiles/Inventory/inventory.gd" id="1_myj28"]
-[ext_resource type="Texture2D" uid="uid://cb6jcnauc0u7j" path="res://Art/UI Art/InvUISprites/InvBG.png" id="2_tnwdw"]
+[ext_resource type="Texture2D" uid="uid://driad6uursnum" path="res://Art/UIArtUpdated/Inventory_background.png" id="2_w564i"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p7jaw"]
+load_path = "res://.godot/imported/Banners.png-3d950e0424133f88ddb47828f3ebfb04.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dm3k5"]
+atlas = SubResource("CompressedTexture2D_p7jaw")
+region = Rect2(0, 144, 80, 32)
 
 [node name="Inventory" type="PanelContainer"]
 self_modulate = Color(1, 1, 1, 0)
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -16.0
-offset_top = -16.0
-offset_right = 16.0
-offset_bottom = 16.0
+anchors_preset = -1
+anchor_left = 0.412
+anchor_top = 0.352
+anchor_right = 0.588
+anchor_bottom = 0.648
+offset_left = 0.375977
+offset_top = -0.0960236
+offset_right = 0.624023
+offset_bottom = 0.0960083
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_myj28")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
-self_modulate = Color(0.647059, 0.647059, 0.647059, 1)
+self_modulate = Color(0.72549, 0.72549, 0.72549, 1)
 layout_mode = 2
-texture = ExtResource("2_tnwdw")
+texture = ExtResource("2_w564i")
 patch_margin_left = 10
 patch_margin_top = 10
 patch_margin_right = 12
 patch_margin_bottom = 10
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(99, -18)
+scale = Vector2(3.22708, 2.1875)
+texture = SubResource("AtlasTexture_dm3k5")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2
@@ -37,4 +49,5 @@ theme_override_constants/margin_bottom = 8
 [node name="ItemGrid" type="GridContainer" parent="MarginContainer"]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
+theme_override_constants/h_separation = -1
 columns = 6

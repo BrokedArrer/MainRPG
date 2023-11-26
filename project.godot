@@ -36,7 +36,6 @@ config/icon="res://icon.svg"
 [autoload]
 
 PlayerManager="*res://GameFiles/player/player_manager.gd"
-ClassUtils="*res://addons/enhanced_common/scripts/utils/class_utils.gd"
 GodotParadiseAchievements="*res://addons/achievements/achievements.tscn"
 
 [display]

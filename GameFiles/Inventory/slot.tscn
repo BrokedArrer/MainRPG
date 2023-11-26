@@ -1,30 +1,32 @@
 [gd_scene load_steps=4 format=3 uid="uid://ut17m22tdeu1"]
 
 [ext_resource type="Script" path="res://GameFiles/Inventory/slot.gd" id="1_u50jt"]
-[ext_resource type="Texture2D" uid="uid://dt26bel5tu3h5" path="res://Art/UI Art/InvUISprites/slotBG.png" id="2_cp2rj"]
-[ext_resource type="FontFile" uid="uid://dogaafnt4k84s" path="res://Art/UI Art/Fonts/Clarity.ttf" id="3_u5rqq"]
+[ext_resource type="Texture2D" uid="uid://b1d3uxakr13an" path="res://Art/UIArtUpdated/Inventory_Slot.png" id="2_pwuu8"]
+[ext_resource type="FontFile" uid="uid://dhginewngct4l" path="res://Art/UI Art/Fonts/pixelated-loveNew.ttf" id="3_guryq"]
 
 [node name="Slot" type="PanelContainer"]
 self_modulate = Color(1, 1, 1, 0)
 custom_minimum_size = Vector2(32, 32)
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 32.0
+offset_bottom = 32.0
 script = ExtResource("1_u50jt")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2
-theme_override_constants/margin_left = 4
-theme_override_constants/margin_top = 4
-theme_override_constants/margin_right = 4
-theme_override_constants/margin_bottom = 4
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
 
 [node name="Sprite2D" type="Sprite2D" parent="MarginContainer"]
+self_modulate = Color(0.760784, 0.760784, 0.760784, 1)
 show_behind_parent = true
-position = Vector2(15.5, 16.5)
-scale = Vector2(1.03333, 1.03333)
-texture = ExtResource("2_cp2rj")
+position = Vector2(16, 16)
+scale = Vector2(1.5, 1.45)
+texture = ExtResource("2_pwuu8")
 
 [node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 expand_mode = 1
 stretch_mode = 5
@@ -36,9 +38,9 @@ layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 5
-theme_override_fonts/font = ExtResource("3_u5rqq")
-theme_override_font_sizes/font_size = 6
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("3_guryq")
+theme_override_font_sizes/font_size = 8
 text = "x99"
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]

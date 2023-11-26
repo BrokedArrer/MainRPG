@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dxvuwwuxalgci"]
+
+[ext_resource type="Texture2D" uid="uid://03ifrhvggus4" path="res://GameFiles/Banners.tres" id="1_4imvk"]
+
+[resource]
+atlas = ExtResource("1_4imvk")
+region = Rect2(176, 0, 48, 32)

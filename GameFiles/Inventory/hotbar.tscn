@@ -1,7 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://dolormmskbwsn"]
+[gd_scene load_steps=7 format=3 uid="uid://dolormmskbwsn"]
 
 [ext_resource type="Script" path="res://GameFiles/Inventory/inventory.gd" id="1_0ekwq"]
-[ext_resource type="Texture2D" uid="uid://c86yl4dqkvqy1" path="res://Art/UI Art/InvUISprites/hotbar_bg.png" id="2_aptil"]
+[ext_resource type="Texture2D" uid="uid://cs8elay7mlimj" path="res://Art/UIArtUpdated/Inventory_Bar.png" id="2_uk70c"]
+[ext_resource type="PackedScene" uid="uid://ut17m22tdeu1" path="res://GameFiles/Inventory/slot.tscn" id="3_u6ywo"]
+[ext_resource type="FontFile" uid="uid://bil21018vsp7s" path="res://Art/UI Art/Fonts/mago2.ttf" id="4_g2a1p"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_xik7m"]
+device = -1
+keycode = 49
+physical_keycode = 49
+key_label = 49
+unicode = 49
+
+[sub_resource type="Shortcut" id="Shortcut_7po1d"]
+events = [SubResource("InputEventKey_xik7m")]
 
 [node name="Hotbar" type="PanelContainer"]
 self_modulate = Color(1, 1, 1, 0)
@@ -10,10 +22,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -16.0
-offset_top = -16.0
-offset_right = 16.0
-offset_bottom = 16.0
+offset_left = -186.0
+offset_top = -24.0
+offset_right = 186.0
+offset_bottom = 24.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_0ekwq")
@@ -21,7 +33,7 @@ script = ExtResource("1_0ekwq")
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 self_modulate = Color(0.647059, 0.647059, 0.647059, 1)
 layout_mode = 2
-texture = ExtResource("2_aptil")
+texture = ExtResource("2_uk70c")
 patch_margin_left = 10
 patch_margin_top = 10
 patch_margin_right = 12
@@ -37,4 +49,174 @@ theme_override_constants/margin_bottom = 8
 [node name="ItemGrid" type="GridContainer" parent="MarginContainer"]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
-columns = 6
+columns = 10
+
+[node name="Slot" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "1"
+
+[node name="Slot2" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot2"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot2"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "2"
+
+[node name="Slot3" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot3"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot3"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "3"
+
+[node name="Slot4" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot4"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot4"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "4"
+
+[node name="Slot5" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot5"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot5"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "5"
+
+[node name="Slot6" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot6"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot6"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "6"
+
+[node name="Slot7" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot7"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot7"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "7"
+
+[node name="Slot8" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot8"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot8"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "8"
+
+[node name="Slot9" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot9"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot9"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "9"
+
+[node name="Slot10" parent="MarginContainer/ItemGrid" instance=ExtResource("3_u6ywo")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/ItemGrid/Slot10"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7po1d")
+
+[node name="Label" type="Label" parent="MarginContainer/ItemGrid/Slot10"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_g2a1p")
+theme_override_font_sizes/font_size = 24
+text = "0"

@@ -11,3 +11,5 @@ signal toggle_inventory(external_inventory_owner)
 func player_interact() -> void:
 	# Emit the toggle_inventory signal, passing 'self' as the external_inventory_owner.
 	toggle_inventory.emit(self)
+
+

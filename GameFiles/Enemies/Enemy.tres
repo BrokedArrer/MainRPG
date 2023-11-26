@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="ResourceNodeType" load_steps=2 format=3 uid="uid://8bk7yhad8fid"]
+
+[ext_resource type="Script" path="res://GameFiles/ResourceNodes/resource_node_type.gd" id="1_ww3x1"]
+
+[resource]
+script = ExtResource("1_ww3x1")
+display_name = "Enemy"

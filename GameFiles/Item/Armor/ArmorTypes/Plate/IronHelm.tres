@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="BaseAHelmet" load_steps=4 format=3 uid="uid://gmld0wc6cap4"]
+
+[ext_resource type="Script" path="res://GameFiles/Item/Armor/ArmorTypes/base_helmet.gd" id="1_uetji"]
+[ext_resource type="Texture2D" uid="uid://kuugwkv6vnw1" path="res://GameFiles/Item/Armor/ArmorTypes/ArmorandItemSprites.tres" id="2_g1rns"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xnoqd"]
+atlas = ExtResource("2_g1rns")
+region = Rect2(128, 5296, 16, 16)
+
+[resource]
+script = ExtResource("1_uetji")
+Armor = ""
+Value = 0
+Rarity = "Common"
+Slot = "Head"
+name = "Iron Helm"
+description = "A helmet made of Iron."
+stackable = false
+texture = SubResource("AtlasTexture_xnoqd")

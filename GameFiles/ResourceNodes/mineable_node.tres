@@ -3,5 +3,6 @@
 [ext_resource type="Script" path="res://GameFiles/ResourceNodes/resource_node_type.gd" id="1_00aj6"]
 
 [resource]
+resource_local_to_scene = true
 script = ExtResource("1_00aj6")
 display_name = "Minable"

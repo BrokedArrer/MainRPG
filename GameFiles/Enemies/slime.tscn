@@ -1,7 +1,8 @@
-[gd_scene load_steps=11 format=3 uid="uid://dv5qa5dcbkmit"]
+[gd_scene load_steps=15 format=3 uid="uid://dv5qa5dcbkmit"]
 
+[ext_resource type="Script" path="res://GameFiles/Enemies/enemy.gd" id="1_4g03f"]
 [ext_resource type="Texture2D" uid="uid://c7lq8fiakkr5w" path="res://Art/Enemies/RandomMonsters/slime.png" id="1_e6hmy"]
-[ext_resource type="Script" path="res://GameFiles/Enemies/slime.gd" id="1_vilrw"]
+[ext_resource type="Texture2D" uid="uid://tcsq3pi1idd3" path="res://Art/UI Art/UI Assets pack_v.1_st/UI.png" id="3_n1n3s"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ja6bf"]
 atlas = ExtResource("1_e6hmy")
@@ -47,31 +48,65 @@ radius = 45.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_2v12e"]
 
-[node name="Slime" type="CharacterBody2D"]
-script = ExtResource("1_vilrw")
+[sub_resource type="CircleShape2D" id="CircleShape2D_nlvrn"]
+radius = 8.0
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[sub_resource type="AtlasTexture" id="AtlasTexture_b8s4o"]
+atlas = ExtResource("3_n1n3s")
+region = Rect2(768, 32, 48, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bma10"]
+atlas = ExtResource("3_n1n3s")
+region = Rect2(864, 16, 48, 16)
+
+[node name="Enemy" type="CharacterBody2D" groups=["Enemy"]]
+script = ExtResource("1_4g03f")
+maxHealth = 10
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." groups=["Enemy"]]
 position = Vector2(0, -7)
 sprite_frames = SubResource("SpriteFrames_d7cru")
 animation = &"idle"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Enemy"]]
+visible = false
 position = Vector2(0, -5)
 shape = SubResource("CircleShape2D_utbyi")
 
-[node name="detection_area" type="Area2D" parent="."]
+[node name="detection_area" type="Area2D" parent="." groups=["Enemy"]]
 collision_layer = 2
 collision_mask = 2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area" groups=["Enemy"]]
+visible = false
 position = Vector2(0, -5)
 shape = SubResource("CircleShape2D_jwclt")
 
-[node name="EnemyAttackBox" type="Area2D" parent="."]
+[node name="EnemyAttackBox" type="Area2D" parent="." groups=["Enemy"]]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyAttackBox"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyAttackBox" groups=["Enemy"]]
 position = Vector2(0, -5)
 shape = SubResource("CircleShape2D_2v12e")
+
+[node name="HitBox" type="Area2D" parent="." groups=["Enemy"]]
+position = Vector2(0, -5)
+collision_layer = 3
+collision_mask = 3
+
+[node name="hit_box" type="CollisionShape2D" parent="HitBox" groups=["Enemy"]]
+shape = SubResource("CircleShape2D_nlvrn")
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+offset_left = -7.0
+offset_top = 4.0
+offset_right = 8.0
+offset_bottom = 7.0
+max_value = 10.0
+value = 10.0
+rounded = true
+nine_patch_stretch = true
+texture_under = SubResource("AtlasTexture_b8s4o")
+texture_progress = SubResource("AtlasTexture_bma10")
 
 [connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
 [connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]

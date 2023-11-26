@@ -1,54 +1,7 @@
-[gd_resource type="Resource" script_class="InventoryData" load_steps=17 format=3 uid="uid://dlx5sy7jn2qpa"]
+[gd_resource type="Resource" script_class="InventoryData" load_steps=2 format=3 uid="uid://dlx5sy7jn2qpa"]
 
 [ext_resource type="Script" path="res://GameFiles/Inventory/inventory_data.gd" id="1_mm03l"]
-[ext_resource type="Resource" uid="uid://nlhser1g5rqi" path="res://GameFiles/Item/Items/Log.tres" id="2_f8c6g"]
-[ext_resource type="Script" path="res://GameFiles/Inventory/slot_data.gd" id="3_t6iki"]
-[ext_resource type="Resource" uid="uid://dke1n0a672leg" path="res://GameFiles/Item/Items/Book.tres" id="4_mm3xi"]
-[ext_resource type="Resource" uid="uid://ymg38xod05i6" path="res://GameFiles/Item/Consumables/HealthPotion.tres" id="5_fkj3c"]
-[ext_resource type="Resource" uid="uid://gmld0wc6cap4" path="res://GameFiles/Item/Armor/IronHelm.tres" id="6_gpips"]
-[ext_resource type="Resource" uid="uid://d8r1roj12r7l" path="res://GameFiles/Item/Armor/IronArmor.tres" id="7_xsx4p"]
-[ext_resource type="Resource" uid="uid://clq0vumye6wye" path="res://GameFiles/Item/Tools/IronPickaxe.tres" id="11_qm7r6"]
-
-[sub_resource type="Resource" id="Resource_sbgtq"]
-script = ExtResource("3_t6iki")
-item_data = ExtResource("4_mm3xi")
-quantity = 1
-
-[sub_resource type="Resource" id="Resource_xrjyh"]
-script = ExtResource("3_t6iki")
-item_data = ExtResource("2_f8c6g")
-quantity = 90
-
-[sub_resource type="Resource" id="Resource_ac06c"]
-script = ExtResource("3_t6iki")
-item_data = ExtResource("2_f8c6g")
-quantity = 10
-
-[sub_resource type="Resource" id="Resource_now1a"]
-script = ExtResource("3_t6iki")
-item_data = ExtResource("5_fkj3c")
-quantity = 4
-
-[sub_resource type="Resource" id="Resource_1nyif"]
-script = ExtResource("3_t6iki")
-item_data = ExtResource("6_gpips")
-quantity = 1
-
-[sub_resource type="Resource" id="Resource_7jhrt"]
-script = ExtResource("3_t6iki")
-item_data = ExtResource("7_xsx4p")
-quantity = 1
-
-[sub_resource type="Resource" id="Resource_8jp8r"]
-script = ExtResource("3_t6iki")
-item_data = ExtResource("11_qm7r6")
-quantity = 1
-
-[sub_resource type="Resource" id="Resource_o2c35"]
-script = ExtResource("3_t6iki")
-item_data = ExtResource("11_qm7r6")
-quantity = 1
 
 [resource]
 script = ExtResource("1_mm03l")
-slot_datas = Array[ExtResource("3_t6iki")]([SubResource("Resource_sbgtq"), SubResource("Resource_xrjyh"), SubResource("Resource_ac06c"), SubResource("Resource_now1a"), SubResource("Resource_1nyif"), SubResource("Resource_7jhrt"), SubResource("Resource_8jp8r"), SubResource("Resource_o2c35"), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null])
+slot_datas = Array[Resource("res://GameFiles/Inventory/slot_data.gd")]([null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null])

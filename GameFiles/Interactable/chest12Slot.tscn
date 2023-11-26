@@ -1,0 +1,36 @@
+[gd_scene load_steps=8 format=3 uid="uid://b0fok7p0r2b18"]
+
+[ext_resource type="Script" path="res://GameFiles/Interactable/chest.gd" id="1_hiavf"]
+[ext_resource type="Script" path="res://GameFiles/Inventory/inventory_data.gd" id="2_5bxo1"]
+[ext_resource type="Texture2D" uid="uid://bjwwqyd0vorgk" path="res://Art/ItemSprites/treasure chests.png" id="2_h24h7"]
+
+[sub_resource type="Resource" id="Resource_tjcr1"]
+script = ExtResource("2_5bxo1")
+slot_datas = Array[Resource("res://GameFiles/Inventory/slot_data.gd")]([null, null, null, null, null, null, null, null, null, null, null, null])
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lp6a5"]
+atlas = ExtResource("2_h24h7")
+region = Rect2(64, 64, 32, 32)
+
+[sub_resource type="BoxMesh" id="BoxMesh_b0x4y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2407i"]
+size = Vector2(22, 21)
+
+[node name="StaticBody2D" type="StaticBody2D" groups=["external_inventory"]]
+z_index = 1
+collision_layer = 5
+collision_mask = 0
+script = ExtResource("1_hiavf")
+inventory_data = SubResource("Resource_tjcr1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.8, 0.8)
+texture = SubResource("AtlasTexture_lp6a5")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+mesh = SubResource("BoxMesh_b0x4y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2.5)
+shape = SubResource("RectangleShape2D_2407i")

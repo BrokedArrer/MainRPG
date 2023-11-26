@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="BaseArmor" load_steps=4 format=3 uid="uid://cyme36aphnmod"]
+
+[ext_resource type="Script" path="res://GameFiles/Item/Armor/ArmorTypes/base_armor.gd" id="1_sbxw6"]
+[ext_resource type="Texture2D" uid="uid://cif8tep301k13" path="res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Full Spritesheet/16x16/16x16.png" id="2_7qjqt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ky6g"]
+atlas = ExtResource("2_7qjqt")
+region = Rect2(240, 6304, 16, 16)
+
+[resource]
+script = ExtResource("1_sbxw6")
+Armor = ""
+Value = 5
+Rarity = "Common"
+Slot = ""
+name = "Leather Armor"
+description = "Basic body protection.. from stuff."
+stackable = false
+texture = SubResource("AtlasTexture_0ky6g")

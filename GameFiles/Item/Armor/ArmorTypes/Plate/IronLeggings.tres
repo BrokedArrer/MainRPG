@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="BaseLeggings" load_steps=4 format=3 uid="uid://cqpox2oy4o16t"]
+
+[ext_resource type="Script" path="res://GameFiles/Item/Armor/ArmorTypes/base_leggings.gd" id="1_2w63d"]
+[ext_resource type="Texture2D" uid="uid://kuugwkv6vnw1" path="res://GameFiles/Item/Armor/ArmorTypes/ArmorandItemSprites.tres" id="2_e4m33"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_77ie5"]
+atlas = ExtResource("2_e4m33")
+region = Rect2(224, 5312, 16, 16)
+
+[resource]
+script = ExtResource("1_2w63d")
+Armor = "5"
+Value = 10
+Rarity = "Common"
+Slot = "Legs"
+name = "Iron Legguards"
+description = "Some leggins made of iron. Very fashionable."
+stackable = false
+texture = SubResource("AtlasTexture_77ie5")

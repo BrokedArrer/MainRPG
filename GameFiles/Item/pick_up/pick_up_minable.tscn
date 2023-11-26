@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://GameFiles/Inventory/slot_data.gd" id="3_h4dek"]
 
 [sub_resource type="Resource" id="Resource_113jk"]
+resource_local_to_scene = true
 script = ExtResource("3_h4dek")
 item_data = ExtResource("2_v7gpn")
 quantity = 1
@@ -14,6 +15,7 @@ quantity = 1
 radius = 7.07107
 
 [node name="RigidBody2D" type="RigidBody2D"]
+y_sort_enabled = true
 collision_layer = 0
 lock_rotation = true
 freeze = true

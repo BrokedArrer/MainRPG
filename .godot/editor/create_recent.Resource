@@ -1,3 +1,6 @@
+BaseLeggings
+BaseWeapon
+BaseArmor
 ResourceNodeType
 EquippableItem
 ItemDataTool

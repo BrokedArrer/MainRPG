@@ -3,17 +3,17 @@
 [ext_resource type="Script" path="res://GameFiles/Inventory/inventory.gd" id="1_hou00"]
 [ext_resource type="Texture2D" uid="uid://plapjt1e60nj" path="res://Art/UI Art/InvUISprites/InvSlot.png" id="2_lkcxx"]
 
-[node name="Inventory" type="PanelContainer"]
+[node name="EquipmentInventory" type="PanelContainer"]
 self_modulate = Color(1, 1, 1, 0)
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -16.0
-offset_top = -16.0
-offset_right = 16.0
-offset_bottom = 16.0
+anchors_preset = -1
+anchor_left = 0.479
+anchor_top = 0.463
+anchor_right = 0.618
+anchor_bottom = 0.73
+offset_left = 0.191956
+offset_top = -0.0240173
+offset_right = 0.0639648
+offset_bottom = -0.0400085
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_hou00")
@@ -37,4 +37,3 @@ theme_override_constants/margin_bottom = 8
 [node name="ItemGrid" type="GridContainer" parent="MarginContainer"]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
-columns = 6

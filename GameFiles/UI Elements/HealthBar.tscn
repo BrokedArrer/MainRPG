@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://m2371imtottb"]
+
+[ext_resource type="Texture2D" uid="uid://tcsq3pi1idd3" path="res://Art/UI Art/UI Assets pack_v.1_st/UI.png" id="1_aopo1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dsjic"]
+atlas = ExtResource("1_aopo1")
+region = Rect2(768, 32, 48, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4gv0f"]
+atlas = ExtResource("1_aopo1")
+region = Rect2(864, 16, 48, 16)
+
+[node name="TextureProgressBar" type="TextureProgressBar"]
+offset_left = -54.0
+offset_top = 110.0
+offset_right = 52.0
+offset_bottom = 124.0
+max_value = 25.0
+value = 25.0
+rounded = true
+nine_patch_stretch = true
+texture_under = SubResource("AtlasTexture_dsjic")
+texture_progress = SubResource("AtlasTexture_4gv0f")

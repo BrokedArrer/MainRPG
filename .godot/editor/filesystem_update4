@@ -1,19 +1,18 @@
-res://GameFiles/Inventory/inventory.tscn
+res://GameFiles/UI Elements/exp_bar.tscn
+res://GameFiles/Item/pick_up/pick_up.gd
 res://GameFiles/Item/Items/Rock.tres
-res://GameFiles/Item/Tools/IronPickaxe.tres
-res://GameFiles/Item/Items/Log.tres
-res://GameFiles/Item/Items/Book.tres
-res://GameFiles/Item/Consumables/HealthPotion.tres
-res://GameFiles/Item/Armor/IronHelm.tres
-res://GameFiles/Item/Armor/IronArmor.tres
-res://GameFiles/TestInv.tres
-res://GameFiles/Item/Consumables/ManaPotion.tres
-res://GameFiles/Item/Items/GoldCoin.tres
-res://GameFiles/ResourceNodes/resource_node.gd
+res://GameFiles/Inventory/inventory_interface.gd
+res://GameFiles/Item/Armor/ArmorTypes/base_armor.gd
+res://GameFiles/player/Player.gd
+res://GameFiles/World.tres
+res://GameFiles/Item/Weapons/WeaponTypes/Melee/IronSword.tres
+res://GameFiles/ResourceNodes/mineable_node.tres
+res://GameFiles/Item/Consumables/Potions/ManaPotion.tres
 res://GameFiles/World.tscn
-res://GameFiles/Interactable/chest.tscn
 res://GameFiles/player/Player.tscn
-res://GameFiles/Item/pick_up/pick_up_minable.tscn
-res://GameFiles/ResourceNodes/ResourceNode_RockTall.tscn
-res://GameFiles/Item/pick_up/pick_up.tscn
 res://GameFiles/Enemies/slime.tscn
+res://GameFiles/ResourceNodes/ResourceNode_RockTall.tscn
+res://GameFiles/ResourceNodes/ParticleEffects/depleted_resoures_node.tscn
+res://GameFiles/UI Elements/HealthBar.tscn
+res://GameFiles/Inventory/hotbar.tscn
+res://GameFiles/UI Elements/exp_label.tscn

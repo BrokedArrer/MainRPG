@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b27c6ljiu8wtg"]
+
+[ext_resource type="FontFile" uid="uid://bampn4qwleer4" path="res://Art/UI Art/Fonts/mago1.ttf" id="1_wnha5"]
+[ext_resource type="Script" path="res://GameFiles/ExperienceTest.gd" id="2_keqys"]
+
+[node name="ExpLabel" type="Label"]
+offset_left = 410.0
+offset_top = 561.0
+offset_right = 450.0
+offset_bottom = 584.0
+theme_override_fonts/font = ExtResource("1_wnha5")
+theme_override_font_sizes/font_size = 20
+script = ExtResource("2_keqys")

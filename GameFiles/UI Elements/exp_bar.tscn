@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://cgn1ii8ivwklh"]
+
+[ext_resource type="Texture2D" uid="uid://tcsq3pi1idd3" path="res://Art/UI Art/UI Assets pack_v.1_st/UI.png" id="1_fmd2v"]
+[ext_resource type="Script" path="res://GameFiles/UI Elements/exp_bar.gd" id="2_jkuac"]
+[ext_resource type="Script" path="res://GameFiles/ExperienceTest.gd" id="3_ts7bn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iiyyl"]
+atlas = ExtResource("1_fmd2v")
+region = Rect2(512, 288, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ijvtr"]
+atlas = ExtResource("1_fmd2v")
+region = Rect2(512, 272, 64, 16)
+
+[node name="ExpBar" type="TextureProgressBar"]
+offset_left = 451.0
+offset_top = 597.0
+offset_right = 659.0
+offset_bottom = 619.0
+scale = Vector2(1.8, 1)
+rounded = true
+nine_patch_stretch = true
+stretch_margin_left = 4
+stretch_margin_top = 4
+stretch_margin_right = 4
+stretch_margin_bottom = 4
+texture_under = SubResource("AtlasTexture_iiyyl")
+texture_progress = SubResource("AtlasTexture_ijvtr")
+script = ExtResource("2_jkuac")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 62.2222
+offset_top = -8.0
+offset_right = 102.222
+offset_bottom = 15.0
+script = ExtResource("3_ts7bn")
